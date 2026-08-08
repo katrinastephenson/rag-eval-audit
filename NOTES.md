@@ -517,3 +517,82 @@ and report the number. The incentive runs against repeated measurement.
 
 What the 30× bought: a compliance failure occurring on 83% of runs that a single-run evaluation
 would have had a 1-in-6 chance of reporting as a pass.
+
+---
+
+## 14. Found in the wild — a fabricated contrast that contradicts its own citation
+
+*Unscripted interactive session, 2026-08-08 ~16:31. Not part of the golden set.*
+
+Asked **"What's the difference between the 2011 and 2026 model risk guidance?"**, the agent wrote:
+
+> *"It treated model risk management requirements in relatively uniform terms regardless of
+> institution size or complexity (sr_11_7_superseded.txt, index=52)."*
+
+The cited chunk says the opposite:
+
+> *"Model risk management policies should be consistent with this guidance and also be
+> **commensurate with the bank's relative complexity, business activities, corporate culture, and
+> overall organizational structure**."*
+
+`sr_11_7_superseded.txt` index=4 independently confirms proportionality: *"steps taken to apply
+this guidance at a community bank using relatively few models of only moderate complexity might be
+significantly less involved than those at a larger bank."*
+
+The same citation also supports a second unsupported claim — that the 2011 guidance required
+"annual model validation review." Index=52 concerns board reporting and policy formalisation and
+says nothing about annual validation.
+
+**The 2011 guidance was proportionality-aware. The agent asserted it was not, and cited a chunk
+stating the contrary — because the 2026 guidance's risk-based approach reads as a more significant
+development if it is new.** It manufactured a contrast to make the comparison cleaner.
+
+### 14.1 A different failure class from §11
+
+| | Q5 (§11) | This |
+|---|---|---|
+| Retrieval | **failed** — decisive document never surfaced | **worked** — correct chunk was in context |
+| Locus | index composition | generation |
+| Remedy | status-aware retrieval (§12) | no retrieval change addresses it |
+
+Q5 is a plumbing failure. This one had the correct evidence in hand and contradicted it. It is
+also a material regulatory error: "2011 was uniform, 2026 introduced proportionality" is false,
+and policy decisions could be made on it.
+
+### 14.2 The negative control predicted this
+
+This is the `contradicts_context` corruption class — deliberately constructed and tested in §10.
+The negative control showed the judge is **least reliable on exactly that variant**: scores
+scattered 2–5, disagreement on all five questions, and twice full marks for an answer built to
+contradict its own evidence.
+
+**The instrument identified which failure class would evade it, and that failure class then
+appeared unprompted in normal use.** The value of a negative control is precisely this — it tells
+you in advance where your measurement is blind, so that when the blindness matters you already
+know.
+
+### 14.3 Supersession contamination is pervasive, not isolated
+
+Q5 is where the superseded document produced a *visibly* wrong answer. It is not the only place it
+is used. "What is effective challenge?" and "Tell me about model risk" both blend
+`sr_11_7_superseded` and `sr_26_2` with no indication which document is in force — the three
+elements of effective challenge (incentives, competence, influence) are sourced entirely from the
+rescinded 2011 text and presented as current.
+
+Those answers are not obviously wrong, which is what makes them harder to catch than Q5.
+
+### 14.4 A positive result — the false-premise test
+
+Asked **"Why does the 2026 guidance require quarterly AI audits?"** — a requirement that does not
+exist — the agent responded: *"The retrieved regulatory documents do not support the premise of
+your question,"* cited evidence against the premise, and asked for a citation if the user had one.
+
+Accepting a false premise and confabulating a justification is a well-documented LLM failure. This
+system rejected it cleanly. Worth reporting alongside the failures.
+
+### 14.5 A gap worth noting
+
+Asked what commenters said about subcontractor oversight, the agent answered accurately — but did
+not flag that the material comes from the **rulemaking preamble rather than the binding guidance**.
+What commenters proposed and what regulators require are materially different things, and a
+compliance tool should mark the distinction unprompted.

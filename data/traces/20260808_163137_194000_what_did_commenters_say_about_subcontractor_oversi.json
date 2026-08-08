@@ -1,0 +1,226 @@
+{
+  "question": "What did commenters say about subcontractor oversight?",
+  "model": "claude-sonnet-4-6",
+  "max_rounds": 6,
+  "rounds_used": 4,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 17615,
+    "output_tokens": 572
+  },
+  "final_answer": "Commenters expressed a wide range of views on subcontractor oversight in the context of the interagency third-party risk management guidance. Many emphasized the importance of managing subcontractor risks, particularly for subcontractors that are material to a service, have access to sensitive nonpublic information, perform higher-risk or critical activities, have access to banking infrastructure, or sit within extended chains of subcontractors (third_party_risk_2023.txt, index=32). At the same time, many of those same commenters raised concerns about the practical challenges of overseeing subcontractors, including a banking organization's lack of a direct contractual relationship with and leverage over them (third_party_risk_2023.txt, index=32).\n\nTo address these tensions, commenters suggested either narrowing the guidance's discussion of subcontractors or refocusing oversight on a third party's own ability to manage its subcontractors. Some specifically suggested, consistent with OCC FAQ 11, that banking organizations could require a third party to bind its subcontractors to the same obligations and standards (third_party_risk_2023.txt, index=33). Other commenters asked for additional flexibility in how banking organizations manage subcontractor risk.\n\nIn response, the agencies revised the guidance to focus on evaluating a third party's own processes for overseeing its subcontractors rather than expecting banking organizations to directly assess all subcontractors. The agencies also removed the term \"critical subcontractor\" to streamline clarity and promote flexibility (third_party_risk_2023.txt, index=34).",
+  "steps": [
+    {
+      "round": 1,
+      "assistant_text": "",
+      "tool_uses": [
+        {
+          "id": "toolu_01AxZzdPeA6W1WsazjLUU42h",
+          "query": "subcontractor oversight commenters",
+          "k": 5,
+          "results": [
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 34,
+              "chunk_id": 213,
+              "score": 0.15830024827143324,
+              "text": "guidance clarifies, relationships with a third party, including a third party's use of subcontractors, should be evaluated based on the risk the relationship poses to the banking organization, which may include assessing whether a third party's use of subcontractors may heighten or raise additional risk to the banking organization and applying mitigating factors, as appropriate. The agencies have also made streamlining changes to improve clarity and promote flexibility, including by removing use of the term \u201ccritical subcontractor.\u201d G. Oversight and Accountability Commenters provided suggestions as to the proper role of a banking organization's board of directors and management with respect to effective third-party risk management. Some commenters, for example, stated that the proposed guidance implied excessive board involvement in day-to-day management activity. Others suggested that the guidance could further clarify the role of the board of directors in risk management activities, specifically those aspects of third-party risk management that could appropriately be executed and overseen by senior management. Some commenters similarly suggested the guidance clarify the authority of management to establish policies governing third-party relationships. A few commenters requested the guidance provide granularity on the types, depth, and frequency of information necessary for board review, including for ongoing monitoring. Additionally,"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 7,
+              "chunk_id": 186,
+              "score": 0.11186949749772657,
+              "text": "organizations of different sizes and complexity. There were varying views among commenters on the level of detail included in the proposed guidance. While some commenters found the language to be too prescriptive, others noted that it had the right level of detail to enable banking organizations to use the guidance in a risk-based fashion. Other commenters specifically requested that the agencies establish minimum required \u201cstandards\u201d or incorporate greater specificity on supervisory expectations. Commenters also offered differing perspectives on whether or how to incorporate the concepts from the OCC FAQs.[9] In response to comments received, the agencies underscore that supervisory guidance does not have the force and effect of law and does not impose any new requirements on banking organizations.[10] The guidance addresses key principles banking organizations can leverage when developing and implementing risk management processes tailored to the risk profile and complexity of their third-party relationships. B. Terminology and Scope Commenters offered views on the description of the terms \u201cbusiness arrangement,\u201d \u201cthird-party relationship,\u201d and \u201ccritical activities.\u201d 1. Description of the Terms \u201cBusiness Arrangement\u201d and \u201cThird-Party Relationship\u201d Some commenters suggested that the term \u201cbusiness arrangement\u201d is overly broad and inconsistent with the risk-based approach of the guidance. For example, some commenters"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 8,
+              "chunk_id": 187,
+              "score": 0.10078207217391674,
+              "text": "Commenters offered views on the description of the terms \u201cbusiness arrangement,\u201d \u201cthird-party relationship,\u201d and \u201ccritical activities.\u201d 1. Description of the Terms \u201cBusiness Arrangement\u201d and \u201cThird-Party Relationship\u201d Some commenters suggested that the term \u201cbusiness arrangement\u201d is overly broad and inconsistent with the risk-based approach of the guidance. For example, some commenters believed that without narrowing the term, banking organizations may face an undue burden when implementing their risk management processes. Several commenters offered suggestions to narrow or modify the term \u201cbusiness arrangement.\u201d These suggestions included focusing on material relationships, scoping out low-risk activities, and limiting arrangements to only those that are continuous and/or governed by a written contract. Similarly, some commenters suggested that the term \u201cthird-party relationship\u201d was overly broad and may divert banking organizations from focusing sufficiently on those relationships that present higher risk. These commenters suggested applying a materiality standard (for example, those third parties supporting critical activities) or excluding certain categories of third-party relationships (for example, affiliates or bank-to-bank relationships). A few commenters recommended incorporating some of the more detailed discussions from OCC FAQs 1 and 2 elaborating on and providing examples of \u201cbusiness arrangements\u201d and \u201cthird-party relationships.\u201d With respect to these comments, the agencies believe the scope"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 29,
+              "chunk_id": 208,
+              "score": 0.09768728863848476,
+              "text": "commensurate with the banking organization's size, complexity, and risk profile, as well as with the nature of its third-party relationships. As such, the agencies have not excluded any specific third-party relationships from the scope of the guidance. 2. Contract Negotiation Commenters identified a range of suggestions on how the guidance approaches contract negotiations. Several commenters expressed concern that the section was overly detailed, that many contracts may not contain all of the contractual considerations discussed in the proposed guidance, and that such considerations might be treated as a mandatory checklist. Other commenters found the nature and extent of contractual language in the proposed guidance helpful in practice for informing a banking organization's contract negotiations. Several commenters stated that the guidance should acknowledge the need for greater flexibility in certain contract negotiations. For example, some commenters requested that the guidance recognize that banking organizations may lack sufficient leverage in negotiations with larger third parties and may struggle to get certain \u201ctypical\u201d provisions into the contract. Further, several commenters recommended that the agencies provide additional support to smaller institutions to increase their collective negotiating power with respect to third parties, such as by creating a tool or supporting a collective group to"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 25,
+              "chunk_id": 204,
+              "score": 0.09288524358202112,
+              "text": "due diligence or collaboration between banking organizations. In some cases, commenters noted challenges with shared due diligence or collaboration among banking organizations, such as antitrust or privacy considerations and the ability to meet due diligence needs in a shared framework. Some commenters recommended solutions, such as joint data collections and assessments across banking organizations and third parties. Other commenters asked the agencies to incorporate and expand upon the discussions in OCC FAQs 14 and 24 that banking organizations may rely on industry-accepted certifications and/or other reports. Commenters also suggested that the guidance address due diligence options when banking organizations have difficulty gaining access to information necessary to perform due diligence and audits. Several commenters recommended that the guidance be tailored for or scope out certain third parties that may be resistant to due diligence efforts. Banking organizations may not be able to seek out alternatives to these third parties, especially where the industry is particularly concentrated. Another commenter noted that the use of on-site audits or visits has declined over time and could be inefficient and costly, especially for third parties with operations in several physical locations (such as cloud computing service providers). With respect to commenters focused on specific"
+            }
+          ]
+        },
+        {
+          "id": "toolu_01DRg6XsaZMPSZUawjqqJ1L3",
+          "query": "subcontractor comments regulatory guidance",
+          "k": 5,
+          "results": [
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 40,
+              "chunk_id": 219,
+              "score": 0.11576955042363479,
+              "text": "organizations or provide certifications relevant to a banking organization's due diligence. In response to these comments, given the broad, principles-based approach of this guidance, the agencies have not revised the guidance to address specific topics or types of relationships. Separate guidance on certain topics or relationships already exists; these types of specific guidance issuances, unless expressly rescinded, would remain unaffected by this guidance. While certain topics (including those raised by commenters) are not explicitly discussed in the final guidance, the broad-based scope of the guidance captures the full range of third-party relationships. With respect to requests that would require statutory or regulatory changes, or may be outside the authority of the agencies, such requests cannot be addressed by this guidance. The agencies actively monitor trends and developments in the financial services industry and will consider issuing additional guidance or educational resources as necessary and appropriate to convey the agencies' views. The agencies plan to develop additional resources to assist smaller, non-complex community banking organizations in managing relevant third-party risks. The agencies will continue to coordinate closely about risk management matters, including third-party risk management, to help promote consistency across banking organizations and across the agencies. Regarding questions about each agency's"
+            },
+            {
+              "source": "sr_23_4.txt",
+              "index": 46,
+              "chunk_id": 140,
+              "score": 0.10787100127447258,
+              "text": "third party of any complaints or inquiries received by the third party. n. Subcontracting Third-party relationships may involve subcontracting arrangements, which can result in risk due to the absence of a direct relationship between the banking organization and the subcontractor, further lessening the banking organization's direct control of activities. The impact on a banking organization's ability to assess and control risks may be especially important if the banking organization uses third parties for higher-risk activities, including critical activities. For this reason, a banking organization may want to address when and how the third party should notify the banking organization of its use or intent to use a subcontractor and whether specific subcontractors are prohibited by the banking organization. Another important consideration is whether the contract should prohibit assignment, transfer, or subcontracting of the third party's obligations to another entity without the banking organization's consent. Where subcontracting is integral to the activity being performed for the banking organization, it is important to consider more detailed contractual obligations, such as reporting on the subcontractor's conformance with performance measures, periodic audit results, and compliance with laws and regulations. Where appropriate, a banking organization may consider including a provision that states the third party's"
+            },
+            {
+              "source": "sr_23_4.txt",
+              "index": 17,
+              "chunk_id": 111,
+              "score": 0.08238436748820425,
+              "text": "for Collaborations Among Competitors\u201d (April 2000), available at https://www.ftc.gov/sites/default/files/documents/public events/joint-venture-hearings-antitrust- guidelines-coUaboration-among-competitors/ftcdojguidelines-2.pdf. End of Footnote .] 10 organization to determine whether the third party can perform the activity in a manner that is consistent with the banking organization's broader corporate policies and practices. b. Legal and Regulatory Compliance A review of any legal and regulatory compliance considerations associated with engaging a third party allows a banking organization to evaluate whether it can appropriately mitigate risks associated with the third-party relationship. This may include (1) evaluating the third party's ownership structure (including identifying any beneficial ownership, whether public or private, foreign, or domestic ownership) and whether the third party has the necessary legal authority to perform the activity, such as any necessary licenses or corporate powers; (2) determining whether the third party itself or any owners are subject to sanctions by the Office of Foreign Assets Control; (3) determining whether the third party has the expertise, processes, and controls to enable the banking organization to remain in compliance with applicable domestic and international laws and regulations; (4) considering the third party's responsiveness to any compliance issues (including violations of law or regulatory actions) with applicable supervisory agencies and self-regulatory organizations, as appropriate;"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 5,
+              "chunk_id": 184,
+              "score": 0.08004762737432172,
+              "text": "the OCC's 2013 guidance and its 2020 frequently asked questions (herein, OCC FAQs).[4] By issuing this interagency guidance, the agencies aim to promote consistency in their third-party risk management guidance and to clearly articulate risk-based principles for third-party risk management. Further, the agencies have observed an increase in the number and type of banking organizations' third-party relationships. Accordingly, the final guidance is intended to assist banking organizations in identifying and managing risks associated with third-party relationships and in complying with applicable laws and regulations.[5] II. Discussion of Comments on the Proposed Guidance On July 19, 2021, the agencies published for comment proposed guidance on managing risks associated with third-party relationships (proposed guidance).[6] The 60-day comment period initially ended on September 17, 2021. In response to commenters' requests for additional time to analyze and respond to the proposal, the agencies extended the comment period until October 18, 2021.[7] The agencies invited comment on all aspects of the proposed guidance. To help solicit feedback, the agencies posed 18 questions within the request for comment, organized across the following themes: General, Scope,Tailored Approach to Third-Party Risk Management, Third-Party Relationships,Due Diligence and Collaborative Arrangements, Subcontractors,Information Security, and the OCC's 2020 FAQs. The agencies collectively"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 20,
+              "chunk_id": 199,
+              "score": 0.07981821499299754,
+              "text": "third party may differ from those in other third-party relationships. Additionally, depending on how the business arrangement is structured, the banking organization and the third party each may have varying degrees of interaction with customers. Longstanding principles of third-party risk management set forth in this guidance are applicable to all third-party relationships, including those with fintech companies. Therefore, it is important for a banking organization to understand how the arrangement with a third party, including a fintech company, is structured so that the banking organization may assess the types and levels of risks posed and determine how to manage those third-party relationships accordingly. The agencies did not incorporate concepts from OCC FAQ 4, opting to provide broad risk management guidance. The agencies considered other comments in relation to specific types of third-party relationships but decided not to exclude any specific third-party relationships from the scope of the guidance; rather, the guidance is relevant to managing all third-party relationships. Because third-party relationships present varying levels and types of risk, the guidance notes that not all relationships require the same level or type of oversight or risk management. This principles-based guidance provides a flexible, risk-based approach to third-party risk management that can"
+            }
+          ]
+        }
+      ],
+      "response_stop_reason": "tool_use",
+      "usage": {
+        "input_tokens": 789,
+        "output_tokens": 100
+      }
+    },
+    {
+      "round": 2,
+      "assistant_text": "",
+      "tool_uses": [
+        {
+          "id": "toolu_014csqSbz91BAMFXLngme2oc",
+          "query": "subcontractor comments proposed guidance questions",
+          "k": 5,
+          "results": [
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 5,
+              "chunk_id": 184,
+              "score": 0.2337782858817657,
+              "text": "the OCC's 2013 guidance and its 2020 frequently asked questions (herein, OCC FAQs).[4] By issuing this interagency guidance, the agencies aim to promote consistency in their third-party risk management guidance and to clearly articulate risk-based principles for third-party risk management. Further, the agencies have observed an increase in the number and type of banking organizations' third-party relationships. Accordingly, the final guidance is intended to assist banking organizations in identifying and managing risks associated with third-party relationships and in complying with applicable laws and regulations.[5] II. Discussion of Comments on the Proposed Guidance On July 19, 2021, the agencies published for comment proposed guidance on managing risks associated with third-party relationships (proposed guidance).[6] The 60-day comment period initially ended on September 17, 2021. In response to commenters' requests for additional time to analyze and respond to the proposal, the agencies extended the comment period until October 18, 2021.[7] The agencies invited comment on all aspects of the proposed guidance. To help solicit feedback, the agencies posed 18 questions within the request for comment, organized across the following themes: General, Scope,Tailored Approach to Third-Party Risk Management, Third-Party Relationships,Due Diligence and Collaborative Arrangements, Subcontractors,Information Security, and the OCC's 2020 FAQs. The agencies collectively"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 6,
+              "chunk_id": 185,
+              "score": 0.138882351248563,
+              "text": "comment on all aspects of the proposed guidance. To help solicit feedback, the agencies posed 18 questions within the request for comment, organized across the following themes: General, Scope,Tailored Approach to Third-Party Risk Management, Third-Party Relationships,Due Diligence and Collaborative Arrangements, Subcontractors,Information Security, and the OCC's 2020 FAQs. The agencies collectively received 82 comment letters from banking organizations, financial technology (fintech) companies and other third-party providers, trade associations, consultants, nonprofits, and individuals.[8] A. General Support for the Proposed Guidance In general, commenters supported the agencies' efforts to issue joint principles-based guidance on third-party risk management. Commenters agreed with the proposal's overarching message regarding the importance of banking organizations adopting sound risk management practices that are commensurate with the level of risk and complexity of their respective third-party relationships. They agreed that a principles-based approach to third-party risk management can be adapted to a wide range of relationships and scaled for banking organizations of different sizes and complexity. There were varying views among commenters on the level of detail included in the proposed guidance. While some commenters found the language to be too prescriptive, others noted that it had the right level of detail to enable banking organizations to use the guidance"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 3,
+              "chunk_id": 182,
+              "score": 0.12862414166573127,
+              "text": "of the Comptroller of the Currency, 400 7th Street SW, Washington, DC 20219. If you are deaf, hard of hearing, or have a speech disability, please dial 7-1-1 to access telecommunications relay services. SUPPLEMENTARY INFORMATION: Table of Contents I. Introduction II. Discussion of Comments on the Proposed Guidance A. General Support for the Proposed Guidance B. Terminology and Scope C. Tailored Approach to Third-Party Risk Management D. Specific Types of Third-Party Relationships E. Risk Management Life Cycle F. Subcontractors G. Oversight and Accountability H. Other Matters Raised III. Paperwork Reduction Act IV. Text of Final Interagency Guidance on Third-Party Relationships I. Introduction Banking organizations [1] routinely rely on third parties for a range of products, services, and other activities (collectively, activities). The use of third parties can offer banking organizations significant benefits, such as quicker and more efficient access to technologies, human capital, delivery channels, products, services, and markets. Banking organizations' use of third parties does not remove the need for sound risk management. On the contrary, the use of third parties, especially those using new technologies, may present elevated risks to banking organizations and their customers, including operational, compliance, and strategic risks. Importantly, the use of third parties does"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 29,
+              "chunk_id": 208,
+              "score": 0.0964170659509999,
+              "text": "commensurate with the banking organization's size, complexity, and risk profile, as well as with the nature of its third-party relationships. As such, the agencies have not excluded any specific third-party relationships from the scope of the guidance. 2. Contract Negotiation Commenters identified a range of suggestions on how the guidance approaches contract negotiations. Several commenters expressed concern that the section was overly detailed, that many contracts may not contain all of the contractual considerations discussed in the proposed guidance, and that such considerations might be treated as a mandatory checklist. Other commenters found the nature and extent of contractual language in the proposed guidance helpful in practice for informing a banking organization's contract negotiations. Several commenters stated that the guidance should acknowledge the need for greater flexibility in certain contract negotiations. For example, some commenters requested that the guidance recognize that banking organizations may lack sufficient leverage in negotiations with larger third parties and may struggle to get certain \u201ctypical\u201d provisions into the contract. Further, several commenters recommended that the agencies provide additional support to smaller institutions to increase their collective negotiating power with respect to third parties, such as by creating a tool or supporting a collective group to"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 30,
+              "chunk_id": 209,
+              "score": 0.09341168508191153,
+              "text": "larger third parties and may struggle to get certain \u201ctypical\u201d provisions into the contract. Further, several commenters recommended that the agencies provide additional support to smaller institutions to increase their collective negotiating power with respect to third parties, such as by creating a tool or supporting a collective group to facilitate negotiations. Some commenters proposed that the guidance include language from several of the OCC FAQs to clarify additional considerations regarding limited negotiating power and use of collaborative efforts when negotiating contracts. In response to these comments, the agencies have incorporated concepts from OCC FAQs 5 and 13, acknowledging that a banking organization may have limited negotiating power in certain instances and should understand any resulting limitations. As the guidance states, many of the same considerations for collaborative arrangements apply throughout the risk management life cycle. The agencies have streamlined some of the considerations in this section but believe that the overall scope of the discussion would be useful to banking organizations in understanding and preparing for contract negotiations. 3. Ongoing Monitoring Several commenters recommended that the agencies revise the proposed guidance to encourage banks to adopt active, continuous, real-time monitoring, arguing that this approach is preferable to engaging in"
+            }
+          ]
+        }
+      ],
+      "response_stop_reason": "tool_use",
+      "usage": {
+        "input_tokens": 3990,
+        "output_tokens": 59
+      }
+    },
+    {
+      "round": 3,
+      "assistant_text": "",
+      "tool_uses": [
+        {
+          "id": "toolu_019pkLJB6YqPQUD3nq35RDGy",
+          "query": "subcontractors section F critical subcontractor risk",
+          "k": 5,
+          "results": [
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 32,
+              "chunk_id": 211,
+              "score": 0.13751082196598508,
+              "text": "of external parties to supplement ongoing monitoring. F. Subcontractors Commenters expressed a variety of views on banking organizations' relationships with subcontractors. These comments largely focused on whether the guidance could be clarified to promote additional flexibility in how banking organizations manage the risks associated with subcontractors, which pose challenges not necessarily present in a direct third-party relationship. Various commenters emphasized the importance of managing risks posed by subcontractors, especially those that are material to a service being provided to a banking organization; those with access to sensitive, nonpublic information; those that perform higher-risk activities, including critical activities; those with access to the banking organization's infrastructure; and those within extended chains of subcontractors. However, many of these commenters expressed concern regarding the potential challenges in overseeing and conducting effective due diligence on subcontractors, such as a banking organization's lack of a relationship with (contractually or otherwise), and leverage over, subcontractors. These commenters suggested either narrowing the guidance's discussion on subcontractors (for example, excluding relationships beyond third parties) or refocusing a banking organization's oversight to a third party's ability to manage its subcontractors. Commenters also suggested that, in line with OCC FAQ 11, a banking organization could require a third party to"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 34,
+              "chunk_id": 213,
+              "score": 0.12592152303749293,
+              "text": "guidance clarifies, relationships with a third party, including a third party's use of subcontractors, should be evaluated based on the risk the relationship poses to the banking organization, which may include assessing whether a third party's use of subcontractors may heighten or raise additional risk to the banking organization and applying mitigating factors, as appropriate. The agencies have also made streamlining changes to improve clarity and promote flexibility, including by removing use of the term \u201ccritical subcontractor.\u201d G. Oversight and Accountability Commenters provided suggestions as to the proper role of a banking organization's board of directors and management with respect to effective third-party risk management. Some commenters, for example, stated that the proposed guidance implied excessive board involvement in day-to-day management activity. Others suggested that the guidance could further clarify the role of the board of directors in risk management activities, specifically those aspects of third-party risk management that could appropriately be executed and overseen by senior management. Some commenters similarly suggested the guidance clarify the authority of management to establish policies governing third-party relationships. A few commenters requested the guidance provide granularity on the types, depth, and frequency of information necessary for board review, including for ongoing monitoring. Additionally,"
+            },
+            {
+              "source": "sr_11_7_superseded.txt",
+              "index": 2,
+              "chunk_id": 30,
+              "score": 0.1216722726717346,
+              "text": "the Currency is the primary supervisor, and to bank holding companies, state member banks, and all other institutions for which the Federal Reserve Board is the primary supervisor. End of Footnote 1.] This guidance describes the key aspects of effective model risk management. Section II explains the purpose and scope of the guidance, and Section III gives an overview of model risk management. Section IV discusses robust model development, implementation, and use. Section V describes the components of an effective validation framework. Section VI explains the salient features of sound governance, policies, and controls over model development, implementation, use, and validation. Section VII concludes. II. PURPOSE AND SCOPE The purpose of this document is to provide comprehensive guidance for banks on effective model risk management. Rigorous model validation plays a critical role in model risk management; however, sound development, implementation, and use of models are also vital elements. Furthermore, model risk management encompasses governance and control mechanisms such as board and senior management oversight, policies and procedures, controls and compliance, and an appropriate incentive and organizational structure. Previous guidance and other publications issued by the OCC and the Federal Reserve on the use of models pay particular attention to model"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 33,
+              "chunk_id": 212,
+              "score": 0.12041363125311237,
+              "text": "commenters suggested either narrowing the guidance's discussion on subcontractors (for example, excluding relationships beyond third parties) or refocusing a banking organization's oversight to a third party's ability to manage its subcontractors. Commenters also suggested that, in line with OCC FAQ 11, a banking organization could require a third party to bind its subcontractors to any obligations and standards of the third party. With respect to these comments, the agencies acknowledge the risks and added complexity that may be involved with respect to a third party's use of subcontractors. The agencies also recognize concerns by commenters interpreting the guidance to mean banking organizations are expected to assess or oversee all subcontractors of a third party. Accordingly, consistent with the concepts in OCC FAQ 11, the agencies have revised the guidance, focusing on a banking organization's approach to evaluating its third party's own processes for overseeing subcontractors and managing risks. As the guidance clarifies, relationships with a third party, including a third party's use of subcontractors, should be evaluated based on the risk the relationship poses to the banking organization, which may include assessing whether a third party's use of subcontractors may heighten or raise additional risk to the banking organization and"
+            },
+            {
+              "source": "third_party_risk_2023.txt",
+              "index": 84,
+              "chunk_id": 263,
+              "score": 0.11874890968876377,
+              "text": "control risks may be especially important if the banking organization uses third parties for higher-risk activities, including critical activities. For this reason, a banking organization may want to address when and how the third party should notify the banking organization of its use or intent to use a subcontractor and whether specific subcontractors are prohibited by the banking organization. Another important consideration is whether the contract should prohibit assignment, transfer, or subcontracting of the third party's obligations to another entity without the banking organization's consent. Where subcontracting is integral to the activity being performed for the banking organization, it is important to consider more detailed contractual obligations, such as reporting on the subcontractor's conformance with performance measures, periodic audit results, and compliance with laws and regulations. Where appropriate, a banking organization may consider including a provision that states the third party's liability for activities or actions by its subcontractors and which party is responsible for the costs and resources required for any additional monitoring and management of the subcontractors. It may also be appropriate to reserve the right to terminate the contract without penalty if the third party's subcontracting arrangements do not comply with contractual obligations. o. Foreign-Based Third Parties"
+            }
+          ]
+        }
+      ],
+      "response_stop_reason": "tool_use",
+      "usage": {
+        "input_tokens": 5637,
+        "output_tokens": 63
+      }
+    },
+    {
+      "round": 4,
+      "assistant_text": "Commenters expressed a wide range of views on subcontractor oversight in the context of the interagency third-party risk management guidance. Many emphasized the importance of managing subcontractor risks, particularly for subcontractors that are material to a service, have access to sensitive nonpublic information, perform higher-risk or critical activities, have access to banking infrastructure, or sit within extended chains of subcontractors (third_party_risk_2023.txt, index=32). At the same time, many of those same commenters raised concerns about the practical challenges of overseeing subcontractors, including a banking organization's lack of a direct contractual relationship with and leverage over them (third_party_risk_2023.txt, index=32).\n\nTo address these tensions, commenters suggested either narrowing the guidance's discussion of subcontractors or refocusing oversight on a third party's own ability to manage its subcontractors. Some specifically suggested, consistent with OCC FAQ 11, that banking organizations could require a third party to bind its subcontractors to the same obligations and standards (third_party_risk_2023.txt, index=33). Other commenters asked for additional flexibility in how banking organizations manage subcontractor risk.\n\nIn response, the agencies revised the guidance to focus on evaluating a third party's own processes for overseeing its subcontractors rather than expecting banking organizations to directly assess all subcontractors. The agencies also removed the term \"critical subcontractor\" to streamline clarity and promote flexibility (third_party_risk_2023.txt, index=34).",
+      "tool_uses": [],
+      "response_stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 7199,
+        "output_tokens": 350
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "question": "Why does the 2026 guidance require quarterly AI audits?",
+  "model": "claude-sonnet-4-6",
+  "max_rounds": 6,
+  "rounds_used": 2,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 4591,
+    "output_tokens": 327
+  },
+  "final_answer": "The retrieved regulatory documents do not support the premise of your question. Nothing in the available guidance requires quarterly AI audits. In fact, the 2026 model risk management guidance explicitly states that it \"does not set forth enforceable standards or prescriptive requirements\" (occ_2026_13.txt, index=5). Furthermore, generative AI and agentic AI models are expressly excluded from the scope of that guidance because they are described as \"novel and rapidly evolving\" (occ_2026_13.txt, index=4; sr_26_2.txt, index=19). The guidance also notes that community bank model validation is not required on any set schedule, specifically clarifying that the guidance should not be interpreted to require annual model validation (occ_2026_13.txt, index=6).\n\nThere is no basis in the documents available to me for a \"quarterly AI audit\" requirement. If you have a specific document in mind, please share its name or citation so I can search for it more precisely.",
+  "steps": [
+    {
+      "round": 1,
+      "assistant_text": "",
+      "tool_uses": [
+        {
+          "id": "toolu_018GZotTJjM5XX8PJrfAALEX",
+          "query": "2026 guidance quarterly AI audits",
+          "k": 5,
+          "results": [
+            {
+              "source": "occ_2026_13.txt",
+              "index": 5,
+              "chunk_id": 26,
+              "score": 0.16644812908247628,
+              "text": "with total assets of $30 billion or less that have significant exposure to model risk because of the prevalence and complexity of their models or because of activities outside the scope of traditional community banking. This guidance highlights sound principles for effective model risk management. In particular, the guidance discusses the factors that influence model risk and the features of effective (1) model development and model use, including model testing; (2) model validation and monitoring, including validating conceptual soundness and outcomes analyses; and (3) governance and controls, including clear policies and roles and responsibilities. The guidance also discusses considerations specific to vendor and other third-party products, including validation of these products. However, as the guidance makes clear, the guidance does not set forth enforceable standards or prescriptive requirements. The agencies will continue to consider additional measures to address model risk management consistent with broader supervisory and other goals. For example, the agencies plan to issue in the near future a request for information that addresses model risk management generally and considers, in particular, banks\u2019 use of AI, including generative AI and agentic AI and AI-based models. Further Information Please contact Chau Do, Chief Economist and Deputy Comptroller for Economics in"
+            },
+            {
+              "source": "sr_26_2.txt",
+              "index": 19,
+              "chunk_id": 178,
+              "score": 0.14269093767975904,
+              "text": "CFR Part 262, Appendix A (Board); 12 CFR Part 302, Appendix A (FDIC). However, supervisory action may result for any violations of law or unsafe or unsound practices stemming from insufficient management of model risk. 2 For a description of the banking organizations supervised by each agency, refer to the definition of \u201cappropriate Federal banking agency\u201d in section 3(q) of the Federal Deposit Insurance Act (12 U.S.C. 1813(q)). 3 Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance. Nonetheless, a banking organization\u2019s risk management and governance practices should guide the determination of appropriate governance and controls for any tools, processes, or systems not covered in this document. However, the principles described in this guidance apply to traditional statistical and quantitative models and non-generative, non-agentic AI models."
+            },
+            {
+              "source": "occ_2026_13.txt",
+              "index": 6,
+              "chunk_id": 27,
+              "score": 0.13778255768697661,
+              "text": "the agencies plan to issue in the near future a request for information that addresses model risk management generally and considers, in particular, banks\u2019 use of AI, including generative AI and agentic AI and AI-based models. Further Information Please contact Chau Do, Chief Economist and Deputy Comptroller for Economics in the Office of the Chief National Bank Examiner (CNBE), at 202-649-5490. James M. Gallagher Senior Deputy Comptroller and Chief National Bank Examiner Related Link \u201cModel Risk Management: Revised Guidance\u201d (PDF) 1 \u201cBanks\u201d refers collectively to national banks, federal savings associations, and federal branches and agencies of foreign banking organizations. 2 OCC Bulletin 2011-12, \u201cSound Practices for Model Risk Management: Supervisory Guidance on Model Risk Management\u201d; Supervision and Regulation Letter 11-7, \u201cGuidance on Model Risk Management\u201d (April 4, 2011). 3 Financial Institution Letter-22-2017, \u201cAdoption of Supervisory Guidance on Model Risk Management\u201d (June 7, 2017). 4 Refer to OCC Bulletin 2025-26, \u201cModel Risk Management: Clarification for Community Banks,\u201d noting, for instance, that \u201cOCC\u2019s guidance on model risk management does not, and should not be interpreted to, require community banks to perform annual model validation.\u201d"
+            },
+            {
+              "source": "occ_2026_13.txt",
+              "index": 4,
+              "chunk_id": 25,
+              "score": 0.13066668861140515,
+              "text": "other developments by clarifying the scope of model risk management under existing guidance while acknowledging that the OCC will continue to review model risk management guidance.4 For the purposes of this guidance, the term \u201cmodel\u201d refers to a complex quantitative method, system, or approach that applies statistical, economic, or financial theories to process input data into quantitative estimates. The term \u201cmodel\u201d in this guidance excludes simple arithmetic calculations, such as those found within spreadsheets, as well as deterministic rule-based processes and software where there are no statistical, economic, or financial theories underpinning their design or use. Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance. Furthermore, this guidance is expected to be most relevant to banking organizations with over $30 billion in total assets. However, in some situations, this guidance also may be relevant to banking organizations with total assets of $30 billion or less that have significant exposure to model risk because of the prevalence and complexity of their models or because of activities outside the scope of traditional community banking. This guidance highlights sound principles for effective model risk management. In particular, the guidance discusses"
+            },
+            {
+              "source": "occ_2026_13.txt",
+              "index": 1,
+              "chunk_id": 22,
+              "score": 0.11949008169676362,
+              "text": "\u201cBank Secrecy Act/Anti-Money Laundering: Interagency Statement on Model Risk Management for Bank Systems Supporting BSA/AML Compliance and Request for Information\u201d Note for Community Banks This guidance is applicable to all community banks, subject to the limitations discussed in the guidance.1 Highlights The guidance provides an overview of model risk and model risk management and discusses model development and model use; model validation and monitoring; governance and controls; and considerations related to vendor and other third-party products. Practices that are appropriate and effective for one banking organization may be inappropriate and ineffective for a banking organization with a different risk profile or that uses a model for a different purpose. The general expectation is that this guidance will be most useful for models supporting a banking organization\u2019s significant business lines, operations, services, and functions. Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance. Furthermore, this guidance is expected to be most relevant to banking organizations with over $30 billion in total assets. However, in some situations, this guidance also may be relevant to banking organizations with total assets of $30 billion or less that have significant exposure to"
+            }
+          ]
+        },
+        {
+          "id": "toolu_01PX8MWpzAaCuUSmr1xhsX7r",
+          "query": "AI audit requirements frequency 2026",
+          "k": 5,
+          "results": [
+            {
+              "source": "occ_2026_13.txt",
+              "index": 5,
+              "chunk_id": 26,
+              "score": 0.1375454174213668,
+              "text": "with total assets of $30 billion or less that have significant exposure to model risk because of the prevalence and complexity of their models or because of activities outside the scope of traditional community banking. This guidance highlights sound principles for effective model risk management. In particular, the guidance discusses the factors that influence model risk and the features of effective (1) model development and model use, including model testing; (2) model validation and monitoring, including validating conceptual soundness and outcomes analyses; and (3) governance and controls, including clear policies and roles and responsibilities. The guidance also discusses considerations specific to vendor and other third-party products, including validation of these products. However, as the guidance makes clear, the guidance does not set forth enforceable standards or prescriptive requirements. The agencies will continue to consider additional measures to address model risk management consistent with broader supervisory and other goals. For example, the agencies plan to issue in the near future a request for information that addresses model risk management generally and considers, in particular, banks\u2019 use of AI, including generative AI and agentic AI and AI-based models. Further Information Please contact Chau Do, Chief Economist and Deputy Comptroller for Economics in"
+            },
+            {
+              "source": "sr_26_2.txt",
+              "index": 19,
+              "chunk_id": 178,
+              "score": 0.11915601205438442,
+              "text": "CFR Part 262, Appendix A (Board); 12 CFR Part 302, Appendix A (FDIC). However, supervisory action may result for any violations of law or unsafe or unsound practices stemming from insufficient management of model risk. 2 For a description of the banking organizations supervised by each agency, refer to the definition of \u201cappropriate Federal banking agency\u201d in section 3(q) of the Federal Deposit Insurance Act (12 U.S.C. 1813(q)). 3 Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance. Nonetheless, a banking organization\u2019s risk management and governance practices should guide the determination of appropriate governance and controls for any tools, processes, or systems not covered in this document. However, the principles described in this guidance apply to traditional statistical and quantitative models and non-generative, non-agentic AI models."
+            },
+            {
+              "source": "sr_11_7_superseded.txt",
+              "index": 57,
+              "chunk_id": 85,
+              "score": 0.11147165583470937,
+              "text": "are being carried out effectively and in line with policy. Documentation and tracking of activities surrounding model development, implementation, use, and validation are needed to provide a record that makes compliance with policy transparent. Internal Audit A bank's internal audit function should assess the overall effectiveness of the model risk management framework, including the framework's ability to address both types of model risk described in Section III, for individual models and in the aggregate. Findings from internal audit related to models should be documented and reported to the board or its appropriately delegated agent. Banks should ensure that internal audit operates with the proper incentives, has appropriate skills, and has adequate stature in the organization to assist in model risk management. Internal audit's role is not to duplicate model risk management activities. Instead, its role is to evaluate whether model risk management is comprehensive, rigorous, and effective. To accomplish this evaluation, internal audit staff should possess sufficient expertise in relevant modeling concepts as well as their use in particular business lines. If some internal audit staff perform certain validation activities, then they should not be involved in the assessment of the overall model risk management framework. Internal audit should verify"
+            },
+            {
+              "source": "sr_11_7_superseded.txt",
+              "index": 58,
+              "chunk_id": 86,
+              "score": 0.1100775385753255,
+              "text": "evaluation, internal audit staff should possess sufficient expertise in relevant modeling concepts as well as their use in particular business lines. If some internal audit staff perform certain validation activities, then they should not be involved in the assessment of the overall model risk management framework. Internal audit should verify that acceptable policies are in place and that model owners and control groups comply with those policies. Internal audit should also verify records of model use and validation to test whether validations are performed in a timely manner and whether models are subject to controls that appropriately account for any weaknesses in validation activities. Accuracy and completeness of the model inventory should be assessed. In addition, processes for establishing and monitoring limits on model usage should be evaluated. Internal audit should determine whether procedures for updating models are clearly documented, and test whether those procedures are being carried out as specified. Internal audit should check that model owners and control groups are meeting documentation standards, including risk reporting. Additionally, internal audit should perform assessments of supporting operational systems and evaluate the reliability of data used by models. Internal audit also has an important role in ensuring that validation work is"
+            },
+            {
+              "source": "occ_2026_13.txt",
+              "index": 6,
+              "chunk_id": 27,
+              "score": 0.10555303966040341,
+              "text": "the agencies plan to issue in the near future a request for information that addresses model risk management generally and considers, in particular, banks\u2019 use of AI, including generative AI and agentic AI and AI-based models. Further Information Please contact Chau Do, Chief Economist and Deputy Comptroller for Economics in the Office of the Chief National Bank Examiner (CNBE), at 202-649-5490. James M. Gallagher Senior Deputy Comptroller and Chief National Bank Examiner Related Link \u201cModel Risk Management: Revised Guidance\u201d (PDF) 1 \u201cBanks\u201d refers collectively to national banks, federal savings associations, and federal branches and agencies of foreign banking organizations. 2 OCC Bulletin 2011-12, \u201cSound Practices for Model Risk Management: Supervisory Guidance on Model Risk Management\u201d; Supervision and Regulation Letter 11-7, \u201cGuidance on Model Risk Management\u201d (April 4, 2011). 3 Financial Institution Letter-22-2017, \u201cAdoption of Supervisory Guidance on Model Risk Management\u201d (June 7, 2017). 4 Refer to OCC Bulletin 2025-26, \u201cModel Risk Management: Clarification for Community Banks,\u201d noting, for instance, that \u201cOCC\u2019s guidance on model risk management does not, and should not be interpreted to, require community banks to perform annual model validation.\u201d"
+            }
+          ]
+        }
+      ],
+      "response_stop_reason": "tool_use",
+      "usage": {
+        "input_tokens": 792,
+        "output_tokens": 103
+      }
+    },
+    {
+      "round": 2,
+      "assistant_text": "The retrieved regulatory documents do not support the premise of your question. Nothing in the available guidance requires quarterly AI audits. In fact, the 2026 model risk management guidance explicitly states that it \"does not set forth enforceable standards or prescriptive requirements\" (occ_2026_13.txt, index=5). Furthermore, generative AI and agentic AI models are expressly excluded from the scope of that guidance because they are described as \"novel and rapidly evolving\" (occ_2026_13.txt, index=4; sr_26_2.txt, index=19). The guidance also notes that community bank model validation is not required on any set schedule, specifically clarifying that the guidance should not be interpreted to require annual model validation (occ_2026_13.txt, index=6).\n\nThere is no basis in the documents available to me for a \"quarterly AI audit\" requirement. If you have a specific document in mind, please share its name or citation so I can search for it more precisely.",
+      "tool_uses": [],
+      "response_stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 3799,
+        "output_tokens": 224
+      }
+    }
+  ]
+}
