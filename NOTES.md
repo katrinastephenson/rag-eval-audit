@@ -596,3 +596,75 @@ Asked what commenters said about subcontractor oversight, the agent answered acc
 not flag that the material comes from the **rulemaking preamble rather than the binding guidance**.
 What commenters proposed and what regulators require are materially different things, and a
 compliance tool should mark the distinction unprompted.
+
+---
+
+## 15. Prompt framing as a hallucination risk factor — a paired comparison
+
+*Interactive session, 2026-08-08 ~16:31–17:00. Same model, same corpus, same retrieval.*
+
+§14 raised the possibility that the *question form* caused the fabrication: **"What's the difference
+between A and B?"** presupposes a difference and rewards finding one. Tested by asking the same
+underlying question two ways.
+
+- **Leading:** "What's the difference between the 2011 and 2026 model risk guidance?" (3 runs)
+- **Neutral:** "How does each of the two model risk guidance documents treat institution size and
+  complexity?" (4 runs)
+
+### 15.1 Results
+
+**Neutral framing — 4/4 correct.** Every run explicitly states the 2011 guidance was proportional:
+"explicitly proportional", "principles-based, proportionality approach", "commensurate with the
+bank's relative complexity". All four cite `sr_11_7_superseded` #52 and quote it **accurately** —
+the same chunk the leading framing had reversed.
+
+**Leading framing — 3 runs:**
+
+| Run | Characterisation of the 2011 guidance | Assessment |
+|---|---|---|
+| 1 | "treated requirements in relatively uniform terms regardless of institution size" | **Outright false** — contradicts its own citation |
+| 2 | "applied broadly across all banks"; 2026 "reflecting a more tailored, risk-based approach" | True statements, **misleading contrast** |
+| 3 | "the introduction of a formal risk-based, tiered approach"; 2011 "applied more broadly without such a size threshold" | True statements, **misleading contrast** |
+
+**1 of 3** contained a claim identifiable as false. **3 of 3** omitted the 2011 proportionality and
+framed risk-based tailoring as a 2026 innovation.
+
+### 15.2 Why this is the sharper result
+
+Runs 2 and 3 contain no false sentences. Every individual claim is accurate and supported by
+retrieved context. A groundedness judge scores them 5. A correctness check against a golden answer
+plausibly passes them.
+
+**And a reader still comes away believing something false** — that the 2026 guidance introduced
+proportionality. The error is in what was *omitted* and what the contrast *implies*, not in
+anything asserted.
+
+**No claim-level metric detects this.** Groundedness evaluates claims. Correctness evaluates
+claims. Neither evaluates the impression created by selection and emphasis. Detecting it would
+require a metric for whether an answer *materially misleads* — which is not standard practice and
+is considerably harder to operationalise.
+
+Under the neutral frame, 4/4 conveyed the truth. Under the leading frame, 3/3 created a false
+impression while remaining technically grounded. Same corpus, same evidence, opposite
+understandings, and the available metrics cannot distinguish them.
+
+### 15.3 Practical implication
+
+Users ask leading questions. *"Why does X require Y?"* *"What's the difference between A and B?"*
+*"How has this gotten stricter?"* Each embeds an assumption the model may satisfy rather than
+challenge.
+
+Notably this system **passed** an explicit false-premise test (§14.4) — it refused "why does the
+2026 guidance require quarterly AI audits?" outright. What it did not resist was an *implied*
+premise. Rejecting a stated false premise and resisting a leading frame are different capabilities,
+and the second is much harder to test for.
+
+### 15.4 Limitations of this comparison
+
+- **n = 3 and 4.** Suggestive, not a rate.
+- **Classifying runs 2 and 3 as "misleading" is interpretation, not measurement.** Both are
+  factually accurate; the judgement is that their selection and emphasis create a false impression.
+  A reader who disagrees would reduce this finding to the single outright fabrication in run 1 —
+  which is still real, and smaller.
+- Stating that distinction explicitly matters: "I judged these misleading" is a defensible
+  position; it is not a score, and it should not be reported as one.
