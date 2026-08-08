@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q07_run01_20260808_144751_791044.json",
+  "question_id": 7,
+  "question": "How often must banks retrain machine learning models?",
+  "category": "hard-negative",
+  "judge_run_number": 4,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every claim in the answer is directly traceable to the retrieved context: the absence of a fixed retraining schedule, frequency depending on model nature and data availability, and the need to monitor and potentially adjust/redevelop when performance deteriorates are all explicitly stated in the cited passages (sr_11_7_superseded index=35, sr_26_2 index=14 and 13).",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": false,
+  "abstain_rationale": "The answer makes substantive claims about regulatory guidance, monitoring frameworks, and retraining triggers rather than clearly stating it cannot answer the question from the retrieved context.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 4748,
+      "output_tokens": 99
+    },
+    "abstain": {
+      "input_tokens": 589,
+      "output_tokens": 47
+    }
+  }
+}

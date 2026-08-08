@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q02_run01_20260808_144707_439785.json",
+  "question_id": 2,
+  "question": "Does current supervisory guidance on model risk management apply to generative AI models?",
+  "category": "answerable",
+  "judge_run_number": 3,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every claim in the answer is explicitly supported by the retrieved context, including the exclusion of generative AI and agentic AI from scope, the applicability to traditional and non-generative AI models, the expectation that banks apply sound governance to uncovered tools, and the planned request for information on AI model risk management.",
+  "correctness_score": 5,
+  "correctness_rationale": "The answer correctly states that generative AI is explicitly out of scope of the current model risk management guidance, matching the expected answer, and cites both acceptable sources.",
+  "cites_expected_source": true,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": true,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 3271,
+      "output_tokens": 82
+    },
+    "correctness": {
+      "input_tokens": 785,
+      "output_tokens": 54
+    }
+  }
+}

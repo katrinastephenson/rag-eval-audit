@@ -1,0 +1,132 @@
+{
+  "question_id": 8,
+  "question": "What does the guidance say about cryptocurrency custody?",
+  "category": "hard-negative",
+  "run_number": 1,
+  "final_answer": "The documents in this corpus do not contain specific guidance on cryptocurrency custody. The retrieved results cover third-party risk management (third_party_risk_2023.txt, sr_23_4.txt) and model risk management (sr_11_7_superseded.txt, sr_26_2.txt). The only tangential mention of crypto-assets appears in the context of commenters asking the agencies to address novel topics: some commenters suggested the agencies develop additional guidance on topics such as artificial intelligence, alternative data uses, and other novel developments, citing the agencies' crypto-asset \"policy sprints\" as an example (third_party_risk_2023.txt, index 38). However, the agencies declined to revise the third-party risk guidance to address those specific topics, noting that separate guidance on certain topics already exists (third_party_risk_2023.txt, index 39).\n\nBeyond that passing reference, the corpus does not contain any substantive guidance on cryptocurrency or digital asset custody. To get a complete answer on that topic, you would need to consult specific OCC interpretive letters (such as OCC Letter 1170 or 1183) or other agency issuances that are not present in these documents.",
+  "sources_cited": [
+    "sr_11_7_superseded.txt",
+    "third_party_risk_2023.txt"
+  ],
+  "chunks_in_context": [
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 108,
+      "chunk_id": 287,
+      "score": 0.0,
+      "text": "2000), available at https://www.ftc.gov/\u200bsites/\u200bdefault/\u200bfiles/\u200bdocuments/\u200bpublic_\u200bevents/\u200bjoint-venture-hearings-antitrust-guidelines-collaboration-among-competitors/\u200bftcdojguidelines-2.pdf. 11. For example, those of the National Institute of Standards and Technology, Accredited Standards Committee X9, and the International Standards Organization. 12. Disruptive events could include technology-based failures, human error, cyber incidents, pandemic outbreaks, and natural disasters. 13. For example, regulatory requirements regarding incident notification include the FBAs' \u201cComputer Security Incident Notification Rule.\u201d See 12 CFR 53 (OCC); 12 CFR 225, subpart N (Board); 12 CFR 304, subpart C (FDIC). 14. Third parties may enlist the help of suppliers, service providers, or other organizations, which this guidance collectively refers to as subcontractors. 15. See 12 U.S.C. 1464(d)(7)(D) and 1867(c)(1). 16. Refer to important considerations discussed in \u201cDue Diligence and Third-Party Selection\u201d of this guidance when a banking organization chooses to engage external resources to supplement its third-party risk management. 17. Each applicable business line can provide valuable input into the third-party risk management process, for example, by completing risk assessments, reviewing due diligence information, and evaluating the controls over the third-party relationship."
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 107,
+      "chunk_id": 286,
+      "score": 0.0,
+      "text": "a business arrangement with that entity. Therefore, the arrangement should be incorporated into the banking organization's third-party risk management processes. 8. The term \u201cforeign-based third-party\u201d refers to third parties whose servicing operations are located in a foreign country and subject to the law and jurisdiction of that country. Accordingly, this term does not include a U.S.-based subsidiary of a foreign firm because its servicing operations are subject to U.S. laws. This term does include U.S. third parties to the extent that their actual servicing operations are located in or subcontracted to entities domiciled in a foreign country and subject to the law and jurisdiction of that country. 9. Dual employees are employed by both the banking organization and the third party. 10. Any collaborative activities among banks must comply with antitrust laws. Refer to the Federal Trade Commission and U.S. Department of Justice's \u201cAntitrust Guidelines for Collaborations Among Competitors\u201d (April 2000), available at https://www.ftc.gov/\u200bsites/\u200bdefault/\u200bfiles/\u200bdocuments/\u200bpublic_\u200bevents/\u200bjoint-venture-hearings-antitrust-guidelines-collaboration-among-competitors/\u200bftcdojguidelines-2.pdf. 11. For example, those of the National Institute of Standards and Technology, Accredited Standards Committee X9, and the International Standards Organization. 12. Disruptive events could include technology-based failures, human error, cyber incidents, pandemic outbreaks, and natural disasters. 13. For example, regulatory requirements regarding incident notification include"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 63,
+      "chunk_id": 91,
+      "score": 0.0,
+      "text": "Break] Documentation Without adequate documentation, model risk assessment and management will be ineffective. Documentation of model development and validation should be sufficiently detailed so that parties unfamiliar with a model can understand how the model operates, its limitations, and its key assumptions. Documentation provides for continuity of operations, makes compliance with policy transparent, and helps track recommendations, responses, and exceptions. Developers, users, control and compliance units, and supervisors are all served by effective documentation. Banks can benefit from advances in information and knowledge management systems and electronic documentation to improve the organization, timeliness, and accessibility of the various records and reports produced in the model risk management process. Documentation takes time and effort, and model developers and users who know the models well may not appreciate its value. Banks should therefore provide incentives to produce effective and complete model documentation. Model developers should have responsibility during model development for thorough documentation, which should be kept up-to-date as the model and application environment changes. In addition, the bank should ensure that other participants in model risk management activities document their work, including ongoing monitoring, process verification, benchmarking, and outcomes analysis. Also, line of business or other decision makers should document information"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 64,
+      "chunk_id": 92,
+      "score": 0.0,
+      "text": "documentation, which should be kept up-to-date as the model and application environment changes. In addition, the bank should ensure that other participants in model risk management activities document their work, including ongoing monitoring, process verification, benchmarking, and outcomes analysis. Also, line of business or other decision makers should document information leading to selection of a given model and its subsequent validation. For cases in which a bank uses models from a vendor or other third party, it should ensure that appropriate documentation of the third-party approach is available so that the model can be appropriately validated. Validation reports should articulate model aspects that were reviewed, highlighting potential deficiencies over a range of financial and economic conditions, and determining whether adjustments or other compensating controls are warranted. Effective validation reports include clear executive summaries, with a statement of model purpose and an accessible synopsis of model and validation results, including major limitations and key assumptions. VII. CONCLUSION This document has provided comprehensive guidance on effective model risk management. Many of the activities described in this document are common industry practice. But all banks should confirm that their practices conform to the principles in this guidance for model development, implementation, and use,"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 65,
+      "chunk_id": 93,
+      "score": 0.0,
+      "text": "limitations and key assumptions. VII. CONCLUSION This document has provided comprehensive guidance on effective model risk management. Many of the activities described in this document are common industry practice. But all banks should confirm that their practices conform to the principles in this guidance for model development, implementation, and use, as well as model validation. Banks should also ensure that they maintain strong governance and controls to help manage model risk, including internal policies and procedures that appropriately reflect the risk management principles described in this guidance. Details of model risk management practices may vary from bank to bank, as practical application of this guidance should be commensurate with a bank's risk exposures, its business activities, and the extent and complexity of its model use."
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 49,
+      "chunk_id": 77,
+      "score": 0.0842564632720523,
+      "text": "and justified as part of validation. If vendors provide input data or assumptions, or use them to build models, their relevance for the bank's situation should be investigated. Banks should obtain information regarding the data used to develop the model and assess the extent to which that data is representative of the bank's situation. The bank also should conduct ongoing monitoring and outcomes analysis of vendor model performance using the bank's own outcomes. Systematic procedures for validation help the bank to understand the vendor product and its capabilities, applicability, and limitations. Such detailed knowledge is necessary for basic controls of bank operations. It is also very important for the bank to have as much knowledge in-house as possible, in case the vendor or the bank terminates the contract for any reason, or if the vendor is no longer in business. Banks should have contingency plans for instances when the vendor model is no longer available or cannot be supported by the vendor. VI. GOVERNANCE, POLICIES, AND CONTROLS Developing and maintaining strong governance, policies, and controls over the model risk management framework is fundamentally important to its effectiveness. Even if model development, implementation, use, and validation are satisfactory, a weak governance"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 39,
+      "chunk_id": 218,
+      "score": 0.06465530920764298,
+      "text": "issues, artificial intelligence, alternative data uses, and other novel developments, citing the agencies' crypto-asset \u201cpolicy sprints\u201d as an example. For example, as to consumer protection issues, some commenters expressed concern with certain third-party relationships, such as so-called \u201crent-a-charter\u201d arrangements that they believe are improperly used by non-bank third parties to preempt state usury laws. Multiple commenters requested that the agencies update the guidance to warn or discourage banking organizations about certain risks, such as high-interest loans or conflicts with state laws. Several commenters also suggested that the agencies use their existing authorities (such as under the Bank Service Company Act [20] ) to address the risks of what those commenters perceived as \u201csystemically important\u201d third-party service providers, or to otherwise assist banking organizations' third-party risk management efforts. Other commenters suggested the agencies and the CFPB provide for automatic sharing of service provider reports of examination with service providers' client banking organizations or provide certifications relevant to a banking organization's due diligence. In response to these comments, given the broad, principles-based approach of this guidance, the agencies have not revised the guidance to address specific topics or types of relationships. Separate guidance on certain topics or relationships already exists; these types"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 3,
+      "chunk_id": 31,
+      "score": 0.05850945665005846,
+      "text": "risk management encompasses governance and control mechanisms such as board and senior management oversight, policies and procedures, controls and compliance, and an appropriate incentive and organizational structure. Previous guidance and other publications issued by the OCC and the Federal Reserve on the use of models pay particular attention to model validation. [Footnote 2 Based on supervisory and industry experience over the past several years, this document expands on existing guidance\u2014most importantly by broadening the scope to include all aspects of model risk management. Many banks may already have in place a large portion of these practices, but all banks should ensure that internal policies and procedures are consistent with the risk management principles and supervisory expectations contained in this guidance. Details may vary from bank to bank, as practical application of this guidance should be customized to be commensurate with a bank's risk exposures, its business activities, and the complexity and extent of its model use. For example, steps taken to apply this guidance at a community bank using relatively few models of only moderate complexity might be significantly less involved than those at a larger bank where use of models is more extensive or complex. [Page Break] - For"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 15,
+      "chunk_id": 194,
+      "score": 0.05771474056452978,
+      "text": "the relationship, in lieu of establishing full due diligence practices, based on the banking organization's risk profile and individual circumstances of the relationship. Commenters also suggested that the agencies could provide examples of appropriate practices specific to smaller banking organizations or of the specific risks that certain categories of third parties or critical activities may pose to smaller banking organizations. Several commenters requested some form of acknowledgment that smaller banking organizations may lack the necessary resources to thoroughly vet third parties, and thus should be afforded some form of \u201csafe harbor\u201d relating to third-party risk management to allow them to compete in the digital era. In addition, commenters suggested incorporating concepts from OCC FAQs 5, 6, and 7 to help reinforce flexibility for community banking organizations (acknowledging, for example, that banking organizations may have limited negotiating power, that there is no one way for banks to structure their third-party risk management processes, and that not all relationships warrant the same level of oversight or risk management). In response to these comments, the agencies reiterate that the guidance is relevant to all banking organizations. The agencies have incorporated concepts from OCC FAQ 9, clarifying language in the guidance about tailoring third-party"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 38,
+      "chunk_id": 217,
+      "score": 0.05500755298150661,
+      "text": "Others thought that the existence of a separate set of FAQs would create unnecessary confusion for examiners and the industry. In response, the agencies have not incorporated issue-specific FAQs where it was determined the matters are adequately reflected in other issuances published since the OCC FAQs were last updated. Several commenters requested greater coordination among federal, state, and foreign regulators with respect to this guidance. Specifically, a few commenters suggested that other federal government agencies, such as the National Credit Union Administration, join the agencies in issuing this guidance. Another commenter urged the agencies to support federal legislative proposals that would clarify the authority of state regulators to examine third-party service providers together with the agencies. Some commenters suggested that the agencies develop additional guidance and educational resources on a wide array of separate topics that a banking organization's third-party risk management processes could touch upon, such as consumer protection issues, artificial intelligence, alternative data uses, and other novel developments, citing the agencies' crypto-asset \u201cpolicy sprints\u201d as an example. For example, as to consumer protection issues, some commenters expressed concern with certain third-party relationships, such as so-called \u201crent-a-charter\u201d arrangements that they believe are improperly used by non-bank third parties to"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 60,
+      "chunk_id": 88,
+      "score": 0.05403783403273143,
+      "text": "model risk management framework. These activities could include model validation and review, compliance functions, or other activities in support of internal audit. These resources may provide added knowledge and another level of critical and effective challenge, which may improve the internal model development and risk management processes. However, this potential benefit should be weighed against the added costs for such resources and the added time that external parties require to understand internal data, systems, and other relevant bank-specific circumstances. Whenever external resources are used, the bank should specify the activities to be conducted in a clearly written and agreed-upon scope of work. A designated internal party from the bank should be able to understand and evaluate the results of validation and risk-control activities conducted by external resources. The internal party is responsible for: verifying that the agreed upon scope of work has been completed; evaluating and tracking identified issues and ensuring they are addressed; and making sure that completed work is incorporated into the bank's overall model risk management framework. If the external resources are only utilized to do a portion of validation or compliance work, the bank should coordinate internal resources to complete the full range of work needed."
+    },
+    {
+      "source": "sr_23_4.txt",
+      "index": 0,
+      "chunk_id": 94,
+      "score": 0.10263717090550048,
+      "text": "Board of Governors of the Federal Reserve System Federal Deposit Insurance Corporation Office of the Comptroller of the Currency June 7, 2023 Interagency Guidance on Third-Party Relationships: Risk Management The Board, FDIC, and OCC (collectively, the agencies) are issuing final guidance on managing risks associated with third-party relationships. The final guidance offers the agencies' views on sound risk management principles for banking organizations when developing and implementing risk management practices for all stages in the life cycle of third-party relationships. The final guidance states that sound third-party risk management takes into account the level of risk, complexity, and size of the banking organization and the nature of the third-party relationship. The agencies are issuing this joint guidance to promote consistency in supervisory approaches; it replaces each agency's existing general guidance on this topic and is directed to all banking organizations supervised by the agencies. A. OVERVIEW The Board of Governors of the Federal Reserve System (Board), the Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptroller of the Currency (OCC) (collectively, the agencies) have issued this guidance to provide sound risk management principles supervised banking organizations [Footnote 1 can leverage when developing and implementing risk management practices to"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 0,
+      "chunk_id": 179,
+      "score": 0.09640341324347575,
+      "text": "Interagency Guidance on Third-Party Relationships: Risk Management Federal Reserve System [Docket No. OP-1752] Federal Deposit Insurance Corporation RIN 3064-ZA26 Department of the Treasury Office of the Comptroller of the Currency [Docket ID OCC-2021-0011] AGENCY: The Board of Governors of the Federal Reserve System (Board), the Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptroller of the Currency (OCC), Treasury. ACTION: Final interagency guidance. SUMMARY: The Board, FDIC, and OCC (collectively, the agencies) are issuing final guidance on managing risks associated with third-party relationships. The final guidance offers the agencies' views on sound risk management principles for banking organizations when developing and implementing risk management practices for all stages in the life cycle of third-party relationships. The final guidance states that sound third-party risk management takes into account the level of risk, complexity, and size of the banking organization and the nature of the third-party relationship. The agencies are issuing this joint guidance to promote consistency in supervisory approaches; it replaces each agency's existing general guidance on this topic and is directed to all banking organizations supervised by the agencies. DATES: The guidance is final as of June 6, 2023. FOR FURTHER INFORMATION CONTACT: Board: Kavita Jain, Deputy Associate"
+    },
+    {
+      "source": "sr_23_4.txt",
+      "index": 1,
+      "chunk_id": 95,
+      "score": 0.05910674539376726,
+      "text": "of the Federal Reserve System (Board), the Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptroller of the Currency (OCC) (collectively, the agencies) have issued this guidance to provide sound risk management principles supervised banking organizations [Footnote 1 can leverage when developing and implementing risk management practices to assess and manage risks associated with third-party relationships. [Footnote 2 Whether activities are performed internally or via a third party, banking organizations are required to operate in a safe and sound manner [Footnote 3 regulations. [Footnote 4 and in compliance with applicable laws and A banking organization's use of third parties does not diminish its responsibility to meet these requirements to the same extent as if its activities were performed by the banking organization in-house. To operate in a safe and sound manner, a banking organization- For a description of the banking organizations supervised by each agency, refer to the definition of \u201cappropriate Federal banking agency\u201d in section 3(q) of the Federal Deposit Insurance Act (12 U.S.C. 1813(q)). This guidance is relevant to all banking organizations supervised by the agencies. End of Footnote 1.]- Supervisory guidance does not have the force and effect of law and does not impose any"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 42,
+      "chunk_id": 221,
+      "score": 0.05691572079352862,
+      "text": "Office of Management and Budget (OMB) control number. The guidance does not revise any existing, or create any new, information collections pursuant to the PRA. Rather, any reporting, recordkeeping, or disclosure activities mentioned in the guidance are usual and customary and should occur in the normal course of business as defined in the PRA.[21] Consequently, no submissions will be made to the OMB for review. IV. Text of Final Interagency Guidance on Third-Party Relationships A. Overview B. Risk Management C. Third-Party Relationship Life Cycle 1. Planning 2. Due Diligence and Third-Party Selection 3. Contract Negotiation 4. Ongoing Monitoring 5. Termination D. Governance 1. Oversight and Accountability 2. Independent Reviews 3. Documentation and Reporting E. Supervisory Reviews of Third-Party Relationships A. Overview The Board of Governors of the Federal Reserve System (Board), the Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptroller of the Currency (OCC) (collectively, the agencies) have issued this guidance to provide sound risk management principles supervised banking organizations [1] can leverage when developing and implementing risk management practices to assess and manage risks associated with third-party relationships.[2] Whether activities are performed internally or via a third party, banking organizations are required to operate in a"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 2,
+      "chunk_id": 161,
+      "score": 0.056552816674768296,
+      "text": "with a different risk profile or that uses a model for a different purpose. Although this guidance may be useful for any type of model, the general expectation is that it will be most useful for models supporting a banking organization\u2019s significant business lines, operations, services, and functions. This guidance does not set forth enforceable standards or prescriptive requirements; accordingly, non-compliance with this guidance will not result in supervisory criticism against a banking organization.1 II. Purpose and Scope Based on supervisory experience and industry feedback, as well as technological advancements in modeling over the past several years, the Office of the Comptroller of the Currency, Board of Governors of the Federal Reserve System, and Federal Deposit Insurance Corporation (the \u201cagencies\u201d) are issuing this revised model risk management guidance to clarify model risk management principles, and to set forth a risk-based approach to model risk management, tailored to a banking organization\u2019s model risk profile and the size and complexity of its operations. This guidance is expected to be most relevant to banking organizations with over $30 billion in total assets.2 Models used by banking organizations with total assets of $30 billion or less typically are subject to internal risk management and"
+    }
+  ],
+  "rounds_used": 3,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 11738,
+    "output_tokens": 463
+  }
+}

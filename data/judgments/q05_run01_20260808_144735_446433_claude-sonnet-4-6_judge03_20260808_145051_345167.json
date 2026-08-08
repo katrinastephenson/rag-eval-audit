@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q05_run01_20260808_144735_446433.json",
+  "question_id": 5,
+  "question": "Are community banks required to perform annual model validation?",
+  "category": "staleness-trap",
+  "judge_run_number": 3,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every claim in the answer is directly supported by the retrieved context: the scaling of model risk management to institution size (index=4), the at-least-annual periodic review expectation (index=30), the variation in timing and frequency of validation based on model characteristics (sr_26_2.txt index=11), and the principle that rigor should be commensurate with risk exposures and complexity (index=3/4).",
+  "correctness_score": 3,
+  "correctness_rationale": "The AI answer correctly states that community banks are not required to perform annual model validation and notes that requirements scale with complexity, but it introduces conflicting information by citing a 'general expectation' of at least annual review, and it does not cite the expected source (occ_2026_13.txt).",
+  "cites_expected_source": false,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": false,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 2858,
+      "output_tokens": 106
+    },
+    "correctness": {
+      "input_tokens": 767,
+      "output_tokens": 89
+    }
+  }
+}

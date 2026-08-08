@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q06_run01_20260808_144742_094493.json",
+  "question_id": 6,
+  "question": "What are the capital requirements for community banks?",
+  "category": "hard-negative",
+  "judge_run_number": 3,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "The answer honestly abstains from answering a question about community bank capital requirements, correctly noting the retrieved context only covers model risk management \u2014 this is an accurate and fully grounded abstention.",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": true,
+  "abstain_rationale": "The answer explicitly states the retrieved corpus does not contain information about community bank capital requirements and directs the user to external sources, making no substantive claims about the actual requirements.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 2970,
+      "output_tokens": 50
+    },
+    "abstain": {
+      "input_tokens": 456,
+      "output_tokens": 50
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "question_id": 7,
+  "question": "How often must banks retrain machine learning models?",
+  "category": "hard-negative",
+  "run_number": 1,
+  "final_answer": "Regulatory guidance does not prescribe a fixed retraining schedule for machine learning or other models. Instead, it calls for ongoing monitoring whose frequency and scope depend on the nature of the model, the availability of new data or modeling approaches, and the magnitude of risk involved (sr_11_7_superseded.txt, index=35). When monitoring reveals that a model no longer performs as expected due to changes in products, exposures, activities, clients, data relevance, or market conditions, the bank must decide whether to apply overlays, adjust, or fully redevelop the model based on its own model risk management policy (sr_26_2.txt, index=14). Outcomes analysis comparing model outputs to real-world results may also identify material errors or persistent deviations beyond established performance thresholds, at which point recalibration or redevelopment may be warranted (sr_26_2.txt, index=13).\n\nIn short, there is no mandated retraining interval. Banks are expected to set their own risk-based monitoring programs and retrain models whenever deterioration is detected, with more complex or material models subject to more rigorous and frequent scrutiny (sr_11_7_superseded.txt, index=35; sr_26_2.txt, index=14).",
+  "sources_cited": [
+    "sr_11_7_superseded.txt",
+    "sr_26_2.txt"
+  ],
+  "chunks_in_context": [
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 47,
+      "chunk_id": 75,
+      "score": 0.13452443070017797,
+      "text": "attention should be paid to the model's limitations when considering the appropriateness of model usage, and senior management should be fully informed of those limitations when using the models for decision making. Such scrutiny should be applied to individual models and models in the aggregate. Validation of Vendor and Other Third-Party Products The widespread use of vendor and other third-party products\u2014including data, parameter values, and complete models\u2014poses unique challenges for validation and other model risk management activities because the modeling expertise is external to the user and because some components are considered proprietary. Vendor products should nevertheless be incorporated into a bank's broader model risk management framework following the same principles as applied to in-house models, although the process may be somewhat modified. [Page Break] As a first step, banks should ensure that there are appropriate processes in place for selecting vendor models. Banks should require the vendor to provide developmental evidence explaining the product components, design, and intended use, to determine whether the model is appropriate for the bank's products, exposures, and risks. Vendors should provide appropriate testing results that show their product works as expected. They should also clearly indicate the model's limitations and assumptions and where the"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 1,
+      "chunk_id": 29,
+      "score": 0.09886970506523055,
+      "text": "the U.S. regulatory capital rules for market, credit, and operational risk based on the framework developed by the Basel Committee on Banking Supervision. Even apart from these regulatory considerations, however, banks have been increasing the use of data-driven, quantitative decision-making tools for a number of years. The expanding use of models in all aspects of banking reflects the extent to which models can improve business decisions, but models also come with costs. There is the direct cost of devoting resources to develop and implement models properly. There are also the potential indirect costs of relying on models, such as the possible adverse consequences (including financial loss) of decisions based on models that are incorrect or misused. Those consequences should be addressed by active management of model risk. [Page Break] - Unless otherwise indicated, banks refers to national banks and all other institutions for which the Office of the Comptroller of the Currency is the primary supervisor, and to bank holding companies, state member banks, and all other institutions for which the Federal Reserve Board is the primary supervisor. End of Footnote 1.] This guidance describes the key aspects of effective model risk management. Section II explains the purpose and scope"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 48,
+      "chunk_id": 76,
+      "score": 0.0615438018503557,
+      "text": "developmental evidence explaining the product components, design, and intended use, to determine whether the model is appropriate for the bank's products, exposures, and risks. Vendors should provide appropriate testing results that show their product works as expected. They should also clearly indicate the model's limitations and assumptions and where the product's use may be problematic. Banks should expect vendors to conduct ongoing performance monitoring and outcomes analysis, with disclosure to their clients, and to make appropriate modifications and updates over time. Banks are expected to validate their own use of vendor products. External models may not allow full access to computer coding and implementation details, so the bank may have to rely more on sensitivity analysis and benchmarking. Vendor models are often designed to provide a range of capabilities and so may need to be customized by a bank for its particular circumstances. A bank's customization choices should be documented and justified as part of validation. If vendors provide input data or assumptions, or use them to build models, their relevance for the bank's situation should be investigated. Banks should obtain information regarding the data used to develop the model and assess the extent to which that data is representative"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 17,
+      "chunk_id": 45,
+      "score": 0.06093099457347966,
+      "text": "boundaries of model effectiveness. The impact of model results on other models that rely on those results as inputs should also be evaluated. Included in testing activities should be the purpose, design, and execution of test plans, summary results with commentary and evaluation, and detailed analysis of informative samples. Testing activities should be appropriately documented. The nature of testing and analysis will depend on the type of model and will be judged by different criteria depending on the context. For example, the appropriate statistical tests depend on specific distributional assumptions and the purpose of the model. Furthermore, in many cases statistical tests cannot unambiguously reject false hypotheses or accept true ones based on sample information. Different tests have different strengths and weaknesses under different conditions. Any single test is rarely sufficient, so banks should apply a variety of tests to develop a sound model. [Page Break] Banks should ensure that the development of the more judgmental and qualitative aspects of their models is also sound. In some cases, banks may take statistical output from a model and modify it with judgmental or qualitative adjustments as part of model development. While such practices may be appropriate, banks should ensure that any"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 11,
+      "chunk_id": 39,
+      "score": 0.060474141636517965,
+      "text": "issues. Such influence comes from a combination of explicit authority, stature within the organization, and commitment and support from higher levels of management. Even with skilled modeling and robust validation, model risk cannot be eliminated, so other tools should be used to manage model risk effectively. Among these are establishing limits on model use, monitoring model performance, adjusting or revising models over time, and supplementing model results with other analysis and information. Informed conservatism, in either the inputs or the design of a model or through explicit [Page Break] adjustments to outputs, can be an effective tool, though not an excuse to avoid improving models. As is generally the case with other risks, materiality is an important consideration in model risk management. If at some banks the use of models is less pervasive and has less impact on their financial condition, then those banks may not need as complex an approach to model risk management in order to meet supervisory expectations. However, where models and model output have a material impact on business decisions, including decisions related to risk management and capital and liquidity planning, and where model failure would have a particularly harmful impact on a bank's financial condition,"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 5,
+      "chunk_id": 164,
+      "score": 0.19670713692808825,
+      "text": "developing the model, the model\u2019s complexity, the quality of inputs for the model, and data constraints. Inherent risk increases with model complexity and the criticality or number of assumptions necessary, among other factors. Model exposure refers to the significance of the model output to a banking organization\u2019s business decisions, which tends to be greater for models affecting larger portfolios or having a larger business impact. Model exposure can be quantitatively measured (e.g., by portfolio size). Model purpose is a qualitative consideration that involves the nature and importance of the models used by banking organizations. For example, models developed to help meet regulatory requirements or manage a banking organization\u2019s financial risk exposures are generally considered to be of greater risk than models that are not used for such purposes. Model purpose, together with model exposure, determines model materiality. Assessing risk based on model materiality is an important consideration for sound model risk management. Banking organizations may deem certain models immaterial based on model exposure and purpose. In those cases, model risk management may consist of identifying those models and monitoring model performance and conditions under which the use of those models may become material to the banking organization in the future."
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 9,
+      "chunk_id": 168,
+      "score": 0.1779091340104848,
+      "text": "approaches. Input from model users can enhance model development by providing business context and practical insights. Business managers affected by model outcomes may raise questions about the methods or assumptions, particularly when the outcomes are unexpected. Constructive engagement around model design and assumptions strengthens both model understanding and model quality. Model testing is a core component of model development that evaluates whether a model performs as intended. Testing may include a range of activities, from out-of-sample and out-of-time testing, to a comparison of alternative assumptions and methodologies, to a critical assessment of data quality, relevance, and inputs. Testing may be performed by model developers in collaboration with model users. The specific approach depends on the model\u2019s characteristics. The rigor of effective testing is commensurate with model complexity and materiality. For models that have relatively less material impact or for banking organizations with relatively less complex operations, model testing may be more limited in scope. Model Use Effective model use depends on a clear understanding of a model\u2019s limitations. Model use enables ongoing performance assessment as conditions evolve. User feedback provides business insights that enhance future development. Constructive engagement, particularly around model design, assumptions, and outcomes, strengthens both model understanding and"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 8,
+      "chunk_id": 167,
+      "score": 0.17094582724786242,
+      "text": "rigor commensurate with that risk. Effective model risk management therefore warrants consideration of model risk in the context of the broader business risks that models support or influence. IV. Model Development and Model Use Model Development Sound model development activities are aligned with model purpose, business use, and banking organization policy. Model development is not purely a technical exercise. The developer\u2019s judgment influences the model\u2019s conceptual design and soundness, inputs, assumptions, and methodology, all of which affect a model\u2019s inherent risk. Because model development is often multidisciplinary, tailored to actual use, and involves significant subjectivity throughout its lifecycle, sound development practices are important for effective model risk management. An effective development process generally begins with a clear statement of purpose to maximize the likelihood that model development is aligned with the intended use. This fundamental step supports decision-making throughout the development lifecycle, including the selection of data, methodologies, and testing approaches. Input from model users can enhance model development by providing business context and practical insights. Business managers affected by model outcomes may raise questions about the methods or assumptions, particularly when the outcomes are unexpected. Constructive engagement around model design and assumptions strengthens both model understanding and model quality."
+    },
+    {
+      "source": "occ_2026_13.txt",
+      "index": 4,
+      "chunk_id": 25,
+      "score": 0.16924242929490757,
+      "text": "other developments by clarifying the scope of model risk management under existing guidance while acknowledging that the OCC will continue to review model risk management guidance.4 For the purposes of this guidance, the term \u201cmodel\u201d refers to a complex quantitative method, system, or approach that applies statistical, economic, or financial theories to process input data into quantitative estimates. The term \u201cmodel\u201d in this guidance excludes simple arithmetic calculations, such as those found within spreadsheets, as well as deterministic rule-based processes and software where there are no statistical, economic, or financial theories underpinning their design or use. Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance. Furthermore, this guidance is expected to be most relevant to banking organizations with over $30 billion in total assets. However, in some situations, this guidance also may be relevant to banking organizations with total assets of $30 billion or less that have significant exposure to model risk because of the prevalence and complexity of their models or because of activities outside the scope of traditional community banking. This guidance highlights sound principles for effective model risk management. In particular, the guidance discusses"
+    },
+    {
+      "source": "occ_2026_13.txt",
+      "index": 5,
+      "chunk_id": 26,
+      "score": 0.16636878899535654,
+      "text": "with total assets of $30 billion or less that have significant exposure to model risk because of the prevalence and complexity of their models or because of activities outside the scope of traditional community banking. This guidance highlights sound principles for effective model risk management. In particular, the guidance discusses the factors that influence model risk and the features of effective (1) model development and model use, including model testing; (2) model validation and monitoring, including validating conceptual soundness and outcomes analyses; and (3) governance and controls, including clear policies and roles and responsibilities. The guidance also discusses considerations specific to vendor and other third-party products, including validation of these products. However, as the guidance makes clear, the guidance does not set forth enforceable standards or prescriptive requirements. The agencies will continue to consider additional measures to address model risk management consistent with broader supervisory and other goals. For example, the agencies plan to issue in the near future a request for information that addresses model risk management generally and considers, in particular, banks\u2019 use of AI, including generative AI and agentic AI and AI-based models. Further Information Please contact Chau Do, Chief Economist and Deputy Comptroller for Economics in"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 14,
+      "chunk_id": 173,
+      "score": 0.1753795370255313,
+      "text": "appropriateness of the results, with additional analysis and testing, if warranted. When a model\u2019s design relies substantially on expert judgment, quantitative outcomes analysis helps to evaluate the quality of that judgment. Ongoing Model Monitoring Ongoing model monitoring involves an evaluation of the extent to which a model is performing as expected given potential changes in products, exposures, activities, clients, data relevance, or market conditions. A model that no longer performs as expected may warrant overlays, adjustment, or redevelopment of the model depending on a banking organization\u2019s model risk management policy as it pertains to model deterioration. An effective ongoing monitoring plan may also include regularly assessing any model limitations at the development stage and over time, along with procedures for responding to any issues that may occur, before and after a model is approved for use. The frequency and scope of monitoring reports will depend on the nature of the model, the availability of new data or modeling approaches, and model materiality. VI. Governance and Controls All components of the model lifecycle benefit from model governance that is supported by clear policies and effective controls. Effective policies define risk management expectations and establish a framework for assessing the magnitude of"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 13,
+      "chunk_id": 172,
+      "score": 0.12120057621924346,
+      "text": "other assessments\u2014such as interpretability measures or benchmarking to other models\u2014may be more practical for other models. Sound practice subjects modeling aspects to critical analysis by evaluating both the quality and extent of developmental evidence. Outcome Analysis Outcomes analysis compares model outputs to corresponding real-world outcomes to assess model performance relative to model objectives and business use. Outcomes analysis and other elements of the validation process may identify material errors or persistent deviations outside of the banking organization\u2019s established performance thresholds. In such cases, model adjustment, recalibration, or redevelopment may be warranted. Outcomes analysis can take many forms, including testing conducted during model development, reports or analysis performed as part of ongoing monitoring, or standalone activities such as back-testing or outlier analysis. A banking organization\u2019s approach depends on the model\u2019s objectives, methodology, and data availability. As part of model validation, sound practice involves reviewing outcomes analysis to evaluate the reasonableness and appropriateness of the results, with additional analysis and testing, if warranted. When a model\u2019s design relies substantially on expert judgment, quantitative outcomes analysis helps to evaluate the quality of that judgment. Ongoing Model Monitoring Ongoing model monitoring involves an evaluation of the extent to which a model is performing as"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 88,
+      "chunk_id": 267,
+      "score": 0.1100325704476394,
+      "text": "the level of risk and complexity of the relationship and the activity performed by the third party. Ongoing monitoring may be conducted on a periodic or continuous basis, and more comprehensive or frequent monitoring is appropriate when a third-party relationship supports higher-risk activities, including critical activities. Because both the level and types of risks may change over the lifetime of third-party relationships, banking organizations may adapt their ongoing monitoring practices accordingly, including changes to the frequency or type of information used in monitoring. Typical monitoring activities include: (1) review of reports regarding the third party's performance and the effectiveness of its controls; (2) periodic visits and meetings with third-party representatives to discuss performance and operational issues; and (3) regular testing of the banking organization's controls that manage risks from its third-party relationships, particularly when supporting higher-risk activities, including critical activities. In certain circumstances, based on risk, a banking organization may also perform direct testing of the third party's own controls. To gain efficiencies or leverage specialized expertise, banking organizations may engage external resources, refer to conformity assessments or certifications, or collaborate when performing ongoing monitoring.[16] To support effective monitoring, a banking organization dedicates sufficient staffing with the necessary expertise, authority,"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 35,
+      "chunk_id": 63,
+      "score": 0.10515305615855987,
+      "text": "to establish the conceptual soundness of the model and set appropriate conditions for its use. The validation process should ensure that qualitative, judgmental assessments are conducted in an appropriate and systematic manner, are well supported, and are documented. 2. Ongoing Monitoring The second core element of the validation process is ongoing monitoring. Such monitoring confirms that the model is appropriately implemented and is being used and is performing as intended. Ongoing monitoring is essential to evaluate whether changes in products, exposures, activities, clients, or market conditions necessitate adjustment, redevelopment, or replacement of the model and to verify that any extension of the model beyond its original scope is valid. Any model limitations identified in the development stage should be regularly assessed over time, as part of ongoing monitoring. Monitoring begins when a model is first implemented in production systems for actual business use. This monitoring should continue periodically over time, with a frequency appropriate to the nature of the model, the availability of new data or modeling approaches, and the magnitude of the risk involved. Banks should design a program of ongoing testing and evaluation of model performance along with procedures for responding to any problems that appear. This program"
+    },
+    {
+      "source": "sr_23_4.txt",
+      "index": 50,
+      "chunk_id": 144,
+      "score": 0.10459546743386658,
+      "text": "controls and ability to meet contractual obligations; (2) escalate significant issues or concerns, such as material or repeat audit findings, deterioration in financial condition, security breaches, data loss, service interruptions, compliance lapses, or other indicators of increased risk; and (3) respond to such significant issues or concerns when identified. Effective third-party risk management includes ongoing monitoring throughout the duration of a third-party relationship, commensurate with the level of risk and complexity of the relationship and the activity performed by the third party. Ongoing monitoring may be conducted on a periodic or continuous basis, and more comprehensive or frequent monitoring is appropriate when a third-party relationship supports higher-risk activities, including critical activities. Because both the level and types of risks may change over the lifetime of third-party relationships, banking organizations may adapt their ongoing monitoring practices accordingly, including changes to the frequency or type of information used in monitoring.- See 12 U.S.C. 1464(d)(7)(D) and 1867(c)(1). End of Footnote .] 15 Typical monitoring activities include: (1) review of reports regarding the third party's performance and the effectiveness of its controls; (2) periodic visits and meetings with third- party representatives to discuss performance and operational issues; and (3) regular testing of the banking"
+    }
+  ],
+  "rounds_used": 3,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 9771,
+    "output_tokens": 443
+  }
+}
