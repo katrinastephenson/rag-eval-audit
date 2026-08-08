@@ -1,0 +1,118 @@
+{
+  "question_id": 7,
+  "question": "How often must banks retrain machine learning models?",
+  "category": "hard-negative",
+  "run_number": 3,
+  "final_answer": "The regulatory guidance does not specify a mandatory retraining schedule specifically for machine learning models. Instead, the guidance focuses on model validation and monitoring more broadly. Banks are required to conduct a periodic review of each model at least annually, but more frequently if warranted by changes in markets, products, exposures, activities, clients, or business practices (sr_11_7_superseded.txt, index 30). Material changes to models must also trigger validation (sr_11_7_superseded.txt, index 30).\n\nWhen validation or ongoing monitoring reveals performance deterioration, banking organizations are expected to consider whether model adjustments, recalibration, or redevelopment are warranted (sr_26_2.txt, index 11). The timing, nature, and frequency of these activities vary based on model purpose, methodology, frequency and scope of model changes, data limitations, and other practical constraints (sr_26_2.txt, index 11).\n\nIn short, there is no fixed regulatory rule mandating model retraining on a specific schedule. The standard is performance-driven and risk-based: models must be reviewed at least annually, and any meaningful deterioration in performance or material change in conditions should prompt recalibration or redevelopment.",
+  "sources_cited": [
+    "sr_11_7_superseded.txt",
+    "sr_26_2.txt"
+  ],
+  "chunks_in_context": [
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 47,
+      "chunk_id": 75,
+      "score": 0.13452443070017797,
+      "text": "attention should be paid to the model's limitations when considering the appropriateness of model usage, and senior management should be fully informed of those limitations when using the models for decision making. Such scrutiny should be applied to individual models and models in the aggregate. Validation of Vendor and Other Third-Party Products The widespread use of vendor and other third-party products\u2014including data, parameter values, and complete models\u2014poses unique challenges for validation and other model risk management activities because the modeling expertise is external to the user and because some components are considered proprietary. Vendor products should nevertheless be incorporated into a bank's broader model risk management framework following the same principles as applied to in-house models, although the process may be somewhat modified. [Page Break] As a first step, banks should ensure that there are appropriate processes in place for selecting vendor models. Banks should require the vendor to provide developmental evidence explaining the product components, design, and intended use, to determine whether the model is appropriate for the bank's products, exposures, and risks. Vendors should provide appropriate testing results that show their product works as expected. They should also clearly indicate the model's limitations and assumptions and where the"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 1,
+      "chunk_id": 29,
+      "score": 0.09886970506523055,
+      "text": "the U.S. regulatory capital rules for market, credit, and operational risk based on the framework developed by the Basel Committee on Banking Supervision. Even apart from these regulatory considerations, however, banks have been increasing the use of data-driven, quantitative decision-making tools for a number of years. The expanding use of models in all aspects of banking reflects the extent to which models can improve business decisions, but models also come with costs. There is the direct cost of devoting resources to develop and implement models properly. There are also the potential indirect costs of relying on models, such as the possible adverse consequences (including financial loss) of decisions based on models that are incorrect or misused. Those consequences should be addressed by active management of model risk. [Page Break] - Unless otherwise indicated, banks refers to national banks and all other institutions for which the Office of the Comptroller of the Currency is the primary supervisor, and to bank holding companies, state member banks, and all other institutions for which the Federal Reserve Board is the primary supervisor. End of Footnote 1.] This guidance describes the key aspects of effective model risk management. Section II explains the purpose and scope"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 48,
+      "chunk_id": 76,
+      "score": 0.0615438018503557,
+      "text": "developmental evidence explaining the product components, design, and intended use, to determine whether the model is appropriate for the bank's products, exposures, and risks. Vendors should provide appropriate testing results that show their product works as expected. They should also clearly indicate the model's limitations and assumptions and where the product's use may be problematic. Banks should expect vendors to conduct ongoing performance monitoring and outcomes analysis, with disclosure to their clients, and to make appropriate modifications and updates over time. Banks are expected to validate their own use of vendor products. External models may not allow full access to computer coding and implementation details, so the bank may have to rely more on sensitivity analysis and benchmarking. Vendor models are often designed to provide a range of capabilities and so may need to be customized by a bank for its particular circumstances. A bank's customization choices should be documented and justified as part of validation. If vendors provide input data or assumptions, or use them to build models, their relevance for the bank's situation should be investigated. Banks should obtain information regarding the data used to develop the model and assess the extent to which that data is representative"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 17,
+      "chunk_id": 45,
+      "score": 0.06093099457347966,
+      "text": "boundaries of model effectiveness. The impact of model results on other models that rely on those results as inputs should also be evaluated. Included in testing activities should be the purpose, design, and execution of test plans, summary results with commentary and evaluation, and detailed analysis of informative samples. Testing activities should be appropriately documented. The nature of testing and analysis will depend on the type of model and will be judged by different criteria depending on the context. For example, the appropriate statistical tests depend on specific distributional assumptions and the purpose of the model. Furthermore, in many cases statistical tests cannot unambiguously reject false hypotheses or accept true ones based on sample information. Different tests have different strengths and weaknesses under different conditions. Any single test is rarely sufficient, so banks should apply a variety of tests to develop a sound model. [Page Break] Banks should ensure that the development of the more judgmental and qualitative aspects of their models is also sound. In some cases, banks may take statistical output from a model and modify it with judgmental or qualitative adjustments as part of model development. While such practices may be appropriate, banks should ensure that any"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 11,
+      "chunk_id": 39,
+      "score": 0.060474141636517965,
+      "text": "issues. Such influence comes from a combination of explicit authority, stature within the organization, and commitment and support from higher levels of management. Even with skilled modeling and robust validation, model risk cannot be eliminated, so other tools should be used to manage model risk effectively. Among these are establishing limits on model use, monitoring model performance, adjusting or revising models over time, and supplementing model results with other analysis and information. Informed conservatism, in either the inputs or the design of a model or through explicit [Page Break] adjustments to outputs, can be an effective tool, though not an excuse to avoid improving models. As is generally the case with other risks, materiality is an important consideration in model risk management. If at some banks the use of models is less pervasive and has less impact on their financial condition, then those banks may not need as complex an approach to model risk management in order to meet supervisory expectations. However, where models and model output have a material impact on business decisions, including decisions related to risk management and capital and liquidity planning, and where model failure would have a particularly harmful impact on a bank's financial condition,"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 24,
+      "chunk_id": 52,
+      "score": 0.18678815763062226,
+      "text": "a solution that dissuades the bank from making the effort to improve the model; in addition, excessive conservatism can lead model users to discount the model outputs. As this section has explained, robust model development, implementation, and use is important to model risk management. But it is not enough for model developers and users to understand and accept the model. Because model risk is ultimately borne by the bank as a whole, the bank should objectively assess model risk and the associated costs and benefits using a sound model-validation process. [Page Break] - To the extent that models are used to generate amounts included in public financial statements, any adjustments for model uncertainty must comply with generally accepted accounting principles. End of Footnote 5.] V. MODEL VALIDATION Model validation is the set of processes and activities intended to verify that models are performing as expected, in line with their design objectives and business uses. Effective validation helps ensure that models are sound. It also identifies potential limitations and assumptions, and assesses their possible impact. As with other aspects of effective challenge, model validation should be performed by staff with appropriate incentives, competence, and influence. All model components, including input, processing,"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 49,
+      "chunk_id": 77,
+      "score": 0.1728555712493013,
+      "text": "and justified as part of validation. If vendors provide input data or assumptions, or use them to build models, their relevance for the bank's situation should be investigated. Banks should obtain information regarding the data used to develop the model and assess the extent to which that data is representative of the bank's situation. The bank also should conduct ongoing monitoring and outcomes analysis of vendor model performance using the bank's own outcomes. Systematic procedures for validation help the bank to understand the vendor product and its capabilities, applicability, and limitations. Such detailed knowledge is necessary for basic controls of bank operations. It is also very important for the bank to have as much knowledge in-house as possible, in case the vendor or the bank terminates the contract for any reason, or if the vendor is no longer in business. Banks should have contingency plans for instances when the vendor model is no longer available or cannot be supported by the vendor. VI. GOVERNANCE, POLICIES, AND CONTROLS Developing and maintaining strong governance, policies, and controls over the model risk management framework is fundamentally important to its effectiveness. Even if model development, implementation, use, and validation are satisfactory, a weak governance"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 12,
+      "chunk_id": 40,
+      "score": 0.16592727789500517,
+      "text": "approach to model risk management in order to meet supervisory expectations. However, where models and model output have a material impact on business decisions, including decisions related to risk management and capital and liquidity planning, and where model failure would have a particularly harmful impact on a bank's financial condition, a bank's model risk management framework should be more extensive and rigorous. Model risk management begins with robust model development, implementation, and use. Another essential element is a sound model validation process. A third element is governance, which sets an effective framework with defined roles and responsibilities for clear communication of model limitations and assumptions, as well as the authority to restrict model usage. The following sections of this document cover each of these elements. IV. MODEL DEVELOPMENT, IMPLEMENTATION, AND USE Model risk management should include disciplined and knowledgeable development and implementation processes that are consistent with the situation and goals of the model user and with bank policy. Model development is not a straightforward or routine technical process. The experience and judgment of developers, as much as their technical knowledge, greatly influence the appropriate selection of inputs and processing components. The training and experience of developers exercising such judgment"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 9,
+      "chunk_id": 168,
+      "score": 0.15751683008172138,
+      "text": "approaches. Input from model users can enhance model development by providing business context and practical insights. Business managers affected by model outcomes may raise questions about the methods or assumptions, particularly when the outcomes are unexpected. Constructive engagement around model design and assumptions strengthens both model understanding and model quality. Model testing is a core component of model development that evaluates whether a model performs as intended. Testing may include a range of activities, from out-of-sample and out-of-time testing, to a comparison of alternative assumptions and methodologies, to a critical assessment of data quality, relevance, and inputs. Testing may be performed by model developers in collaboration with model users. The specific approach depends on the model\u2019s characteristics. The rigor of effective testing is commensurate with model complexity and materiality. For models that have relatively less material impact or for banking organizations with relatively less complex operations, model testing may be more limited in scope. Model Use Effective model use depends on a clear understanding of a model\u2019s limitations. Model use enables ongoing performance assessment as conditions evolve. User feedback provides business insights that enhance future development. Constructive engagement, particularly around model design, assumptions, and outcomes, strengthens both model understanding and"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 61,
+      "chunk_id": 89,
+      "score": 0.1558241467005457,
+      "text": "ensuring they are addressed; and making sure that completed work is incorporated into the bank's overall model risk management framework. If the external resources are only utilized to do a portion of validation or compliance work, the bank should coordinate internal resources to complete the full range of work needed. The bank should have a contingency plan in case an external resource is no longer available or is unsatisfactory. Model Inventory Banks should maintain a comprehensive set of information for models implemented for use, under development for implementation, or recently retired. While each line of business may maintain its own inventory, a specific party should also be charged with maintaining a firm-wide inventory of all models, which should assist a bank in evaluating its model risk in the aggregate. Any variation of a model that warrants a separate validation should be included as a separate model and cross-referenced with other variations. While the inventory may contain varying levels of information, given different model complexity and the bank's overall level of model usage, the following are some general guidelines. The inventory should describe the purpose and products for which the model is designed, actual or expected usage, and any restrictions on"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 30,
+      "chunk_id": 58,
+      "score": 0.18508541928932487,
+      "text": "activities help to ensure that changes in markets, products, exposures, activities, clients, or business practices do not create new model limitations. For example, if credit risk models do not incorporate underwriting changes in a timely manner, flawed and costly business decisions could be made before deterioration in model performance becomes apparent. Banks should conduct a periodic review\u2014at least annually but more frequently if warranted\u2014of each model to determine whether it is working as intended and if the existing validation activities are sufficient. Such a determination could simply affirm previous validation work, suggest updates to previous validation activities, or call for additional validation activities. Material changes to models should also be subject to validation. It is generally good practice for banks to ensure that all models undergo the full validation process, as described in the following section, at some fixed interval, including updated documentation of all activities. Effective model validation helps reduce model risk by identifying model errors, corrective actions, and appropriate use. It also provides an assessment of the reliability of a given model, based on its underlying assumptions, theory, and methods. In this way, it provides information about the source and extent of model risk. Validation also can reveal"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 11,
+      "chunk_id": 170,
+      "score": 0.15894693354629616,
+      "text": "actions may be warranted. Validation provides insight into the reliability of a given model, based on its underlying assumptions, methods, data, and relevant theories, as appropriate. This understanding helps characterize the source and extent of the model risk. Validation can reveal performance deterioration over time and inform judgments about acceptable performance ranges. When performance deviates meaningfully from expectations, banking organizations generally consider whether model adjustments, recalibration, or redevelopment are warranted. The timing, nature, and frequency of validation activities vary based on model purpose, model methodology, frequency and scope of model changes, data limitations, and other practical constraints. Sound practice recognizes that validation approaches may differ across models based on their characteristics and use. Validation generally occurs prior to a model\u2019s first use. However, certain circumstances (e.g., an urgent business need) may necessitate using the model before validation is completed. In those cases, sound practice involves greater attention to the model\u2019s limitations when considering the appropriateness of its use, informing relevant stakeholders of those limitations, and determining appropriate controls (e.g., placing limits on model use or more closely monitoring its performance). The quality of validation process depends on the rigor and effectiveness of the review rather than on organizational structure of"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 10,
+      "chunk_id": 169,
+      "score": 0.14790960371497497,
+      "text": "more limited in scope. Model Use Effective model use depends on a clear understanding of a model\u2019s limitations. Model use enables ongoing performance assessment as conditions evolve. User feedback provides business insights that enhance future development. Constructive engagement, particularly around model design, assumptions, and outcomes, strengthens both model understanding and model quality. Using a model beyond its intended purpose introduces additional uncertainty and risk. When extending a model\u2019s use beyond its original application, sound practice involves considering additional analysis of the new usage and its limitations, along with review of existing controls to manage the resulting risk. V. Model Validation and Monitoring Model validation evaluates whether models perform as expected and includes an assessment of a model\u2019s reliability and its limitations. The nature and rigor of validation generally align with the model\u2019s approach, use, and materiality. Sound validation identifies model limitations and errors and clarifies appropriate use and whether corrective actions may be warranted. Validation provides insight into the reliability of a given model, based on its underlying assumptions, methods, data, and relevant theories, as appropriate. This understanding helps characterize the source and extent of the model risk. Validation can reveal performance deterioration over time and inform judgments about acceptable"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 53,
+      "chunk_id": 81,
+      "score": 0.13018221913523598,
+      "text": "should be updated as necessary to ensure that model risk management practices remain appropriate and keep current with changes in market conditions, bank products and strategies, bank exposures and activities, and practices in the industry. All aspects of model risk management should be covered by suitable policies, including model and model risk definitions; assessment of model risk; acceptable practices for model development, implementation, and use; appropriate model validation activities; and governance and controls over the model risk management process. Policies should emphasize testing and analysis, and promote the development of targets for model accuracy, standards for acceptable levels of discrepancies, and procedures for review of and response to unacceptable discrepancies. They should include a description [Page Break] of the processes used to select and retain vendor models, including the people who should be involved in such decisions. The prioritization, scope, and frequency of validation activities should be addressed in these policies. They should establish standards for the extent of validation that should be performed before models are put into production and the scope of ongoing validation. The policies should also detail the requirements for validation of vendor models and third-party products. Finally, they should require maintenance of detailed documentation of"
+    }
+  ],
+  "rounds_used": 3,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 9658,
+    "output_tokens": 428
+  }
+}

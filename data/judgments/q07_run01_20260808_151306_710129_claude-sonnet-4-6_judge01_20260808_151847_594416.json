@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q07_run01_20260808_151306_710129.json",
+  "question_id": 7,
+  "question": "How often must banks retrain machine learning models?",
+  "category": "hard-negative",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every factual claim in the answer is directly traceable to the retrieved context: the risk-based, proportional nature of monitoring (index 14), timing/frequency based on model purpose and constraints (index 11), outcomes analysis and back-testing triggering recalibration (index 13), and complexity/materiality driving rigor (index 4/5/6) are all explicitly supported.",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": false,
+  "abstain_rationale": "The answer makes substantive claims about regulatory requirements, model monitoring obligations, and retraining triggers rather than stating it cannot answer the question from available context.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 4755,
+      "output_tokens": 99
+    },
+    "abstain": {
+      "input_tokens": 591,
+      "output_tokens": 46
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q07_run03_20260808_151329_768287.json",
+  "question_id": 7,
+  "question": "How often must banks retrain machine learning models?",
+  "category": "hard-negative",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every factual claim in the answer is directly and explicitly supported by the retrieved context, including the at-least-annual review requirement, the trigger for more frequent review based on changes in markets/products/exposures, the requirement for validation upon material changes, the consideration of adjustments/recalibration/redevelopment upon performance deterioration, and the variability of timing/nature/frequency based on model purpose and other constraints.",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": false,
+  "abstain_rationale": "The answer makes substantive claims about regulatory requirements, including annual review schedules and performance-driven retraining standards, rather than simply stating it cannot answer the question from available context.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 4389,
+      "output_tokens": 104
+    },
+    "abstain": {
+      "input_tokens": 576,
+      "output_tokens": 52
+    }
+  }
+}

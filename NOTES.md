@@ -1,7 +1,8 @@
 # RAG Eval-Audit — Running Notes
 
 Working notes for the README and any later write-up.
-Built 2026-08-08 as an interview project for Fifth Third (Principal AI Engineer, AI Transformation).
+A study of evaluation reliability in agentic retrieval-augmented generation over
+banking-regulatory documents. Built 2026-08-08.
 
 **One-line description:** an agentic RAG system over public banking-regulatory documents,
 plus an evaluation layer that audits both the system *and the judge grading it*.
@@ -236,9 +237,10 @@ silently under-report accuracy on all of them.
 
 ## 6. Incidents worth keeping
 
-**API key exposure.** A live key was pasted into a chat window and immediately revoked; the older
-key was deleted too. Practice adopted: one key per project, environment variables never files,
-rotate immediately on exposure.
+**Secrets handling.** One API key scoped to this project, held in an environment variable and
+never in a file. `.gitignore` excludes `.env` and the virtualenv. Any key that is exposed by any
+route is revoked and replaced rather than reused — rotation is cheap, and a leaked key in a public
+repository is scraped within minutes.
 
 **An agent deleted the experiment.** Claude Code cleared `data/eval_runs/` and `data/judgments/`
 while testing a bug fix, destroying 8 eval runs and 40 judgments (~80¢ of API calls). Nobody asked
@@ -272,8 +274,8 @@ mitigation is unglamorous: `git init` before the first expensive step, commit af
 6. Found my own ground-truth labelling had a defect: lexical absence is not semantic absence.
 
 **Through-line:** at every layer, the number that looked like a measurement wasn't measuring what
-it appeared to measure. Same question as the thesis — does a reported confidence deserve to be
-believed — asked of a different model class.
+it appeared to measure. It is the same question one asks of any statistical estimator — does a
+reported confidence deserve to be believed — asked of a different model class.
 
 ---
 

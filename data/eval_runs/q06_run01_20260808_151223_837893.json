@@ -1,0 +1,73 @@
+{
+  "question_id": 6,
+  "question": "What are the capital requirements for community banks?",
+  "category": "hard-negative",
+  "run_number": 1,
+  "final_answer": "The documents retrieved from the corpus do not contain information about capital requirements for community banks, such as specific minimum capital ratios (e.g., Tier 1, Total Capital, or leverage ratios). The search results relate primarily to model risk management guidance, which is a separate supervisory topic. The corpus available does not appear to include the relevant regulatory guidance on bank capital requirements, such as Basel III capital rules or the Community Bank Leverage Ratio (CBLR) framework.\n\nTo get accurate information on this topic, I would recommend consulting the actual regulatory sources directly, such as the FDIC's capital rules guidance, the Federal Reserve's Regulation Q, or the OCC's capital adequacy standards under 12 CFR Part 3.",
+  "sources_cited": [],
+  "chunks_in_context": [
+    {
+      "source": "occ_2026_13.txt",
+      "index": 1,
+      "chunk_id": 22,
+      "score": 0.1453155010739255,
+      "text": "\u201cBank Secrecy Act/Anti-Money Laundering: Interagency Statement on Model Risk Management for Bank Systems Supporting BSA/AML Compliance and Request for Information\u201d Note for Community Banks This guidance is applicable to all community banks, subject to the limitations discussed in the guidance.1 Highlights The guidance provides an overview of model risk and model risk management and discusses model development and model use; model validation and monitoring; governance and controls; and considerations related to vendor and other third-party products. Practices that are appropriate and effective for one banking organization may be inappropriate and ineffective for a banking organization with a different risk profile or that uses a model for a different purpose. The general expectation is that this guidance will be most useful for models supporting a banking organization\u2019s significant business lines, operations, services, and functions. Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance. Furthermore, this guidance is expected to be most relevant to banking organizations with over $30 billion in total assets. However, in some situations, this guidance also may be relevant to banking organizations with total assets of $30 billion or less that have significant exposure to"
+    },
+    {
+      "source": "occ_2026_13.txt",
+      "index": 6,
+      "chunk_id": 27,
+      "score": 0.13806224947177612,
+      "text": "the agencies plan to issue in the near future a request for information that addresses model risk management generally and considers, in particular, banks\u2019 use of AI, including generative AI and agentic AI and AI-based models. Further Information Please contact Chau Do, Chief Economist and Deputy Comptroller for Economics in the Office of the Chief National Bank Examiner (CNBE), at 202-649-5490. James M. Gallagher Senior Deputy Comptroller and Chief National Bank Examiner Related Link \u201cModel Risk Management: Revised Guidance\u201d (PDF) 1 \u201cBanks\u201d refers collectively to national banks, federal savings associations, and federal branches and agencies of foreign banking organizations. 2 OCC Bulletin 2011-12, \u201cSound Practices for Model Risk Management: Supervisory Guidance on Model Risk Management\u201d; Supervision and Regulation Letter 11-7, \u201cGuidance on Model Risk Management\u201d (April 4, 2011). 3 Financial Institution Letter-22-2017, \u201cAdoption of Supervisory Guidance on Model Risk Management\u201d (June 7, 2017). 4 Refer to OCC Bulletin 2025-26, \u201cModel Risk Management: Clarification for Community Banks,\u201d noting, for instance, that \u201cOCC\u2019s guidance on model risk management does not, and should not be interpreted to, require community banks to perform annual model validation.\u201d"
+    },
+    {
+      "source": "occ_2026_13.txt",
+      "index": 0,
+      "chunk_id": 21,
+      "score": 0.1211412628336202,
+      "text": "Model Risk Management: Revised Guidance To Chief Executive Officers of All National Banks, Federal Savings Associations, and Federal Branches and Agencies; Department and Division Heads; All Examining Personnel; and Other Interested Parties Summary The Office of the Comptroller of the Currency (OCC), the Board of Governors of the Federal Reserve System (Federal Reserve Board), and the Federal Deposit Insurance Corporation (FDIC) (collectively, the agencies) are issuing updated interagency guidance and this bulletin to clarify model risk management principles, to set forth a risk-based approach to model risk management, and to rescind prior model risk management guidance and other issuances. Rescissions This bulletin rescinds \u201cModel Risk Management\u201d booklet of the Comptroller\u2019s Handbook OCC Bulletin 1997-24, \u201cCredit Scoring Models: Examination Guidance,\u201d including the Appendix, \u201cSafety and Soundness and Compliance Issues on Credit Scoring Models\u201d OCC Bulletin 2011-12, \u201cSound Practices for Model Risk Management: Supervisory Guidance on Model Risk Management\u201d OCC Bulletin 2021-19, \u201cBank Secrecy Act/Anti-Money Laundering: Interagency Statement on Model Risk Management for Bank Systems Supporting BSA/AML Compliance and Request for Information\u201d Note for Community Banks This guidance is applicable to all community banks, subject to the limitations discussed in the guidance.1 Highlights The guidance provides an overview of model risk and"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 4,
+      "chunk_id": 32,
+      "score": 0.09441995833134245,
+      "text": "and extent of its model use. For example, steps taken to apply this guidance at a community bank using relatively few models of only moderate complexity might be significantly less involved than those at a larger bank where use of models is more extensive or complex. [Page Break] - For instance, the OCC provided guidance on model risk, focusing on model validation, in OCC 2000-16 (May 30, 2000), other bulletins, and certain subject matter booklets of the Comptroller's Handbook. The Federal Reserve issued SR Letter 09-01, \"Application of the Market Risk Rule in Bank Holding Companies and State Member Banks,\" which highlights various concepts pertinent to model risk management, including standards for validation and review, model validation documentation, and back-testing. The Federal Reserve's Trading and Capital-Markets Activities Manual also discusses validation and model risk management. In addition, the advanced-approaches risk-based capital rules (12 CFR 3, Appendix C; 12 CFR 208, Appendix F; and 12 CFR 225, Appendix G) contain explicit validation requirements for subject banking organizations. End of Footnote 2.] III. OVERVIEW OF MODEL RISK MANAGEMENT For the purposes of this document, the term model refers to a quantitative method, system, or approach that applies statistical, economic, financial, or mathematical"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 0,
+      "chunk_id": 28,
+      "score": 0.08258198523913737,
+      "text": "April 4, 2011 CONTENTS I. II. Purpose and SUPERVISORY GUIDANCE ON MODEL RISK MANAGEMENT Introduction, Scope, III. Overview of Model Risk IV. Model Development, Implementation, and V. Model Validation, page 1 page 2 Management, page 3 Use, page 5 page 9 VI. Governance, Policies, and VII. I. INTRODUCTION Conclusion, Controls, page page 16 21 Banks rely heavily on quantitative analysis and models in most aspects of financial decision making. [Footnote 1 They routinely use models for a broad range of activities, including underwriting credits; valuing exposures, instruments, and positions; measuring risk; managing and safeguarding client assets; determining capital and reserve adequacy; and many other activities. In recent years, banks have applied models to more complex products and with more ambitious scope, such as enterprise-wide risk measurement, while the markets in which they are used have also broadened and changed. Changes in regulation have spurred some of the recent developments, particularly the U.S. regulatory capital rules for market, credit, and operational risk based on the framework developed by the Basel Committee on Banking Supervision. Even apart from these regulatory considerations, however, banks have been increasing the use of data-driven, quantitative decision-making tools for a number of years. The expanding use of"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 49,
+      "chunk_id": 77,
+      "score": 0.07704618773922059,
+      "text": "and justified as part of validation. If vendors provide input data or assumptions, or use them to build models, their relevance for the bank's situation should be investigated. Banks should obtain information regarding the data used to develop the model and assess the extent to which that data is representative of the bank's situation. The bank also should conduct ongoing monitoring and outcomes analysis of vendor model performance using the bank's own outcomes. Systematic procedures for validation help the bank to understand the vendor product and its capabilities, applicability, and limitations. Such detailed knowledge is necessary for basic controls of bank operations. It is also very important for the bank to have as much knowledge in-house as possible, in case the vendor or the bank terminates the contract for any reason, or if the vendor is no longer in business. Banks should have contingency plans for instances when the vendor model is no longer available or cannot be supported by the vendor. VI. GOVERNANCE, POLICIES, AND CONTROLS Developing and maintaining strong governance, policies, and controls over the model risk management framework is fundamentally important to its effectiveness. Even if model development, implementation, use, and validation are satisfactory, a weak governance"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 5,
+      "chunk_id": 33,
+      "score": 0.06444303347451466,
+      "text": "Appendix F; and 12 CFR 225, Appendix G) contain explicit validation requirements for subject banking organizations. End of Footnote 2.] III. OVERVIEW OF MODEL RISK MANAGEMENT For the purposes of this document, the term model refers to a quantitative method, system, or approach that applies statistical, economic, financial, or mathematical theories, techniques, and assumptions to process input data into quantitative estimates. A model consists of three components: an information input component, which delivers assumptions and data to the model; a processing component, which transforms inputs into estimates; and a reporting component, which translates the estimates into useful business information. Models meeting this definition might be used for analyzing business strategies, informing business decisions, identifying and measuring risks, valuing exposures, instruments or positions, conducting stress testing, assessing adequacy of capital, managing client assets, measuring compliance with internal limits, maintaining the formal control apparatus of the bank, or meeting financial or regulatory reporting requirements and issuing public disclosures. The definition of model also covers quantitative approaches whose inputs are partially or wholly qualitative or based on expert judgment, provided that the output is quantitative in nature. [Footnote 3 Models are simplified representations of real-world relationships among observed characteristics, values, and events. Simplification"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 1,
+      "chunk_id": 29,
+      "score": 0.06437444120570782,
+      "text": "the U.S. regulatory capital rules for market, credit, and operational risk based on the framework developed by the Basel Committee on Banking Supervision. Even apart from these regulatory considerations, however, banks have been increasing the use of data-driven, quantitative decision-making tools for a number of years. The expanding use of models in all aspects of banking reflects the extent to which models can improve business decisions, but models also come with costs. There is the direct cost of devoting resources to develop and implement models properly. There are also the potential indirect costs of relying on models, such as the possible adverse consequences (including financial loss) of decisions based on models that are incorrect or misused. Those consequences should be addressed by active management of model risk. [Page Break] - Unless otherwise indicated, banks refers to national banks and all other institutions for which the Office of the Comptroller of the Currency is the primary supervisor, and to bank holding companies, state member banks, and all other institutions for which the Federal Reserve Board is the primary supervisor. End of Footnote 1.] This guidance describes the key aspects of effective model risk management. Section II explains the purpose and scope"
+    }
+  ],
+  "rounds_used": 2,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 4909,
+    "output_tokens": 259
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "question_id": 4,
+  "question": "What should a bank consider when a third party relies on subcontractors?",
+  "category": "answerable",
+  "run_number": 5,
+  "final_answer": "When a third party relies on subcontractors, a bank should focus its evaluation primarily on the third party's own ability to manage and oversee those subcontractors, rather than attempting to directly assess every subcontractor in the chain (third_party_risk_2023.txt, index=33). The relationship, including any subcontracting arrangements, should be evaluated based on the risk it poses to the banking organization, including whether the third party's use of subcontractors heightens or introduces additional risk (third_party_risk_2023.txt, index=34).\n\nKey considerations include the volume and types of subcontracted activities, the degree to which the third party depends on subcontractors, and whether the third party can effectively identify, manage, and mitigate the associated risks (sr_23_4.txt, index=27). A bank should also consider how the third party selects and oversees its subcontractors and ensures those subcontractors implement effective controls (sr_23_4.txt, index=27). Additional risk factors to weigh include the geographic location of subcontractors, dependency on a single provider for multiple activities, and whether subcontractors have access to sensitive nonpublic information or the bank's infrastructure (third_party_risk_2023.txt, index=32).\n\nDuring ongoing monitoring, a bank should also track the third party's reliance on and exposure to subcontractors, the location of subcontractor-held data, and the third party's own risk management processes for monitoring those subcontractors (sr_23_4.txt, index=53).",
+  "sources_cited": [
+    "sr_23_4.txt",
+    "third_party_risk_2023.txt"
+  ],
+  "chunks_in_context": [
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 33,
+      "chunk_id": 212,
+      "score": 0.17595223021771403,
+      "text": "commenters suggested either narrowing the guidance's discussion on subcontractors (for example, excluding relationships beyond third parties) or refocusing a banking organization's oversight to a third party's ability to manage its subcontractors. Commenters also suggested that, in line with OCC FAQ 11, a banking organization could require a third party to bind its subcontractors to any obligations and standards of the third party. With respect to these comments, the agencies acknowledge the risks and added complexity that may be involved with respect to a third party's use of subcontractors. The agencies also recognize concerns by commenters interpreting the guidance to mean banking organizations are expected to assess or oversee all subcontractors of a third party. Accordingly, consistent with the concepts in OCC FAQ 11, the agencies have revised the guidance, focusing on a banking organization's approach to evaluating its third party's own processes for overseeing subcontractors and managing risks. As the guidance clarifies, relationships with a third party, including a third party's use of subcontractors, should be evaluated based on the risk the relationship poses to the banking organization, which may include assessing whether a third party's use of subcontractors may heighten or raise additional risk to the banking organization and"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 32,
+      "chunk_id": 211,
+      "score": 0.16433079440208803,
+      "text": "of external parties to supplement ongoing monitoring. F. Subcontractors Commenters expressed a variety of views on banking organizations' relationships with subcontractors. These comments largely focused on whether the guidance could be clarified to promote additional flexibility in how banking organizations manage the risks associated with subcontractors, which pose challenges not necessarily present in a direct third-party relationship. Various commenters emphasized the importance of managing risks posed by subcontractors, especially those that are material to a service being provided to a banking organization; those with access to sensitive, nonpublic information; those that perform higher-risk activities, including critical activities; those with access to the banking organization's infrastructure; and those within extended chains of subcontractors. However, many of these commenters expressed concern regarding the potential challenges in overseeing and conducting effective due diligence on subcontractors, such as a banking organization's lack of a relationship with (contractually or otherwise), and leverage over, subcontractors. These commenters suggested either narrowing the guidance's discussion on subcontractors (for example, excluding relationships beyond third parties) or refocusing a banking organization's oversight to a third party's ability to manage its subcontractors. Commenters also suggested that, in line with OCC FAQ 11, a banking organization could require a third party to"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 77,
+      "chunk_id": 256,
+      "score": 0.13002925312071725,
+      "text": "third party). h. Confidentiality and Integrity With respect to contracts with third parties, there may be increased risks related to the sensitivity of non-public information or access to infrastructure. Effective contracts typically prohibit the use and disclosure of banking organization and customer information by a third party and its subcontractors, except as necessary to provide the contracted activities or comply with legal requirements. If the third party receives personally identifiable information, contract provisions are important to ensure that the third party implements and maintains appropriate security measures to comply with applicable laws and regulations. Another important provision is one that specifies when and how the third party will disclose, in a timely manner, information security breaches or unauthorized intrusions. Considerations may include the types of data stored by the third party, legal obligations for the banking organization to disclose the breach to its regulators or customers, the potential for consumer harm, or other factors. Such provisions typically stipulate that the data intrusion notification to the banking organization include estimates of the effects on the banking organization and its customers and specify corrective action to be taken by the third party. They also address the powers of each party to change"
+    },
+    {
+      "source": "sr_23_4.txt",
+      "index": 53,
+      "chunk_id": 147,
+      "score": 0.12877743519081902,
+      "text": "Changes in the third party's key personnel involved in the activity; \u2022 The third party's reliance on, exposure to, and use of subcontractors, the location of subcontractors (and any related data), and the third party's own risk management processes for monitoring subcontractors; \u2022 Training provided to employees of the banking organization and the third party;- Refer to important considerations discussed in \u201cDue Diligence and Third-Party Selection\u201d of this guidance when a banking organization chooses to engage external resources to supplement its third-party risk management. End of Footnote .] 16 \u2022 The third party's response to changing threats, new vulnerabilities, and incidents impacting the activity, including any resulting adjustments to the third party's operations or controls; \u2022 The third party's ability to maintain the confidentiality, availability, and integrity of the banking organization's systems, information, and data, as well as customer data, where applicable; \u2022 The third party's response to incidents, business continuity and resumption plans, and testing results to evaluate the third party's ability to respond to and recover from service disruptions or degradations; \u2022 Factors and conditions external to the third party that could affect its performance and financial and operational standing, such as changing laws, regulations, and economic conditions;"
+    },
+    {
+      "source": "sr_23_4.txt",
+      "index": 27,
+      "chunk_id": 121,
+      "score": 0.12501502777795875,
+      "text": "has sufficient physical and environmental controls to protect the safety and security of people (such as employees and customers), its facilities, technology systems, and data, as applicable. This would typically include a review of the third party's employee on- and off-boarding procedures to ensure that physical access rights are managed appropriately. l. Reliance on Subcontractors [Footnote 14 An evaluation of the volume and types of subcontracted activities and the degree to which the third party relies on subcontractors helps inform whether such subcontracting arrangements pose additional or heightened risk to a banking organization. This typically includes an assessment of the third party's ability to identify, manage, and mitigate risks associated with subcontracting, including how the third party selects and oversees its subcontractors and ensures that its subcontractors implement effective controls. Other important considerations include whether additional risk is presented by the geographic location of a subcontractor or dependency on a single provider for multiple activities. m. Insurance Coverage An evaluation of whether the third party has existing insurance coverage helps a banking organization determine the extent to which potential losses are mitigated, including losses posed by the third party to the banking organization or that might prevent the third party"
+    },
+    {
+      "source": "sr_23_4.txt",
+      "index": 56,
+      "chunk_id": 150,
+      "score": 0.22499042696093569,
+      "text": "third party's inability to meet expectations. D. GOVERNANCE There are a variety of ways for banking organizations to structure their third-party risk management processes. Some banking organizations disperse accountability for their third-party risk management processes among their business lines. [Footnote 17 18 Other banking organizations may centralize the processes under their compliance, information security, procurement, or risk management functions. Regardless of how a banking organization structures its process, the following practices are typically considered throughout the third-party risk management life cycle, [Footnote commensurate with risk and complexity. 1. Oversight and Accountability Proper oversight and accountability are important aspects of third-party risk management because they help enable a banking organization to minimize adverse financial, operational, or other consequences. A banking organization's board of directors has ultimate responsibility for providing oversight for third-party risk management and holding management accountable. The board also provides clear guidance regarding acceptable risk appetite, approves appropriate policies, and ensures that appropriate procedures and practices have been established. A banking organization's management is responsible for developing and implementing third-party risk management policies, procedures, and practices, commensurate with the banking organization's risk appetite and the level of risk and complexity of its third-party relationships. In carrying out its responsibilities,"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 93,
+      "chunk_id": 272,
+      "score": 0.21917703358512752,
+      "text": "the banking organization, including any impact on customers, if the termination happens as a result of the third party's inability to meet expectations. D. Governance There are a variety of ways for banking organizations to structure their third-party risk management processes. Some banking organizations disperse accountability for their third-party risk management processes among their business lines.[17] Other banking organizations may centralize the processes under their compliance, information security, procurement, or risk management functions. Regardless of how a banking organization structures its process, the following practices are typically considered throughout the third-party risk management life cycle,[18] commensurate with risk and complexity. 1. Oversight and Accountability Proper oversight and accountability are important aspects of third-party risk management because they help enable a banking organization to minimize adverse financial, operational, or other consequences. A banking organization's board of directors has ultimate responsibility for providing oversight for third-party risk management and holding management accountable. The board also provides clear guidance regarding acceptable risk appetite, approves appropriate policies, and ensures that appropriate procedures and practices have been established. A banking organization's management is responsible for developing and implementing third-party risk management policies, procedures, and practices, commensurate with the banking organization's risk appetite and the level"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 34,
+      "chunk_id": 213,
+      "score": 0.15947631045582872,
+      "text": "guidance clarifies, relationships with a third party, including a third party's use of subcontractors, should be evaluated based on the risk the relationship poses to the banking organization, which may include assessing whether a third party's use of subcontractors may heighten or raise additional risk to the banking organization and applying mitigating factors, as appropriate. The agencies have also made streamlining changes to improve clarity and promote flexibility, including by removing use of the term \u201ccritical subcontractor.\u201d G. Oversight and Accountability Commenters provided suggestions as to the proper role of a banking organization's board of directors and management with respect to effective third-party risk management. Some commenters, for example, stated that the proposed guidance implied excessive board involvement in day-to-day management activity. Others suggested that the guidance could further clarify the role of the board of directors in risk management activities, specifically those aspects of third-party risk management that could appropriately be executed and overseen by senior management. Some commenters similarly suggested the guidance clarify the authority of management to establish policies governing third-party relationships. A few commenters requested the guidance provide granularity on the types, depth, and frequency of information necessary for board review, including for ongoing monitoring. Additionally,"
+    },
+    {
+      "source": "third_party_risk_2023.txt",
+      "index": 16,
+      "chunk_id": 195,
+      "score": 0.14555707674994575,
+      "text": "management processes, and that not all relationships warrant the same level of oversight or risk management). In response to these comments, the agencies reiterate that the guidance is relevant to all banking organizations. The agencies have incorporated concepts from OCC FAQ 9, clarifying language in the guidance about tailoring third-party risk management processes based on risk. The guidance notes that not all third-party relationships present the same level or type of risk and therefore not all relationships require the same extent of oversight or risk management. It also states that as part of sound risk management, it is the responsibility of each banking organization to analyze the risks associated with each third-party relationship and to calibrate its risk management processes, commensurate with the banking organization's size, complexity, and risk profile and with the nature of its third-party relationships. Banking organizations have flexibility in their approach to assessing the risk posed by each third-party relationship and deciding the relevance of the considerations discussed in the guidance. To reinforce this flexibility and provide clarity on third-party risk management implementation, especially for community banking organizations, the agencies have streamlined and simplified certain sections of the guidance. The agencies have also incorporated into the"
+    },
+    {
+      "source": "sr_23_4.txt",
+      "index": 58,
+      "chunk_id": 152,
+      "score": 0.13493818940159297,
+      "text": "When carrying out its responsibilities, management typically performs the following activities, among others:- Each applicable business line can provide valuable input into the third-party risk management process, for example, by completing risk assessments, reviewing due diligence information, and evaluating the controls over the third-party relationship. End of Footnote .] 17- Refer to Figure 1: Stages of the Risk Management Life Cycle. End of Footnote .] 18 \u2022 Integrating third-party risk management with the banking organization's overall risk management processes; \u2022 Directing planning, due diligence, and ongoing monitoring activities; \u2022 Reporting periodically to the board (or designated committee), as appropriate, on third- party risk management activities; \u2022 Providing that contracts with third parties are appropriately reviewed, approved, and executed; \u2022 Establishing appropriate organizational structures and staffing (level and expertise) to support the banking organization's third-party risk management processes; \u2022 Implementing and maintaining an appropriate system of internal controls to manage risks associated with third-party relationships; \u2022 Assessing whether the banking organization's compliance management system is appropriate to the nature, size, complexity, and scope of its third-party relationships; \u2022 Determining whether the banking organization has appropriate access to data and information from its third parties; \u2022 Escalating significant issues to the board"
+    }
+  ],
+  "rounds_used": 2,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 4736,
+    "output_tokens": 457
+  }
+}

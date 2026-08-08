@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q06_run02_20260808_151232_441042.json",
+  "question_id": 6,
+  "question": "What are the capital requirements for community banks?",
+  "category": "hard-negative",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "The answer honestly abstains from providing capital requirement details, correctly noting the retrieved context only covers model risk management and third-party risk, with only passing references to Basel capital rules \u2014 which accurately reflects the actual content of the retrieved documents.",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": true,
+  "abstain_rationale": "The AI explicitly states that the retrieved documents do not contain specific information about capital requirements for community banks and directs the user to external sources, making no substantive claims about the actual requirements.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 3081,
+      "output_tokens": 62
+    },
+    "abstain": {
+      "input_tokens": 525,
+      "output_tokens": 53
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q03_run01_20260808_150952_783439.json",
+  "question_id": 3,
+  "question": "Which banking organizations is the 2026 model risk guidance most relevant to?",
+  "category": "answerable",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every claim in the answer is directly and explicitly supported by the retrieved context, with each statement traceable to specific passages in the cited sources.",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer correctly identifies that the 2026 model risk guidance is most relevant to banking organizations with over $30 billion in total assets, matching the expected answer, and cites the acceptable source occ_2026_13.txt.",
+  "cites_expected_source": true,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": true,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 2604,
+      "output_tokens": 43
+    },
+    "correctness": {
+      "input_tokens": 734,
+      "output_tokens": 75
+    }
+  }
+}

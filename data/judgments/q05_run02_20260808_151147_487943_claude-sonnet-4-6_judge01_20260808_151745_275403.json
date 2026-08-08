@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q05_run02_20260808_151147_487943.json",
+  "question_id": 5,
+  "question": "Are community banks required to perform annual model validation?",
+  "category": "staleness-trap",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every factual claim in the answer is directly and explicitly supported by the retrieved context, including the scaling language for community banks (index 3), the at-least-annual review expectation (index 30), and SR 26-2's flexibility language on timing and frequency (index 11).",
+  "correctness_score": 3,
+  "correctness_rationale": "The answer partially matches by acknowledging no strict annual mandate for community banks, but it introduces significant nuance suggesting an 'at-least-annual review' supervisory expectation applies to community banks, which somewhat contradicts the expected answer's clear statement that the guidance does not require community banks to perform annual model validation; additionally, it does not cite the expected source (occ_2026_13.txt).",
+  "cites_expected_source": false,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": false,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 2919,
+      "output_tokens": 76
+    },
+    "correctness": {
+      "input_tokens": 813,
+      "output_tokens": 110
+    }
+  }
+}

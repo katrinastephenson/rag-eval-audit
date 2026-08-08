@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q06_run05_20260808_151256_506599.json",
+  "question_id": 6,
+  "question": "What are the capital requirements for community banks?",
+  "category": "hard-negative",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 4,
+  "groundedness_rationale": "The answer correctly abstains by stating the retrieved context does not cover community bank capital requirements and accurately describes the context as focusing on model risk management and third-party risk; the only minor ungrounded element is the specific regulatory citations (Regulation Q, 12 CFR Part 3, 12 CFR Part 324, Basel III) which are not in the retrieved context, but the core abstention is fully honest and grounded.",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": true,
+  "abstain_rationale": "The AI explicitly states that the retrieved corpus does not contain information about capital requirements for community banks and declines to provide substantive claims from the corpus, instead redirecting to external regulatory sources.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 3033,
+      "output_tokens": 104
+    },
+    "abstain": {
+      "input_tokens": 477,
+      "output_tokens": 53
+    }
+  }
+}

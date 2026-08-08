@@ -1,0 +1,68 @@
+{
+  "question_id": 3,
+  "question": "Which banking organizations is the 2026 model risk guidance most relevant to?",
+  "category": "answerable",
+  "run_number": 2,
+  "final_answer": "The 2026 model risk guidance is issued jointly by the OCC, Federal Reserve Board, and FDIC and is applicable to all national banks, federal savings associations, and federal branches and agencies, including community banks, subject to the limitations in the guidance (occ_2026_13.txt, index=0). Most directly, the guidance is expected to be most relevant to banking organizations with over $30 billion in total assets (occ_2026_13.txt, index=4). However, it may also be relevant to banking organizations with total assets of $30 billion or less if they have significant exposure to model risk due to the prevalence and complexity of their models, or because of activities outside the scope of traditional community banking (occ_2026_13.txt, index=4). The guidance takes a risk-based approach tailored to a banking organization's model risk profile and the size and complexity of its operations, recognizing that model risk management practices will vary across organizations (occ_2026_13.txt, index=3).",
+  "sources_cited": [
+    "occ_2026_13.txt"
+  ],
+  "chunks_in_context": [
+    {
+      "source": "sr_26_2.txt",
+      "index": 0,
+      "chunk_id": 159,
+      "score": 0.16763940928318707,
+      "text": "RISK MANAGEMENT\u2014Supervisory Guidance on Model Risk Management I. Introduction II. Purpose and Scope III. Overview of Model Risk and Model Risk Management IV. Model Development and Model Use V. Model Validation and Monitoring VI. Governance and Controls VII. Vendor and Other Third-Party Products I. Introduction Use of models within the banking and financial services industries continues to grow in complexity and scope. Advances in technology along with increased competition have driven banking organizations to leverage innovative approaches to improve efficiencies, better mitigate risks, and help maximize profits. Continued use of models is essential to maintaining the competitiveness of banking organizations in the financial system. Use of models also can present substantial risk. Such risk, generally referred to as \u201cmodel risk\u201d for purposes of this guidance, can lead to financial loss, errors in financial statements and reporting, and flawed financial and risk management decisions, among other types of risk events. Model risk can be mitigated through active and appropriate risk management, recognizing that the relevance of model risk depends on the nature, scale, and use of the models in relation to the associated business risks. This guidance highlights sound principles for effective model risk management. As reflected in this guidance, model"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 16,
+      "chunk_id": 175,
+      "score": 0.15225161503838883,
+      "text": "validation groups). Sound governance practices delineate the individual(s) responsible for key activities throughout the model lifecycle, from development through validation and ongoing monitoring. In cases where internal audit is part of the banking organization\u2019s model risk management practices, internal audit would generally not duplicate model risk management activities such as model development or validation. Instead, internal audit\u2019s role is generally to evaluate whether the model risk management practices are rigorous and effective and whether related policies are implemented accordingly. For banking organizations that use external resources to help manage model risk, sound practice involves maintaining proper oversight and integrating that work into broader model risk management activities. Organizations benefit from clearly defining roles and responsibilities when delegating these activities. Model Inventory It is common industry practice for banking organizations to maintain a comprehensive set of information for models under development or in use to support effective model risk management. While the inventory may contain varying levels of information to reflect different levels of model complexity and a banking organization\u2019s overall level of model usage, an effective model inventory includes sufficient information to understand model risks, so as to support effective model risk management at the individual and aggregate levels. Documentation"
+    },
+    {
+      "source": "sr_26_2.txt",
+      "index": 1,
+      "chunk_id": 160,
+      "score": 0.1506818497892163,
+      "text": "risk can be mitigated through active and appropriate risk management, recognizing that the relevance of model risk depends on the nature, scale, and use of the models in relation to the associated business risks. This guidance highlights sound principles for effective model risk management. As reflected in this guidance, model risk management practices vary from banking organization to banking organization. Each banking organization ultimately is responsible for adopting model risk management practices that are appropriate and effective for managing the specific risks the banking organization faces or is likely to face. There are a variety of ways for a banking organization to structure model risk management practices. Not all models present the same level of risk, and a similar model at two different banking organizations may present different risks. As such, practices that are appropriate and effective for one banking organization may be inappropriate and ineffective for a banking organization with a different risk profile or that uses a model for a different purpose. Although this guidance may be useful for any type of model, the general expectation is that it will be most useful for models supporting a banking organization\u2019s significant business lines, operations, services, and functions. This guidance"
+    },
+    {
+      "source": "occ_2026_13.txt",
+      "index": 3,
+      "chunk_id": 24,
+      "score": 0.14949746575399347,
+      "text": "examiner and industry understanding of model risk management, including the OCC\u2019s \u201cModel Risk Management\u201d booklet of the Comptroller\u2019s Handbook, along with the 2021 Interagency Statement on Model Risk Management for Bank Systems Supporting BSA/AML Compliance and the related request for information. In addition, while OCC Bulletin 1997-24, including its appendix, predate the 2011 guidance, that bulletin discusses credit score modeling practices. Based on supervisory experience and industry feedback, as well as technological advancements in modeling over the past several years, the agencies are issuing this guidance to clarify model risk management principles and to set forth a risk-based approach to model risk management, tailored to a banking organization\u2019s model risk profile and the size and complexity of its operations. In particular, the agencies are updating and replacing the 2011 guidance with this updated guidance and rescinding the additional items discussed above. The OCC previously began to address technological, supervisory, and other developments by clarifying the scope of model risk management under existing guidance while acknowledging that the OCC will continue to review model risk management guidance.4 For the purposes of this guidance, the term \u201cmodel\u201d refers to a complex quantitative method, system, or approach that applies statistical, economic, or financial"
+    },
+    {
+      "source": "occ_2026_13.txt",
+      "index": 4,
+      "chunk_id": 25,
+      "score": 0.14724316739827828,
+      "text": "other developments by clarifying the scope of model risk management under existing guidance while acknowledging that the OCC will continue to review model risk management guidance.4 For the purposes of this guidance, the term \u201cmodel\u201d refers to a complex quantitative method, system, or approach that applies statistical, economic, or financial theories to process input data into quantitative estimates. The term \u201cmodel\u201d in this guidance excludes simple arithmetic calculations, such as those found within spreadsheets, as well as deterministic rule-based processes and software where there are no statistical, economic, or financial theories underpinning their design or use. Generative AI and agentic AI models are novel and rapidly evolving. As such, they are not within the scope of this guidance. Furthermore, this guidance is expected to be most relevant to banking organizations with over $30 billion in total assets. However, in some situations, this guidance also may be relevant to banking organizations with total assets of $30 billion or less that have significant exposure to model risk because of the prevalence and complexity of their models or because of activities outside the scope of traditional community banking. This guidance highlights sound principles for effective model risk management. In particular, the guidance discusses"
+    },
+    {
+      "source": "occ_2026_13.txt",
+      "index": 0,
+      "chunk_id": 21,
+      "score": 0.2493050341365682,
+      "text": "Model Risk Management: Revised Guidance To Chief Executive Officers of All National Banks, Federal Savings Associations, and Federal Branches and Agencies; Department and Division Heads; All Examining Personnel; and Other Interested Parties Summary The Office of the Comptroller of the Currency (OCC), the Board of Governors of the Federal Reserve System (Federal Reserve Board), and the Federal Deposit Insurance Corporation (FDIC) (collectively, the agencies) are issuing updated interagency guidance and this bulletin to clarify model risk management principles, to set forth a risk-based approach to model risk management, and to rescind prior model risk management guidance and other issuances. Rescissions This bulletin rescinds \u201cModel Risk Management\u201d booklet of the Comptroller\u2019s Handbook OCC Bulletin 1997-24, \u201cCredit Scoring Models: Examination Guidance,\u201d including the Appendix, \u201cSafety and Soundness and Compliance Issues on Credit Scoring Models\u201d OCC Bulletin 2011-12, \u201cSound Practices for Model Risk Management: Supervisory Guidance on Model Risk Management\u201d OCC Bulletin 2021-19, \u201cBank Secrecy Act/Anti-Money Laundering: Interagency Statement on Model Risk Management for Bank Systems Supporting BSA/AML Compliance and Request for Information\u201d Note for Community Banks This guidance is applicable to all community banks, subject to the limitations discussed in the guidance.1 Highlights The guidance provides an overview of model risk and"
+    },
+    {
+      "source": "sr_11_7_superseded.txt",
+      "index": 52,
+      "chunk_id": 80,
+      "score": 0.21274277462855545,
+      "text": "through relevant committees, is responsible for regularly reporting to the board on significant model risk, from individual models and in the aggregate, and on compliance with policy. Board members should ensure that the level of model risk is within their tolerance and direct changes where appropriate. These actions will set the tone for the whole organization about the importance of model risk and the need for active model risk management. Policies and Procedures Consistent with good business practices and existing supervisory expectations, banks should formalize model risk management activities with policies and the procedures to implement them. Model risk management policies should be consistent with this guidance and also be commensurate with the bank's relative complexity, business activities, corporate culture, and overall organizational structure. The board or its delegates should approve model risk management policies and review them annually to ensure consistent and rigorous practices across the organization. Those policies should be updated as necessary to ensure that model risk management practices remain appropriate and keep current with changes in market conditions, bank products and strategies, bank exposures and activities, and practices in the industry. All aspects of model risk management should be covered by suitable policies, including model and"
+    }
+  ],
+  "rounds_used": 2,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 4661,
+    "output_tokens": 330
+  }
+}

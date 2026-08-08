@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q04_run02_20260808_151057_002314.json",
+  "question_id": 4,
+  "question": "What should a bank consider when a third party relies on subcontractors?",
+  "category": "answerable",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every claim in the answer is directly supported by the retrieved context, including the focus on third-party oversight of subcontractors (index=33), volume/type evaluation (index=27), selection and control assessment (index=27), categories of higher-risk subcontractors (index=32), geographic and single-provider risks (index=27), ongoing monitoring of subcontractor use (index=53), and contractual binding of subcontractors to obligations and data security standards (index=33, index=77).",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer fully matches the expected answer's core claim about evaluating the volume and types of subcontracted activities and degree of reliance to judge additional risk, and provides additional relevant detail, while citing both acceptable sources.",
+  "cites_expected_source": true,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": true,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 3624,
+      "output_tokens": 125
+    },
+    "correctness": {
+      "input_tokens": 893,
+      "output_tokens": 69
+    }
+  }
+}

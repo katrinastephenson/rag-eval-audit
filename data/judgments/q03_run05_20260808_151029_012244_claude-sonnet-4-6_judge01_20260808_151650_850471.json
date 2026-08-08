@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q03_run05_20260808_151029_012244.json",
+  "question_id": 3,
+  "question": "Which banking organizations is the 2026 model risk guidance most relevant to?",
+  "category": "answerable",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every factual claim in the answer is directly and explicitly supported by the retrieved context, including the $30 billion threshold, applicability to community banks, joint issuance by OCC/Federal Reserve/FDIC, addressees, and the organization-specific nature of model risk management practices.",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer correctly identifies banking organizations with over $30 billion in total assets as the primary audience for the 2026 model risk guidance, matching the expected answer, and cites the acceptable source occ_2026_13.txt.",
+  "cites_expected_source": true,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": true,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 2616,
+      "output_tokens": 76
+    },
+    "correctness": {
+      "input_tokens": 746,
+      "output_tokens": 75
+    }
+  }
+}

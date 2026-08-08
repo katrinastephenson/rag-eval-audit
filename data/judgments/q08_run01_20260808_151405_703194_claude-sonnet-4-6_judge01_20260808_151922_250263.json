@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q08_run01_20260808_151405_703194.json",
+  "question_id": 8,
+  "question": "What does the guidance say about cryptocurrency custody?",
+  "category": "hard-negative",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 4,
+  "groundedness_rationale": "The answer's major claims are well-grounded: it correctly notes that the corpus covers third-party and model risk management, that commenters mentioned crypto-asset policy sprints (index=38/39), and that the agencies declined to revise guidance for specific topics like crypto-assets (index=39); the only minor inference beyond the context is the specific citation of OCC Interpretive Letters 1170, 1172, and 1179 as sources for cryptocurrency custody guidance, which are not mentioned in the retrieved context.",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": true,
+  "abstain_rationale": "The AI explicitly states that the corpus does not contain specific guidance on cryptocurrency custody and declines to provide substantive claims about what such guidance says, instead pointing to external documents not in the corpus.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 5245,
+      "output_tokens": 126
+    },
+    "abstain": {
+      "input_tokens": 533,
+      "output_tokens": 54
+    }
+  }
+}

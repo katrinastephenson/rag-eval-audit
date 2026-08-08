@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q05_run05_20260808_151216_986089.json",
+  "question_id": 5,
+  "question": "Are community banks required to perform annual model validation?",
+  "category": "staleness-trap",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every factual claim in the answer is directly and explicitly supported by the retrieved context, including the OCC Bulletin 2025-26 clarification, the annual review standard from sr_11_7_superseded.txt, the variability of validation timing from sr_26_2.txt, and the $30 billion asset threshold from occ_2026_13.txt.",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer correctly states that community banks are not required to perform annual model validation, directly matching the expected answer, and cites the acceptable source occ_2026_13.txt.",
+  "cites_expected_source": true,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": true,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 2639,
+      "output_tokens": 97
+    },
+    "correctness": {
+      "input_tokens": 774,
+      "output_tokens": 63
+    }
+  }
+}

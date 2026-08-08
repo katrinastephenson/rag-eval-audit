@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q08_run02_20260808_151418_630233.json",
+  "question_id": 8,
+  "question": "What does the guidance say about cryptocurrency custody?",
+  "category": "hard-negative",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "The answer abstains from providing specific guidance on cryptocurrency custody and accurately cites the retrieved context (indices 38 and 39) regarding crypto-asset policy sprints and the agencies' decision not to revise general guidance for specific topics, making every claim directly traceable to the context.",
+  "correctness_score": null,
+  "correctness_rationale": null,
+  "cites_expected_source": null,
+  "abstained": true,
+  "abstain_rationale": "The AI explicitly states that the corpus does not contain specific guidance on cryptocurrency custody and directs the user to external sources not in the corpus.",
+  "citation_check_programmatic": null,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 5234,
+      "output_tokens": 74
+    },
+    "abstain": {
+      "input_tokens": 522,
+      "output_tokens": 43
+    }
+  }
+}
