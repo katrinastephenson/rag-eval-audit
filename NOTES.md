@@ -254,13 +254,13 @@ mitigation is unglamorous: `git init` before the first expensive step, commit af
 
 ## 7. Still to do
 
-- [ ] Replicate the judge sensitivity profile across q02–q05 (4.4)
-- [ ] Formal trajectory variance: `run_eval.py --runs 5`, compare paths and answers (4.8)
+- [x] Replicate the judge sensitivity profile across q01–q05 — **confirmed, §10**
+- [x] Formal trajectory variance — **done, §11**
 - [ ] Cross-model judging to estimate self-preference bias
 - [ ] Conformal abstention threshold calibrated on a labelled set
+- [ ] Status-aware retrieval (§12) and a measured before/after
 - [ ] Figures — the score-overlap plot is the headline image
-- [ ] Interactive mode for demoing
-- [ ] README
+- [ ] Interactive mode
 
 ---
 
@@ -409,3 +409,111 @@ overlapping ways:
 
 Neither is sufficient alone, and their union still leaves fabricated provenance essentially
 undetected.
+
+---
+
+## 11. Trajectory variance — the failure rate
+
+*6 runs per question (1 + 5), judged once each, 2026-08-08 ~15:15.*
+
+### 11.1 Q5 fails the staleness trap on 5 of 6 runs
+
+| Run | Retrieved `occ_2026_13`? | Sources cited | Correctness |
+|---|---|---|---|
+| 1 | ✗ | sr_11_7_superseded, sr_26_2 | 3 |
+| 2 | ✗ | sr_11_7_superseded, sr_26_2 | **2** |
+| 3 | ✗ | sr_11_7_superseded, sr_26_2 | 3 |
+| 4 | ✗ | sr_11_7_superseded, sr_26_2 | 3 |
+| 5 | ✗ | sr_11_7_superseded, sr_26_2 | **2** |
+| 6 | ✓ | **occ_2026_13**, sr_11_7_superseded, sr_26_2 | **5** |
+
+**The system cites rescinded regulatory guidance as current authority on ~83% of runs.**
+**Groundedness scored 5 on all six** — including the five failures.
+
+### 11.2 The mechanism is retrieval, not reasoning
+
+In all five failing runs `occ_2026_13` never entered context. The agent cannot cite what it does
+not retrieve.
+
+`occ_2026_13` is **7 chunks of 288 — 2.4% of the corpus** — and is the only document containing
+the decisive sentence that guidance "does not, and should not be interpreted to, require community
+banks to perform annual model validation." Retrieval surfaces it roughly 1 run in 6.
+
+**The decisive fact occupied 2.4% of the index and was found 17% of the time.** The chain is
+retrieval failure → citation failure → compliance error, with a perfect groundedness score at
+every step.
+
+### 11.3 Q7 fails systematically, not intermittently
+
+All 6 runs answered a question that should have been refused. `abstained = False`, 6/6. Unlike
+Q5, there is no run-to-run variation here — it is a consistent behaviour, not a sampling issue.
+
+### 11.4 CORRECTION — step count is stable; retrieval is what varies
+
+An earlier observation (§4.8) treated "3 rounds on one run, 2 on another" as trajectory variance.
+That was wrong: those two runs straddled a change to the system prompt, so the difference was an
+edit, not sampling.
+
+With the prompt held fixed, **round count is perfectly stable** — Q1–Q6 always 2 rounds, Q7–Q8
+always 3, across all runs. What actually varies is **which chunks are returned**, and that
+variance is what drives the outcome differences. §4.8 stands corrected; the underlying finding
+(non-determinism changes outcomes) survives, but the locus is retrieval rather than planning.
+
+### 11.5 Scorecard, 6 runs per question
+
+| Question | Category | Result |
+|---|---|---|
+| Q1, Q2, Q3 | answerable | 6/6 correct |
+| Q4 | answerable | 5/6 (one run scored 3) |
+| **Q5** | staleness trap | **1/6 correct — 83% failure** |
+| Q6, Q8 | hard negative | 6/6 correctly abstained |
+| **Q7** | hard negative | **0/6 — never abstained** |
+
+Four of eight questions showed run-to-run outcome variation. **A single-run evaluation would have
+reported whichever result it happened to draw.**
+
+---
+
+## 12. Proposed remediation (not implemented — see §13)
+
+**The domain-correct fix is status-aware retrieval.** The retriever currently treats
+`sr_11_7_superseded` and `occ_2026_13` as equal candidates ranked purely on lexical similarity.
+In a regulatory corpus that is wrong on its face: a rescinded document should not compete on equal
+terms with the guidance that replaced it.
+
+Proposal: tag each document with `status` (current / superseded) and `effective_date`; filter
+superseded documents out of retrieval by default, or down-weight them; and require the agent to
+flag explicitly whenever it draws on a superseded source.
+
+**This is a metadata problem, not a model problem** — no amount of prompt engineering fixes a
+retriever that has no concept of which document is in force.
+
+**Cheaper partial fixes**, which treat the symptom rather than the cause:
+- Raise *k*, giving a 7-chunk document a better chance of surfacing.
+- Enforce source diversity in the top-*k* so one large document cannot crowd out several small ones.
+
+**Verification:** any of these would be validated with the same harness. The evaluation is not
+academic — it is the instrument that distinguishes "the fix worked" from "the fix worked on the
+one run I happened to look at."
+
+---
+
+## 13. The cost of rigorous evaluation
+
+| Stage | API calls |
+|---|---|
+| Agent runs (8 questions × 6) | ~48 |
+| Judge, 5× per answer (first pass) | 40 |
+| Negative control, 5 questions × 4 variants × 3 | 60 |
+| Judge, second pass over all runs | 48 |
+| Smoke tests, re-runs, prompt iteration | ~50 |
+| **Total** | **~250** |
+
+A single-run evaluation of the same 8 questions would have been **8 calls**.
+
+**Rigour cost roughly 30× the naive approach**, at a total of about $5. That is not a complaint —
+it is the actual economics, and it explains why the standard practice is to run everything once
+and report the number. The incentive runs against repeated measurement.
+
+What the 30× bought: a compliance failure occurring on 83% of runs that a single-run evaluation
+would have had a 1-in-6 chance of reporting as a pass.
