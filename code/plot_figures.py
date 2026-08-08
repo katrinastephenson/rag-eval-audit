@@ -63,6 +63,7 @@ def figure_1_score_overlap():
 
     y_positions = []
     y_labels = []
+    rows = []          # (query, cat, scores, y) — needed for the callout
     y = 0
     prev_cat = None
     for query, d in items:
@@ -72,6 +73,7 @@ def figure_1_score_overlap():
         ax.scatter(d["scores"], [y] * len(d["scores"]),
                    color=color, s=70, alpha=0.85, zorder=3,
                    edgecolors="white", linewidths=0.6)
+        rows.append((query, d["cat"], d["scores"], y))
         y_positions.append(y)
         # truncate label to keep the figure readable
         y_labels.append(query if len(query) <= 55
@@ -83,7 +85,51 @@ def figure_1_score_overlap():
     ax.set_yticklabels(y_labels, fontsize=9)
     ax.invert_yaxis()  # top-to-bottom reading
     ax.set_xlabel("cosine similarity (top-5 chunks per query)", **LABEL_KW)
-    ax.set_xlim(-0.02, None)
+    all_scores = [s for _q, d in items for s in d["scores"]]
+    ax.set_xlim(-0.02, max(all_scores) + 0.115)
+
+    # Overlap band: shade [0, threshold] where threshold is the highest
+    # min-score cutoff at which all three hard-negative queries still
+    # retain at least one admitted chunk. Any threshold in this band
+    # fails to filter out any of the three — the retriever cannot
+    # distinguish them from the on-topic queries.
+    hardneg_maxes = [max(d["scores"]) for _q, d in items
+                     if d["cat"] == "hard_negative"]
+    threshold = min(hardneg_maxes)
+    ax.axvspan(0, threshold, color=GREY, alpha=0.15, zorder=0)
+    # Annotation placed above the top data row (negative y after invert).
+    ax.text(0.004, -0.75,
+            f"any threshold ≤ {threshold:.2f} admits all 3 hard negatives; "
+            "any threshold above it rejects a legitimate question",
+            ha="left", va="top", fontsize=9.5, color="#444444",
+            style="italic")
+    # --- The inversion: the two points that make the argument -----------
+    # The whole claim rests on one pair: the highest-scoring UNANSWERABLE
+    # question outranks the lowest-scoring ANSWERABLE one. Any threshold
+    # below that gap admits hard negatives; any threshold above it rejects
+    # a legitimate question. Circling both makes the proof visual rather
+    # than something the reader has to reconstruct by scanning.
+    hn_rows = [r for r in rows if r[1] == "hard_negative"]
+    ot_rows = [r for r in rows if r[1] == "on_topic"]
+    hn_top = max(hn_rows, key=lambda r: max(r[2]))
+    ot_low = min(ot_rows, key=lambda r: max(r[2]))
+    hx, hy = max(hn_top[2]), hn_top[3]
+    ox, oy = max(ot_low[2]), ot_low[3]
+
+    ax.scatter([hx, ox], [hy, oy], s=300, facecolors="none",
+               edgecolors="#222222", linewidths=1.8, zorder=5)
+    ax.plot([ox, hx], [oy, hy], color="#222222", lw=1.1, ls="--",
+            alpha=0.8, zorder=2)
+    # Park the label in the blank band between the two category groups —
+    # the only region with no data points and no legend.
+    gap_y = (max(r[3] for r in ot_rows) + min(r[3] for r in hn_rows)) / 2
+    ax.text(hx + 0.018, gap_y,
+            f"unanswerable {hx:.2f}  >  answerable {ox:.2f}\n"
+            "no threshold separates them",
+            fontsize=9.5, color="#222222", va="center", ha="left")
+
+    # Extend y-range so annotation isn't clipped.
+    ax.set_ylim(top=-1.2)
     _clean(ax)
 
     # Category legend — two labelled dots in the top-right corner.
@@ -116,12 +162,15 @@ def figure_2_q5_failure():
             "retrieved_occ": "occ_2026_13.txt" in sources,
         })
 
-    # Correctness scores per eval-run-file (one file → possibly many judgments).
-    scores_by_run = defaultdict(list)
+    # One judgment per run — earliest by filename timestamp. Some eval
+    # runs were judged multiple times during development; showing only
+    # the first keeps the figure honest to "one row per run".
+    first_score_by_run = {}
     for p in sorted((DATA_DIR / "judgments").glob("q05_*.json")):
         j = json.loads(p.read_text())
-        if j.get("correctness_score") is not None:
-            scores_by_run[j["eval_run_file"]].append(j["correctness_score"])
+        if (j.get("correctness_score") is not None
+                and j["eval_run_file"] not in first_score_by_run):
+            first_score_by_run[j["eval_run_file"]] = j["correctness_score"]
 
     fig, ax = plt.subplots(figsize=(8.5, 4.5))
 
@@ -129,13 +178,9 @@ def figure_2_q5_failure():
     for i, run in enumerate(eval_runs):
         y = i
         color = BLUE if run["retrieved_occ"] else GREY
-        # Plot every judgment as its own dot with small vertical jitter so
-        # overlapping scores are visible.
-        scores = scores_by_run.get(run["file"], [])
-        n = len(scores)
-        for idx, s in enumerate(scores):
-            offset = (idx - (n - 1) / 2) * 0.10 if n > 1 else 0
-            ax.scatter([s], [y + offset], color=color, s=110, alpha=0.9,
+        score = first_score_by_run.get(run["file"])
+        if score is not None:
+            ax.scatter([score], [y], color=color, s=130, alpha=0.9,
                        edgecolors="white", linewidths=0.7, zorder=3)
         y_labels.append(
             f"run {i + 1}  " +
@@ -147,7 +192,7 @@ def figure_2_q5_failure():
     ax.invert_yaxis()
     ax.set_xlim(0.5, 5.5)
     ax.set_xticks([1, 2, 3, 4, 5])
-    ax.set_xlabel("judge correctness score  (one dot per judgment run)",
+    ax.set_xlabel("judge correctness score  (first judgment per run)",
                   **LABEL_KW)
     _clean(ax)
 
@@ -175,11 +220,15 @@ def figure_3_judge_sensitivity():
         "cites_unretrieved_source",
         "contradicts_context",
     ]
+    # Colour encodes the ONLY distinction the x-axis doesn't already make:
+    # reference vs corrupted. Giving each variant its own hue would re-encode
+    # information the axis carries, which reads as decoration.
+    BASELINE_GREY = "#666666"
     variant_colors = {
-        "original": BLACK,
+        "original": BASELINE_GREY,
         "fabricated_claim": VERMILLION,
-        "cites_unretrieved_source": ORANGE,
-        "contradicts_context": PURPLE,
+        "cites_unretrieved_source": VERMILLION,
+        "contradicts_context": VERMILLION,
     }
     # Human-readable x-tick labels (match user's phrasing).
     variant_labels = {
@@ -221,8 +270,9 @@ def figure_3_judge_sensitivity():
     _clean(ax)
 
     ax.set_title(
-        "Judge cleanly demotes fabrication and fake citations; "
-        "disagrees on contradictions", **TITLE_KW)
+        "Judge penalises fabricated content 3 points, fabricated "
+        "citations only 1–2 — and disagrees with itself on "
+        "contradictions", **TITLE_KW)
 
     out = FIG_DIR / "03_judge_sensitivity.png"
     fig.tight_layout()
