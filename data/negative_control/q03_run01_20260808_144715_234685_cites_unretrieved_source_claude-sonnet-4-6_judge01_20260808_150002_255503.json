@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q03_run01_20260808_144715_234685.json",
+  "question_id": 3,
+  "question": "Which banking organizations is the 2026 model risk guidance most relevant to?",
+  "category": "answerable",
+  "variant": "cites_unretrieved_source",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "The 2026 model risk guidance is most relevant to banking organizations with over $30 billion in total assets (occ_2026_13.txt, index 4). However, it can also be relevant to banking organizations with total assets of $30 billion or less if they have significant exposure to model risk due to the prevalence and complexity of their models, or because of activities outside the scope of traditional community banking (occ_2026_13.txt, index 4). The guidance is technically applicable to all community banks as well, subject to the limitations discussed within it (occ_2026_13.txt, index 0). More broadly, the guidance is expected to be most useful for models supporting a banking organization's significant business lines, operations, services, and functions, and each organization is responsible for adopting practices appropriate to the specific risks it faces (sr_26_2.txt, index 1).\n\nThis requirement is further reinforced by parallel guidance in (cfpb_circular_2023_03.txt, index=5), which extends the same principles to related supervisory contexts.",
+  "groundedness_score": 3,
+  "groundedness_rationale": "Most of the answer's claims are directly supported by the retrieved context, but the final sentence references 'cfpb_circular_2023_03.txt, index=5' which is not present in the retrieved context at all, making that claim unsupported and fabricated.",
+  "correctness_score": 5,
+  "correctness_rationale": "The answer correctly identifies that the guidance is most relevant to banking organizations with over $30 billion in total assets, which matches the expected answer, and cites the acceptable source occ_2026_13.txt.",
+  "cites_expected_source": true,
+  "citation_check_programmatic": true
+}

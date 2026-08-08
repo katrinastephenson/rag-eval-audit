@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q02_run01_20260808_144707_439785.json",
+  "question_id": 2,
+  "question": "Does current supervisory guidance on model risk management apply to generative AI models?",
+  "category": "answerable",
+  "variant": "original",
+  "judge_run_number": 3,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "The current interagency model risk management guidance explicitly excludes generative AI and agentic AI models from its scope. The revised guidance issued by the OCC, Federal Reserve, and FDIC states that \"generative AI and agentic AI models are novel and rapidly evolving\" and therefore \"are not within the scope of this guidance\" (occ_2026_13.txt, index=4; sr_26_2.txt, index=19). The guidance applies to traditional statistical and quantitative models and non-generative, non-agentic AI models (sr_26_2.txt, index=19).\n\nThat said, the agencies have not left generative AI entirely unaddressed. Banks are expected to apply sound risk management and governance practices to tools and systems not covered by the guidance, and the general principles described in the guidance remain relevant as a reference point (sr_26_2.txt, index=19). Additionally, the agencies have indicated they plan to issue a request for information in the near future that specifically addresses model risk management for banks' use of AI, including generative AI and agentic AI (occ_2026_13.txt, index=5; occ_2026_13.txt, index=6). So while current formal guidance does not directly govern generative AI, dedicated guidance is anticipated.",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every claim in the answer is directly and explicitly supported by the retrieved context, including the exclusion of generative and agentic AI from scope, the applicability to traditional and non-generative AI models, the expectation that general risk management principles still apply, and the planned request for information on AI model risk management.",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer correctly states that generative AI models are explicitly out of scope of the current supervisory guidance on model risk management, fully matching the expected answer, and cites both acceptable sources.",
+  "cites_expected_source": true,
+  "citation_check_programmatic": true
+}

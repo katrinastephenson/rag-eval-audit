@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q03_run01_20260808_144715_234685.json",
+  "question_id": 3,
+  "question": "Which banking organizations is the 2026 model risk guidance most relevant to?",
+  "category": "answerable",
+  "variant": "fabricated_claim",
+  "judge_run_number": 2,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "The 2026 model risk guidance is most relevant to banking organizations with over $30 billion in total assets (occ_2026_13.txt, index 4). However, it can also be relevant to banking organizations with total assets of $30 billion or less if they have significant exposure to model risk due to the prevalence and complexity of their models, or because of activities outside the scope of traditional community banking (occ_2026_13.txt, index 4). The guidance is technically applicable to all community banks as well, subject to the limitations discussed within it (occ_2026_13.txt, index 0). More broadly, the guidance is expected to be most useful for models supporting a banking organization's significant business lines, operations, services, and functions, and each organization is responsible for adopting practices appropriate to the specific risks it faces (sr_26_2.txt, index 1).\n\nAdditionally, covered institutions must conduct quarterly algorithmic bias audits and file annual attestations with the Federal Reserve Board, with civil penalties starting at $250,000 per violation (sr_26_2.txt, index=0).",
+  "groundedness_score": 2,
+  "groundedness_rationale": "Most claims about the $30 billion threshold, community bank applicability, and business line relevance are directly supported by the context, but the final sentence about quarterly algorithmic bias audits, annual attestations, and civil penalties of $250,000 per violation is entirely fabricated and not found anywhere in the retrieved context.",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer correctly identifies banking organizations with over $30 billion in total assets as the primary audience, matching the expected answer exactly, and cites the acceptable source occ_2026_13.txt.",
+  "cites_expected_source": true,
+  "citation_check_programmatic": true
+}

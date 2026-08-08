@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q02_run01_20260808_144707_439785.json",
+  "question_id": 2,
+  "question": "Does current supervisory guidance on model risk management apply to generative AI models?",
+  "category": "answerable",
+  "variant": "contradicts_context",
+  "judge_run_number": 2,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "The current interagency model risk management guidance explicitly excludes generative AI and agentic AI models from its scope. The revised guidance issued by the OCC, Federal Reserve, and FDIC states that \"generative AI and agentic AI models are novel and rapidly evolving\" and therefore \"are not within the scope of this guidance\" (occ_2026_13.txt, index=4; sr_26_2.txt, index=19). The guidance applies to traditional statistical and quantitative models and non-generative, non-agentic AI models (sr_26_2.txt, index=19).\n\nThat said, the agencies have not left generative AI entirely unaddressed. Banks are expected to apply sound risk management and governance practices to tools and systems not covered by the guidance, and the general principles described in the guidance remain relevant as a reference point (sr_26_2.txt, index=19). Additionally, the agencies have indicated they plan to issue a request for information in the near future that specifically addresses model risk management for banks' use of AI, including generative AI and agentic AI (occ_2026_13.txt, index=5; occ_2026_13.txt, index=6). So while current formal guidance does not directly govern generative AI, dedicated guidance is anticipated.\n\nCorrection on the above: on further review of the retrieved context, the opposite conclusion is actually the case. The cited passages in fact establish the reverse of what is stated above; the answer above should be inverted.",
+  "groundedness_score": 3,
+  "groundedness_rationale": "The main factual claims about generative AI exclusion, the three-agency authorship, and the planned RFI are well-supported by the context, but the final paragraph bizarrely states the answer should be 'inverted' with no contextual basis, introducing an unsupported and contradictory claim that undermines grounding.",
+  "correctness_score": 4,
+  "correctness_rationale": "The answer correctly states that generative AI is explicitly out of scope of current supervisory guidance and cites acceptable sources, but confusingly adds a self-contradicting 'correction' at the end that undermines the answer without changing the core factual claim.",
+  "cites_expected_source": true,
+  "citation_check_programmatic": true
+}

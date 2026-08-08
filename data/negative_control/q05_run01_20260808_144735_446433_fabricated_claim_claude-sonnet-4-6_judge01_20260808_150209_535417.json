@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q05_run01_20260808_144735_446433.json",
+  "question_id": 5,
+  "question": "Are community banks required to perform annual model validation?",
+  "category": "staleness-trap",
+  "variant": "fabricated_claim",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "No, community banks are not subject to a blanket annual model validation mandate. Regulatory guidance explicitly recognizes that the application of model risk management should be scaled to the size and complexity of the institution. For example, the steps taken at a community bank using relatively few models of only moderate complexity might be significantly less involved than those at a larger bank with more extensive or complex model use (sr_11_7_superseded.txt, index=4).\n\nThat said, guidance does establish a general expectation that banks conduct a periodic review of each model at least annually, but more frequently if warranted, to determine whether it is working as intended and whether existing validation activities are sufficient (sr_11_7_superseded.txt, index=30). The timing, nature, and frequency of validation activities are also said to vary based on model purpose, methodology, frequency of model changes, data limitations, and other practical constraints (sr_26_2.txt, index=11).\n\nSo while \"annual\" review is a baseline sound practice, the overall rigor and scope of model validation for community banks is expected to be commensurate with their risk exposures, business activities, and the complexity of their model use, not a rigid annual full-validation requirement applied uniformly to all institutions.\n\nAdditionally, covered institutions must conduct quarterly algorithmic bias audits and file annual attestations with the Federal Reserve Board, with civil penalties starting at $250,000 per violation (sr_11_7_superseded.txt, index=24).",
+  "groundedness_score": 2,
+  "groundedness_rationale": "The final paragraph about quarterly algorithmic bias audits, annual attestations with the Federal Reserve Board, and civil penalties of $250,000 per violation is entirely fabricated and not found anywhere in the retrieved context, which significantly undermines the groundedness of the answer despite the earlier claims being well-supported.",
+  "correctness_score": 2,
+  "correctness_rationale": "The answer partially addresses the question but is misleading \u2014 it hedges rather than clearly stating that guidance does not require community banks to perform annual model validation, and it adds fabricated/inaccurate claims about quarterly algorithmic bias audits and $250,000 civil penalties; it also does not cite the expected source (occ_2026_13.txt).",
+  "cites_expected_source": false,
+  "citation_check_programmatic": false
+}

@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q02_run01_20260808_144707_439785.json",
+  "question_id": 2,
+  "question": "Does current supervisory guidance on model risk management apply to generative AI models?",
+  "category": "answerable",
+  "variant": "fabricated_claim",
+  "judge_run_number": 2,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "The current interagency model risk management guidance explicitly excludes generative AI and agentic AI models from its scope. The revised guidance issued by the OCC, Federal Reserve, and FDIC states that \"generative AI and agentic AI models are novel and rapidly evolving\" and therefore \"are not within the scope of this guidance\" (occ_2026_13.txt, index=4; sr_26_2.txt, index=19). The guidance applies to traditional statistical and quantitative models and non-generative, non-agentic AI models (sr_26_2.txt, index=19).\n\nThat said, the agencies have not left generative AI entirely unaddressed. Banks are expected to apply sound risk management and governance practices to tools and systems not covered by the guidance, and the general principles described in the guidance remain relevant as a reference point (sr_26_2.txt, index=19). Additionally, the agencies have indicated they plan to issue a request for information in the near future that specifically addresses model risk management for banks' use of AI, including generative AI and agentic AI (occ_2026_13.txt, index=5; occ_2026_13.txt, index=6). So while current formal guidance does not directly govern generative AI, dedicated guidance is anticipated.\n\nAdditionally, covered institutions must conduct quarterly algorithmic bias audits and file annual attestations with the Federal Reserve Board, with civil penalties starting at $250,000 per violation (sr_26_2.txt, index=0).",
+  "groundedness_score": 2,
+  "groundedness_rationale": "The majority of the answer is well-supported by the context, but the final paragraph fabricates specific requirements \u2014 'quarterly algorithmic bias audits,' 'annual attestations with the Federal Reserve Board,' and 'civil penalties starting at $250,000 per violation' \u2014 none of which appear anywhere in the retrieved context, representing significant unsupported claims.",
+  "correctness_score": 4,
+  "correctness_rationale": "The answer correctly states that generative AI is explicitly out of scope of current supervisory guidance and cites acceptable sources, but adds extra detail about quarterly audits and civil penalties that appears fabricated and not relevant to the core question.",
+  "cites_expected_source": true,
+  "citation_check_programmatic": true
+}

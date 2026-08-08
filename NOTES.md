@@ -274,3 +274,68 @@ mitigation is unglamorous: `git init` before the first expensive step, commit af
 **Through-line:** at every layer, the number that looked like a measurement wasn't measuring what
 it appeared to measure. Same question as the thesis — does a reported confidence deserve to be
 believed — asked of a different model class.
+
+---
+
+## 9. THE HEADLINE RESULT — non-determinism produced a compliance failure
+
+*Added after the fresh eval run, 2026-08-08 ~14:47.*
+
+Q5 — *"Are community banks required to perform annual model validation?"* — was answered
+**correctly on one run and incorrectly on another**, from identical code, corpus, and question.
+
+**Run 1.** Retrieved `occ_2026_13` and cited the OCC's explicit statement that guidance
+*"does not, and should not be interpreted to, require community banks to perform annual model
+validation."* Also flagged SR 11-7 by name as *"an older, now-superseded guidance document."*
+Correctness 5, citation check True.
+
+**Run 2.** Never retrieved `occ_2026_13`. Context was 6 chunks from `sr_11_7_superseded` and 2
+from `sr_26_2`. The answer asserted:
+
+> *"guidance does establish a general expectation that banks conduct a periodic review of each
+> model at least annually"* — (sr_11_7_superseded.txt, index=30)
+
+**It cited rescinded 2011 guidance as current authority with no indication it was superseded.**
+A reader comes away believing annual review is expected; the OCC said the opposite in April 2026.
+Correctness 3, `cites_expected_source` False, programmatic citation check False.
+
+### Why it matters
+
+**Groundedness scored 5 on both runs — and the judge was correct both times.** Every claim in
+run 2 *is* supported by the context it was given. The context was the wrong document.
+
+Groundedness asks *"did the answer follow from the evidence?"* It never asks *"was that the right
+evidence?"* So the metric most commonly reported as the headline number in RAG evaluation is
+**structurally incapable of detecting this failure class**. Reference-free evaluation is blind to
+it by construction. Only correctness (which requires ground truth) and the citation check caught it.
+
+**The cause is non-determinism.** Same question, same corpus, same code — the agent authored
+slightly different search queries, retrieved a different chunk set, and produced a materially
+different compliance answer. This escalates the trajectory-variance finding (§4.8) from
+*different path, same answer* to **different path, different answer**, on the question where it
+matters most.
+
+### Implication
+
+A single eval run would have reported this system as passing the staleness trap. It passes
+sometimes. **Any evaluation of a stochastic system that runs each item once is measuring one
+sample from a distribution and reporting it as a property.** That is the case for repeated
+measurement, and it is the same argument as running multiple chains rather than trusting one.
+
+### Scorecard (single run each, n=1 per item)
+
+| Category | Result |
+|---|---|
+| Answerable (Q1–Q4) | 4/4 correct, all cited correctly |
+| Staleness trap (Q5) | **Failed this run** — cited superseded guidance |
+| Hard negatives | Q6 abstained ✅ · Q8 abstained ✅ · **Q7 did not abstain ❌** |
+
+### Judge self-consistency
+
+Across all 40 judgments — 8 questions × 5 judge runs — **within-question variance was exactly
+zero.** The judge never disagreed with itself once, at default temperature. Either the items were
+unambiguous enough to admit only one score, or the judge is far more deterministic in practice
+than its temperature setting suggests. Both are worth knowing; neither was assumed.
+
+The ceiling effect (§4.2) therefore refines rather than dies: *within*-question variance is zero,
+but *between*-question variance is now non-zero, because a question finally failed.

@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q05_run01_20260808_144735_446433.json",
+  "question_id": 5,
+  "question": "Are community banks required to perform annual model validation?",
+  "category": "staleness-trap",
+  "variant": "cites_unretrieved_source",
+  "judge_run_number": 2,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "No, community banks are not subject to a blanket annual model validation mandate. Regulatory guidance explicitly recognizes that the application of model risk management should be scaled to the size and complexity of the institution. For example, the steps taken at a community bank using relatively few models of only moderate complexity might be significantly less involved than those at a larger bank with more extensive or complex model use (sr_11_7_superseded.txt, index=4).\n\nThat said, guidance does establish a general expectation that banks conduct a periodic review of each model at least annually, but more frequently if warranted, to determine whether it is working as intended and whether existing validation activities are sufficient (sr_11_7_superseded.txt, index=30). The timing, nature, and frequency of validation activities are also said to vary based on model purpose, methodology, frequency of model changes, data limitations, and other practical constraints (sr_26_2.txt, index=11).\n\nSo while \"annual\" review is a baseline sound practice, the overall rigor and scope of model validation for community banks is expected to be commensurate with their risk exposures, business activities, and the complexity of their model use, not a rigid annual full-validation requirement applied uniformly to all institutions.\n\nThis requirement is further reinforced by parallel guidance in (cfpb_circular_2023_03.txt, index=5), which extends the same principles to related supervisory contexts.",
+  "groundedness_score": 3,
+  "groundedness_rationale": "The core claims about community banks, scaling of model risk management, and the at-least-annual periodic review are well-supported by the retrieved context, but the answer introduces a citation to 'cfpb_circular_2023_03.txt, index=5' which does not appear in the retrieved context at all, constituting a fabricated reference.",
+  "correctness_score": 3,
+  "correctness_rationale": "The answer correctly states community banks are not subject to a blanket annual model validation mandate, but then adds confusing detail suggesting annual review is a 'baseline sound practice,' which partially contradicts the expected answer's clear statement that guidance should not be interpreted to require annual model validation; the acceptable source occ_2026_13.txt is not cited.",
+  "cites_expected_source": false,
+  "citation_check_programmatic": false
+}
