@@ -339,3 +339,71 @@ than its temperature setting suggests. Both are worth knowing; neither was assum
 
 The ceiling effect (§4.2) therefore refines rather than dies: *within*-question variance is zero,
 but *between*-question variance is now non-zero, because a question finally failed.
+
+---
+
+## 10. Negative-control replication — judge sensitivity profile CONFIRMED
+
+*5 questions × 4 variants × 3 judge runs = 60 judgments, 2026-08-08 ~15:00.*
+
+Groundedness score by corruption type:
+
+| Question | original | fabricated content | fake citation | contradicts context |
+|---|---|---|---|---|
+| Q1 | 5 | **2** | 4 | 2, 3, 2 |
+| Q2 | 5 | **2** | 4 | 3, 3, 4 |
+| Q3 | 5 | **2** | 3 | 4, 4, 5 |
+| Q4 | 5 | **2** | 4 | **5, 5, 4** |
+| Q5 | 5 | **2** | 4, 3, 3 | 2, 2, 3 |
+
+### 10.1 The provenance finding replicates (5/5 questions)
+
+- **Fabricated content:** 5 → **2** on all 15 judgments. A 3-point penalty, perfectly consistent.
+- **Fabricated citation:** 5 → **3 or 4**, every question. A 1–2 point penalty.
+
+The judge penalises invented *facts* more than invented *sources*, without exception. This
+upgrades §4.4 from a single-question observation to a replicated property of the instrument.
+
+**Why it matters:** in a regulatory setting provenance *is* the product. Nobody asks "is this
+claim plausible" — they ask "which document says that, and can I read it." The judge is weakest
+exactly where the domain is most demanding.
+
+### 10.2 NEW — judge self-consistency depends on the corruption type
+
+`contradicts_context` is the **only** variant where the judge disagreed with itself, and it did so
+on all five questions. Every other variant produced identical scores across three runs.
+
+**Judge reliability is therefore not a single number.** It is perfectly reliable on fabrication
+and unreliable on contradiction — least reliable where the corruption is most subtle. Reporting
+"our judge shows high inter-run agreement" is meaningless without stating *on what*: measure
+agreement on easy cases and you will report a reliability you do not have on hard ones.
+
+This refines §9's "zero within-question variance" finding rather than contradicting it. The
+original answers and the blatant corruptions admit only one score; the subtle corruption does not.
+
+**Worst single case:** on Q4 the judge scored a deliberately contradictory answer **5** on two of
+three runs — full marks for an answer constructed to contradict its own evidence. Caught only
+because it was run three times.
+
+### 10.3 NEW — both citation checks fail on fabricated provenance
+
+`citation_check_programmatic` returned **True** for the `cites_unretrieved_source` variant on
+every question. The corruption *adds* a bogus citation while retaining the genuine ones, and the
+regex is a **presence test** — it confirms that an acceptable source appears, never that no
+fabricated source does.
+
+So on fake provenance: the deterministic check passes it outright, and the judge deducts a single
+point. **Neither mechanism detects it.**
+
+Combined with the earlier result that the programmatic check also passed a `fabricated_claim`
+variant (which cited a genuinely retrieved source), the two checks fail in complementary but
+overlapping ways:
+
+| Corruption | Programmatic check | Judge |
+|---|---|---|
+| Fabricated content, real citation | ❌ passes | ✅ catches (5→2) |
+| Fabricated citation added alongside real ones | ❌ passes | ⚠️ weak (5→3/4) |
+| Contradicts context | ❌ passes | ⚠️ unreliable (2–5) |
+
+Neither is sufficient alone, and their union still leaves fabricated provenance essentially
+undetected.
