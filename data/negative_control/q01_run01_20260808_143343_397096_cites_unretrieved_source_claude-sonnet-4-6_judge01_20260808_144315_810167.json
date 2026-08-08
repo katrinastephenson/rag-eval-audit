@@ -1,0 +1,16 @@
+{
+  "eval_run_file": "q01_run01_20260808_143343_397096.json",
+  "question_id": 1,
+  "question": "When using AI or complex credit models, may creditors rely on the checklist of reasons in the CFPB's sample adverse action forms?",
+  "category": "answerable",
+  "variant": "cites_unretrieved_source",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "answer": "The CFPB's answer is an unambiguous no. According to CFPB Consumer Financial Protection Circular 2023-03, creditors may not rely on the checklist of reasons in the sample forms to satisfy their ECOA obligations if those reasons do not specifically and accurately indicate the principal reason or reasons for the adverse action (cfpb_circular_2023_03.txt, index 1). Creditors also may not use overly broad or vague reasons that obscure the specific and accurate reasons actually relied upon (cfpb_circular_2023_03.txt, index 1).\n\nThe sample forms, codified in Regulation B, are described as \"illustrative and may not be appropriate for all creditors,\" and they merely provide a non-exclusive list of reasons creditors most commonly consider (cfpb_circular_2023_03.txt, index 3). Regulation B is explicit that \"if the reasons listed on the forms are not the factors actually used, a creditor will not satisfy the notice requirement by simply checking the closest identifiable factor listed\" (cfpb_circular_2023_03.txt, index 6). If the AI or complex model's actual principal reasons are not reflected in the checklist, the creditor must either modify the form or check \"other\" and supply an appropriate explanation (cfpb_circular_2023_03.txt, index 6). Selecting the closest but inaccurate factor from the checklist is a violation of the law, even when the actual factors considered by the algorithm may be surprising or unconventional (cfpb_circular_2023_03.txt, index 6).\n\nThis requirement is further reinforced by parallel guidance in (occ_2026_13.txt, index=5), which extends the same principles to related supervisory contexts.",
+  "groundedness_score": 4,
+  "groundedness_rationale": "Nearly all claims are directly supported by the retrieved context, with the only unsupported element being the reference to 'occ_2026_13.txt, index=5,' which does not appear in the retrieved context and appears to be fabricated, but the rest of the answer is well-grounded.",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer correctly states that creditors may not rely on the checklist of reasons in the CFPB's sample adverse action forms when using AI or complex credit models, fully matching the expected answer of 'No,' and cites the acceptable source cfpb_circular_2023_03.txt.",
+  "cites_expected_source": true,
+  "citation_check_programmatic": true
+}

@@ -1,0 +1,68 @@
+{
+  "question_id": 1,
+  "question": "When using AI or complex credit models, may creditors rely on the checklist of reasons in the CFPB's sample adverse action forms?",
+  "category": "answerable",
+  "run_number": 1,
+  "final_answer": "The CFPB's answer is an unambiguous no. According to CFPB Consumer Financial Protection Circular 2023-03, creditors may not rely on the checklist of reasons in the sample forms to satisfy their ECOA obligations if those reasons do not specifically and accurately indicate the principal reason or reasons for the adverse action (cfpb_circular_2023_03.txt, index 1). Creditors also may not use overly broad or vague reasons that obscure the specific and accurate reasons actually relied upon (cfpb_circular_2023_03.txt, index 1).\n\nThe sample forms, codified in Regulation B, are described as \"illustrative and may not be appropriate for all creditors,\" and they merely provide a non-exclusive list of reasons creditors most commonly consider (cfpb_circular_2023_03.txt, index 3). Regulation B is explicit that \"if the reasons listed on the forms are not the factors actually used, a creditor will not satisfy the notice requirement by simply checking the closest identifiable factor listed\" (cfpb_circular_2023_03.txt, index 6). If the AI or complex model's actual principal reasons are not reflected in the checklist, the creditor must either modify the form or check \"other\" and supply an appropriate explanation (cfpb_circular_2023_03.txt, index 6). Selecting the closest but inaccurate factor from the checklist is a violation of the law, even when the actual factors considered by the algorithm may be surprising or unconventional (cfpb_circular_2023_03.txt, index 6).",
+  "sources_cited": [
+    "cfpb_circular_2023_03.txt"
+  ],
+  "chunks_in_context": [
+    {
+      "source": "cfpb_circular_2023_03.txt",
+      "index": 3,
+      "chunk_id": 3,
+      "score": 0.4213119946630196,
+      "text": "as a tool to prevent and identify discrimination through the requirement that creditors must affirmatively explain their decisions. In addition, such notices provide consumers with a key educational tool allowing them to understand the reasons for a creditor's action and take steps to improve their credit status or rectify mistakes made by creditors.[5] The CFPB provides sample forms (currently codified in Regulation B) that creditors may use to satisfy their adverse action notification requirements, if appropriate. These forms include a checklist of sample reasons for adverse action which \u201ccreditors most commonly consider,\u201d [6] as well as an open-ended field for creditors to provide other reasons not listed. The sample forms are used by creditors to satisfy certain adverse action notice requirements under ECOA and the Fair Credit Reporting Act (FCRA), though the statutory obligations under each remain distinct.[7] While the sample forms provide examples of commonly considered reasons for taking adverse action, \u201c[t]he sample forms are illustrative and may not be appropriate for all creditors.\u201d [8] Reliance on the checklist of reasons provided in the sample forms will satisfy a creditor's adverse action notification requirements only if the reasons disclosed are specific and indicate the principal reason(s) for the adverse"
+    },
+    {
+      "source": "cfpb_circular_2023_03.txt",
+      "index": 0,
+      "chunk_id": 0,
+      "score": 0.39018688032283094,
+      "text": "Consumer Financial Protection Circular 2023-03: Adverse Action Notification Requirements and Proper Use of Sample Forms Consumer Financial Protection Bureau 12 CFR Chapter X AGENCY: Consumer Financial Protection Bureau. ACTION: Consumer financial protection circular. SUMMARY: The Consumer Financial Protection Bureau (CFPB) has issued Consumer Financial Protection Circular 2023-03, titled, \u201cAdverse action notification requirements and the proper use of the CFPB's sample forms provided in Regulation B.\u201d In this circular, the CFPB responds to the question, \u201cWhen using artificial intelligence or complex credit models, may creditors rely on the checklist of reasons provided in CFPB sample forms for adverse action notices even when those sample reasons do not accurately or specifically identify the reasons for the adverse action?\u201d DATES: The CFPB released this circular on its website on September 19, 2023. ADDRESSES: Enforcers, and the broader public, can provide feedback and comments to Circulars@cfpb.gov. FOR FURTHER INFORMATION CONTACT: George Karithanom, Regulatory Implementation & Guidance Program Analyst, Office of Regulations, at 202-435-7700 or at: https://reginquiries.consumerfinance.gov/\u200b. SUPPLEMENTARY INFORMATION: Question Presented When using artificial intelligence or complex credit models, may creditors rely on the checklist of reasons provided in CFPB sample forms for adverse action notices even when those sample reasons do not accurately or"
+    },
+    {
+      "source": "cfpb_circular_2023_03.txt",
+      "index": 1,
+      "chunk_id": 1,
+      "score": 0.31728448003415366,
+      "text": "& Guidance Program Analyst, Office of Regulations, at 202-435-7700 or at: https://reginquiries.consumerfinance.gov/\u200b. SUPPLEMENTARY INFORMATION: Question Presented When using artificial intelligence or complex credit models, may creditors rely on the checklist of reasons provided in CFPB sample forms for adverse action notices even when those sample reasons do not accurately or specifically identify the reasons for the adverse action? Response No, creditors may not rely on the checklist of reasons provided in the sample forms (currently codified in Regulation B) to satisfy their obligations under ECOA if those reasons do not specifically and accurately indicate the principal reason(s) for the adverse action. Nor, as a general matter, may creditors rely on overly broad or vague reasons to the extent that they obscure the specific and accurate reasons relied upon. Analysis The Equal Credit Opportunity Act (ECOA), implemented by Regulation B, makes it unlawful for any creditor to discriminate against any applicant with respect to any aspect of a credit transaction on the basis of race, color, religion, national origin, sex (including sexual orientation and gender identity), marital status, age (provided the applicant has the capacity to contract), because all or part of the applicant's income derives from any public assistance program,"
+    },
+    {
+      "source": "cfpb_circular_2023_03.txt",
+      "index": 6,
+      "chunk_id": 6,
+      "score": 0.30072557845930065,
+      "text": "reason(s) for the adverse action. As explained in Regulation B, \u201c[i]f the reasons listed on the forms are not the factors actually used, a creditor will not satisfy the notice requirement by simply checking the closest identifiable factor listed.\u201d [13] Rather, the sample forms merely provide an illustrative and non-exclusive list.[14] Thus, if the principal reason(s) a creditor actually relies on is not accurately reflected in the checklist of reasons in the sample forms, it is the duty of the creditor\u2014if it chooses to use the sample forms\u2014to either modify the form or check \u201cother\u201d and include the appropriate explanation, so that the applicant against whom adverse action is taken receives a statement of reasons that is specific and indicates the principal reason(s) for the action taken. Creditors that simply select the closest, but nevertheless inaccurate, identifiable factors from the checklist of sample reasons are not in compliance with the law. Creditors may not evade this requirement, even if the factors actually considered or scored by the creditor may be surprising to consumers, as may be the case when a creditor relies on complex algorithms that, for instance, consider data that are not typically found in a consumer's credit file"
+    },
+    {
+      "source": "cfpb_circular_2023_03.txt",
+      "index": 5,
+      "chunk_id": 5,
+      "score": 0.29583417736516904,
+      "text": "consumer protection risk.[10] This circular addresses adverse action notice requirements under ECOA and Regulation B; financial institutions also must ensure their use of data and advanced technologies fully complies with other legal requirements, such as the prohibition against illegal discrimination. The CFPB, along with the Department of Justice and other enforcement agencies, have pledged to vigorously use the agencies' collective authorities to protect individuals' rights regardless of whether legal violations occur through traditional means or advanced technologies.[11] Under ECOA and Regulation B a creditor must provide an applicant with a statement of specific reason(s) for an adverse action; these reasons must \u201crelate to and accurately describe the factors actually considered or scored by a creditor.\u201d [12] A creditor therefore may not rely solely on the unmodified checklist of reasons in the sample forms provided by the CFPB if the reasons provided on the sample forms do not reflect the principal reason(s) for the adverse action. As explained in Regulation B, \u201c[i]f the reasons listed on the forms are not the factors actually used, a creditor will not satisfy the notice requirement by simply checking the closest identifiable factor listed.\u201d [13] Rather, the sample forms merely provide an illustrative and non-exclusive"
+    },
+    {
+      "source": "cfpb_circular_2023_03.txt",
+      "index": 15,
+      "chunk_id": 15,
+      "score": 0.26094242626987935,
+      "text": "key factor was the number of inquiries made with respect to a consumer report). 15 U.S.C. 1681g(f)(1)(C), 1681m(a)(2). Although this circular is focused on ECOA's adverse action notification requirements, similar principles apply under FCRA when a person must disclose the \u201ckey factors that adversely affected the credit score of the consumer.\u201d 15 U.S.C. 1681g(f)(1)(C); see also 1681g(f)(2)(B) (defining \u201ckey factors\u201d to mean \u201call relevant elements or reasons adversely affecting the credit score of the particular individual, listed in the order of their importance based on their effect on the credit score\u201d). Despite similar underlying principles, the statutory obligations under FCRA and ECOA are distinct. See 12 CFR part 1002 (supp. I), sec. 1002.9, para. 9(b)(2)-9 (\u201cDisclosing the key factors that adversely affected the consumer's credit score does not satisfy the ECOA requirement to disclose specific reasons for denying or taking other adverse action on an application or extension of credit.\u201d). Moreover, while ECOA's requirements only apply to creditors, FCRA's adverse action notice requirements apply to \u201cany person\u201d that takes adverse action based in whole or in part on any information contained in a consumer report, including employers, landlords, insurers, and other users of consumer reports. 15 U.S.C. 1681m(a). This circular"
+    },
+    {
+      "source": "cfpb_circular_2023_03.txt",
+      "index": 16,
+      "chunk_id": 16,
+      "score": 0.2567256919272502,
+      "text": "Moreover, while ECOA's requirements only apply to creditors, FCRA's adverse action notice requirements apply to \u201cany person\u201d that takes adverse action based in whole or in part on any information contained in a consumer report, including employers, landlords, insurers, and other users of consumer reports. 15 U.S.C. 1681m(a). This circular focuses on ECOA's adverse action notification requirements and does not address requirements under FCRA. 8. 12 CFR part 1002 (app. C), comment 3. 9. The CFPB has previously issued guidance affirming that creditors are not excused from their adverse action notice obligations under ECOA simply because they rely on complex algorithmic underwriting models in making credit decisions. See CFPB, Consumer Financial Protection Circular 2022-03: Adverse action notification requirements in connection with credit decisions based on complex algorithms (May 26, 2022) (\u201cConsumer Financial Protection Circular 2022-03\u201d), https://www.consumerfinance.gov/\u200bcompliance/\u200bcirculars/\u200bcircular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/\u200b. Building on that previous guidance, this Circular focuses on the accuracy and specificity requirements of those notices, even when such models, driven by data gathered outside of traditional credit reports or applications, are utilized. 10. See Bd. of Governors of the Fed. Reserve Sys., Consumer Fin. Prot. Bureau, Fed. Deposit Insurance Corp., Nat'l Credit Union Admin., and Office of the Comptroller of the Currency,"
+    }
+  ],
+  "rounds_used": 2,
+  "stop_reason": "end_turn",
+  "hit_round_cap": false,
+  "total_usage": {
+    "input_tokens": 5095,
+    "output_tokens": 480
+  }
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "question": "When using AI or complex credit models, may creditors rely on the checklist of reasons in the CFPB's sample adverse action forms?",
+    "category": "answerable",
+    "expected_answer": "No.",
+    "expected_sources": [
+      "cfpb_circular_2023_03.txt"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": 2,
+    "question": "Does current supervisory guidance on model risk management apply to generative AI models?",
+    "category": "answerable",
+    "expected_answer": "No, explicitly out of scope.",
+    "expected_sources": [
+      "occ_2026_13.txt",
+      "sr_26_2.txt"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": 3,
+    "question": "Which banking organizations is the 2026 model risk guidance most relevant to?",
+    "category": "answerable",
+    "expected_answer": "Those with over $30 billion in total assets.",
+    "expected_sources": [
+      "occ_2026_13.txt"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": 4,
+    "question": "What should a bank consider when a third party relies on subcontractors?",
+    "category": "answerable",
+    "expected_answer": "Evaluate the volume and types of subcontracted activities and the degree of reliance, to judge whether it poses additional risk.",
+    "expected_sources": [
+      "sr_23_4.txt",
+      "third_party_risk_2023.txt"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": 5,
+    "question": "Are community banks required to perform annual model validation?",
+    "category": "staleness-trap",
+    "expected_answer": "No. The guidance does not, and should not be interpreted to, require community banks to perform annual model validation.",
+    "expected_sources": [
+      "occ_2026_13.txt"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": 6,
+    "question": "What are the capital requirements for community banks?",
+    "category": "hard-negative",
+    "expected_answer": null,
+    "expected_sources": [],
+    "should_abstain": true
+  },
+  {
+    "id": 7,
+    "question": "How often must banks retrain machine learning models?",
+    "category": "hard-negative",
+    "expected_answer": null,
+    "expected_sources": [],
+    "should_abstain": true
+  },
+  {
+    "id": 8,
+    "question": "What does the guidance say about cryptocurrency custody?",
+    "category": "hard-negative",
+    "expected_answer": null,
+    "expected_sources": [],
+    "should_abstain": true
+  }
+]

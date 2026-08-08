@@ -1,0 +1,981 @@
+Interagency Guidance on Third-Party Relationships: Risk Management
+
+Federal Reserve System
+
+[Docket No. OP-1752]
+
+Federal Deposit Insurance Corporation
+
+RIN 3064-ZA26
+
+Department of the Treasury
+
+Office of the Comptroller of the Currency
+
+[Docket ID OCC-2021-0011]
+
+AGENCY:
+
+The Board of Governors of the Federal Reserve System (Board), the Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptroller of the Currency (OCC), Treasury.
+
+ACTION:
+
+Final interagency guidance.
+
+SUMMARY:
+
+The Board, FDIC, and OCC (collectively, the agencies) are issuing final guidance on managing risks associated with third-party relationships. The final guidance offers the agencies' views on sound risk management principles for banking organizations when developing and implementing risk management practices for all stages in the life cycle of third-party relationships. The final guidance states that sound third-party risk management takes into account the level of risk, complexity, and size of the banking organization and the nature of the third-party relationship. The agencies are issuing this joint guidance to promote consistency in supervisory approaches; it replaces each agency's existing general guidance on this topic and is directed to all banking organizations supervised by the agencies.
+
+DATES:
+
+The guidance is final as of June 6, 2023.
+
+FOR FURTHER INFORMATION CONTACT:
+
+Board:
+
+Kavita Jain, Deputy Associate Director, (202) 452-2062, Chandni Saxena, Manager, (202) 452-2357, Timothy Geishecker, Lead Financial Institution and Policy Analyst, (202) 475-6353, or David Palmer, Lead Financial Institution and Policy Analyst, (202) 452-2904, Division of Supervision and Regulation; Matthew Dukes, Counsel, (202) 973-5096, Division of Consumer and Community Affairs; or Claudia Von Pervieux, Senior Counsel, (202) 452-2552, Evans Muzere, Senior Counsel, (202) 452-2621, or Alyssa O'Connor, Senior Attorney, (202) 452-3886, Legal Division, Board of Governors of the Federal Reserve System, 20th and C Streets NW, Washington, DC 20551. For users of telephone systems via text telephone (TTY) or any TTY-based Telecommunications Relay Services (TRS), please call 711 from any telephone, anywhere in the United States.
+
+FDIC:
+
+Thomas F. Lyons, Associate Director, Risk Management Policy, 
+
+TLyons@fdic.gov,
+
+(202) 898-6850), or Judy E. Gross, Senior Policy Analyst, 
+
+JuGross@fdic.gov,
+
+(202) 898-7047, Policy & Program Development, Division of Risk Management Supervision; Paul Robin, Chief, 
+
+probin@fdic.gov,
+
+(202) 898-6818, Supervisory Policy Section, Division of Depositor and Consumer Protection; or Marguerite Sagatelian, Senior Special Counsel, 
+
+msagatelian@fdic.gov,
+
+(202) 898-6690 or Jennifer M. Jones, Counsel, 
+
+jennjones@fdic.gov,
+
+(202) 898-6768, Supervision, Legislation & Enforcement Branch, Legal Division, Federal Deposit Insurance Corporation; 550 17th Street NW, Washington, DC 20429.
+
+OCC:
+
+Kevin Greenfield, Deputy Comptroller for Operational Risk Policy, Tamara Culler, Governance and Operational Risk Policy Director, Emily Doran, Governance and Operational Risk Policy Analyst, or Stuart Hoffman, Governance and Operational Risk Policy Analyst, Operational Risk Policy Division, (202) 649-6550; or Eden Gray, Assistant Director, Tad Thompson, Counsel, or Graham Bannon, Attorney, Chief Counsel's Office, (202) 649-5490, Office of the Comptroller of the Currency, 400 7th Street SW, Washington, DC 20219. If you are deaf, hard of hearing, or have a speech disability, please dial 7-1-1 to access telecommunications relay services.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Introduction
+
+II. Discussion of Comments on the Proposed Guidance
+
+A. General Support for the Proposed Guidance
+
+B. Terminology and Scope
+
+C. Tailored Approach to Third-Party Risk Management
+
+D. Specific Types of Third-Party Relationships
+
+E. Risk Management Life Cycle
+
+F. Subcontractors
+
+G. Oversight and Accountability
+
+H. Other Matters Raised
+
+III. Paperwork Reduction Act
+
+IV. Text of Final Interagency Guidance on Third-Party Relationships
+
+I. Introduction
+
+Banking organizations [1] 
+
+routinely rely on third parties for a range of products, services, and other activities (collectively, activities). The use of third parties can offer banking organizations significant benefits, such as quicker and more efficient access to technologies, human capital, delivery channels, products, services, and markets. Banking organizations' use of third parties does not remove the need for sound risk management. On the contrary, the use of third parties, especially those using new technologies, may present elevated risks to banking organizations and their customers, including operational, compliance, and strategic risks. Importantly, the use of third parties does not diminish or remove banking organizations' 
+
+responsibilities to ensure that activities are performed in a safe and sound manner and in compliance with applicable laws and regulations, including but not limited to those designed to protect consumers (such as fair lending laws and prohibitions against unfair, deceptive or abusive acts or practices) and those addressing financial crimes.
+
+The agencies have each previously issued general guidance for their respective supervised banking organizations to address appropriate risk management practices for third-party relationships, each of which is rescinded and replaced by this final guidance: the Board's 2013 guidance,[2] 
+
+the FDIC's 2008 guidance,[3] 
+
+and the OCC's 2013 guidance and its 2020 frequently asked questions (herein, OCC FAQs).[4] 
+
+By issuing this interagency guidance, the agencies aim to promote consistency in their third-party risk management guidance and to clearly articulate risk-based principles for third-party risk management. Further, the agencies have observed an increase in the number and type of banking organizations' third-party relationships. Accordingly, the final guidance is intended to assist banking organizations in identifying and managing risks associated with third-party relationships and in complying with applicable laws and regulations.[5] 
+
+II. Discussion of Comments on the Proposed Guidance
+
+On July 19, 2021, the agencies published for comment proposed guidance on managing risks associated with third-party relationships (proposed guidance).[6] 
+
+The 60-day comment period initially ended on September 17, 2021. In response to commenters' requests for additional time to analyze and respond to the proposal, the agencies extended the comment period until October 18, 2021.[7] 
+
+The agencies invited comment on all aspects of the proposed guidance. To help solicit feedback, the agencies posed 18 questions within the request for comment, organized across the following themes: 
+
+General, Scope,Tailored Approach to Third-Party Risk Management, Third-Party Relationships,Due Diligence and Collaborative Arrangements, Subcontractors,Information Security,
+
+and 
+
+the OCC's 2020 FAQs.
+
+The agencies collectively received 82 comment letters from banking organizations, financial technology (fintech) companies and other third-party providers, trade associations, consultants, nonprofits, and individuals.[8] 
+
+A. General Support for the Proposed Guidance
+
+In general, commenters supported the agencies' efforts to issue joint principles-based guidance on third-party risk management. Commenters agreed with the proposal's overarching message regarding the importance of banking organizations adopting sound risk management practices that are commensurate with the level of risk and complexity of their respective third-party relationships. They agreed that a principles-based approach to third-party risk management can be adapted to a wide range of relationships and scaled for banking organizations of different sizes and complexity.
+
+There were varying views among commenters on the level of detail included in the proposed guidance. While some commenters found the language to be too prescriptive, others noted that it had the right level of detail to enable banking organizations to use the guidance in a risk-based fashion. Other commenters specifically requested that the agencies establish minimum required “standards” or incorporate greater specificity on supervisory expectations. Commenters also offered differing perspectives on whether or how to incorporate the concepts from the OCC FAQs.[9] 
+
+In response to comments received, the agencies underscore that supervisory guidance does not have the force and effect of law and does not impose any new requirements on banking organizations.[10] 
+
+The guidance addresses key principles banking organizations can leverage when developing and implementing risk management processes tailored to the risk profile and complexity of their third-party relationships.
+
+B. Terminology and Scope
+
+Commenters offered views on the description of the terms “business arrangement,” “third-party relationship,” and “critical activities.”
+
+1. Description of the Terms “Business Arrangement” and “Third-Party Relationship”
+
+Some commenters suggested that the term “business arrangement” is overly broad and inconsistent with the risk-based approach of the guidance. For example, some commenters believed that without narrowing the term, banking organizations may face an undue burden when implementing their risk management processes. Several commenters offered suggestions to narrow or modify the term “business arrangement.” These suggestions included focusing on material relationships, scoping out low-risk activities, and limiting arrangements to only those that are continuous and/or governed by a written contract.
+
+Similarly, some commenters suggested that the term “third-party relationship” was overly broad and may divert banking organizations from focusing sufficiently on those relationships that present higher risk. These commenters suggested applying a materiality standard (for example, those third parties supporting critical activities) or excluding certain categories of third-party relationships (for example, affiliates or bank-to-bank relationships).
+
+A few commenters recommended incorporating some of the more detailed discussions from OCC FAQs 1 and 2 elaborating on and providing examples of “business arrangements” and “third-party relationships.”
+
+With respect to these comments, the agencies believe the scope of the term 
+
+“business arrangement” in the proposed guidance captures the full range of third-party relationships that may pose risk to banking organizations, and the final guidance does not change that scope. These relationships have evolved, and may continue to evolve, over time to encompass a large range of activities, justifying the use of broad terminology. The agencies have incorporated concepts from OCC FAQs 1 and 2. Although the terms “business arrangement” and “third-party relationship” are broad, the guidance does not suggest that all relationships require the same level or type of oversight or risk management, since different relationships present varying levels of risk. The guidance states that, as part of sound risk management, a banking organization analyzes the risks associated with each third-party relationship and adjusts its risk management practices, commensurate with the banking organization's size, complexity, and risk profile and with the nature of its third-party relationships. The agencies have removed from the final guidance the proposed text, which stated that the term “business arrangement” generally excludes customer relationships. Since some business relationships may incorporate elements or features of a customer relationship, the removal of the proposed text is intended to reduce ambiguity.
+
+2. Description of the Term “Critical Activities”
+
+Commenters expressed views on the term “critical activities,” suggesting that the agencies provide banking organizations flexibility in determining which activities are higher risk and critical in nature or requested clarification on or limitation of the scope and application of the term. Some commenters requested the agencies provide further examples of critical activities or clarify whether banking organizations could employ risk-tiering processes to identify critical activities.
+
+Commenters provided other suggestions that they thought would improve the description of “critical activities,” such as:
+
+Merging the concepts of “critical activities” and “significant bank functions;”
+
+Reconsidering whether certain factors articulated within the proposed guidance should be determinative of criticality;
+
+Clarifying whether a certain monetary threshold would determine whether an activity requires a “significant investment in resources to implement the third-party relationship and manage the risk;” [11] 
+
+Incorporating the concept from OCC FAQ 8 that not every relationship involving critical activities is necessarily a critical third-party relationship; and
+
+Aligning the concept of criticality in the proposed guidance with similar concepts in existing, related guidance (for example, the definitions for “critical operations” and “core business line” used in the Interagency Paper on Sound Practices to Strengthen Operational Resilience [12] 
+
+(Sound Practices Paper)) to facilitate banking organizations' adoption of comprehensive risk management strategies.
+
+The agencies considered the range of comments on the term “critical activities” and have made certain revisions to improve clarity and emphasize flexibility. The revised term eliminates imprecise concepts like “significant investment” and “significant bank function,” instead focusing on illustrative, risk-based characteristics, such as activities that could cause significant risk to the banking organization if the third party fails to meet expectations or that have significant impacts on customers or the banking organization's financial condition or operation. The agencies have incorporated concepts from OCC FAQs 7, 8, and 9, recognizing that an activity that is critical for one banking organization may not be critical for another. Some banking organizations may assign a criticality or risk level to each third-party relationship, while others may identify critical activities and those third parties associated with such activities. Regardless of a banking organization's approach, applying a sound methodology to designate which activities and third-party relationships receive more comprehensive oversight is key for effective risk management.
+
+In response to the comments requesting alignment with other issuances, the agencies note that this guidance is intended to provide examples of considerations that may be helpful to all banking organizations, regardless of size. It is important for each banking organization to assess risks presented by each of its third-party relationships and tailor its risk management processes accordingly. To the extent that specific laws and regulations may be applicable, for example, recovery or resolution planning to large banking organizations,[13] 
+
+those banking organizations may desire to leverage definitions and approaches in those laws and regulations when developing and implementing third-party risk management, such as identifying third-party relationships that that support higher-risk activities, including critical activities. Moreover, to the extent that other guidance may be relevant to certain banking organizations, such as the Sound Practices Paper, which is intended for the largest and most complex banking organizations,[14] 
+
+such organizations may choose to reference relevant terms and concepts contained in those other issuances when implementing their third-party risk management processes.
+
+C. Tailored Approach to Third-Party Risk Management
+
+Commenters offered views on appropriately tailoring the risk management principles discussed in the guidance to meet the different needs of individual banking organizations, and particularly community banking organizations. For example, some commenters asserted that smaller, less complex banking organizations do not need to adopt the same risk management approaches adopted by larger, more complex banking organizations. As such, they asked that the guidance include language either to clarify the flexibility of the guidance with respect to the size of banking organizations or to the risk presented by certain third-party relationships. Some commenters suggested that the guidance make allowances for banking organizations to explicitly accept the risk of the relationship, in lieu of establishing full due diligence practices, based on the banking organization's risk profile and individual circumstances of the relationship.
+
+Commenters also suggested that the agencies could provide examples of appropriate practices specific to smaller banking organizations or of the specific risks that certain categories of third parties or critical activities may pose to smaller banking organizations. Several commenters requested some form of acknowledgment that smaller banking organizations may lack the necessary 
+
+resources to thoroughly vet third parties, and thus should be afforded some form of “safe harbor” relating to third-party risk management to allow them to compete in the digital era.
+
+In addition, commenters suggested incorporating concepts from OCC FAQs 5, 6, and 7 to help reinforce flexibility for community banking organizations (acknowledging, for example, that banking organizations may have limited negotiating power, that there is no one way for banks to structure their third-party risk management processes, and that not all relationships warrant the same level of oversight or risk management).
+
+In response to these comments, the agencies reiterate that the guidance is relevant to all banking organizations. The agencies have incorporated concepts from OCC FAQ 9, clarifying language in the guidance about tailoring third-party risk management processes based on risk. The guidance notes that not all third-party relationships present the same level or type of risk and therefore not all relationships require the same extent of oversight or risk management. It also states that as part of sound risk management, it is the responsibility of each banking organization to analyze the risks associated with each third-party relationship and to calibrate its risk management processes, commensurate with the banking organization's size, complexity, and risk profile and with the nature of its third-party relationships.
+
+Banking organizations have flexibility in their approach to assessing the risk posed by each third-party relationship and deciding the relevance of the considerations discussed in the guidance. To reinforce this flexibility and provide clarity on third-party risk management implementation, especially for community banking organizations, the agencies have streamlined and simplified certain sections of the guidance. The agencies have also incorporated into the final guidance concepts from OCC FAQs 5, 6, and 7 discussed above.
+
+D. Specific Types of Third-Party Relationships
+
+Commenters pointed to types of third-party relationships that may pose heightened or novel risk management considerations. A number of commenters discussed a banking organization's use of third parties for technological advances and innovations, including relationships with fintech companies. Some commenters raised particular risks presented by data aggregators and suggested a range of approaches to address these risks. Suggestions included interagency coordination on a Consumer Financial Protection Bureau (CFPB) rulemaking on consumer access to financial records.[15] 
+
+In addition, some commenters expressed concern that the discussion in OCC FAQ 4 on third-party risk management expectations related to data aggregators may unintentionally result in outsized burdens on banking organizations. Other commenters asked for additional flexibility for banking organizations to manage relationships with third parties in relatively concentrated industries, mentioning cloud computing as an example.
+
+Some commenters also noted that third-party risk management processes may be applied differently, based on the specific type of relationship. For example, several commenters stated that arrangements with affiliates may present different or lower risks than those with unaffiliated third parties, and suggested that, as a result, a banking organization's third-party risk management may differ for affiliates and non-affiliates. Certain commenters also suggested that third parties that are already supervised or regulated (including some foreign-regulated entities) present less risk to banking organizations such that a banking organization's risk management could be tailored accordingly (for example, through reduced due diligence).
+
+Commenters also suggested the agencies enhance discussion in the proposed guidance on foreign-based third parties, including clearly explaining this term, describing typical risks and accompanying risk management strategies, and addressing the possibility of incompatible legal obligations between jurisdictions. In the final guidance, the agencies have included a footnote to address questions surrounding the term “foreign-based third party” and have retained applicable considerations for foreign-based third parties within relevant sections of the risk management life cycle.
+
+With respect to comments about technological advances and innovation, the agencies recognize that some banking organizations are forming relationships with fintech companies, including under new or novel structures and arrangements. Depending on the specific circumstances, including the activities performed, such relationships may introduce new or increase existing risks to a banking organization, such as those risks identified by some commenters. For example, in some third-party relationships, the respective roles and responsibilities of a banking organization and a third party may differ from those in other third-party relationships. Additionally, depending on how the business arrangement is structured, the banking organization and the third party each may have varying degrees of interaction with customers. Longstanding principles of third-party risk management set forth in this guidance are applicable to all third-party relationships, including those with fintech companies. Therefore, it is important for a banking organization to understand how the arrangement with a third party, including a fintech company, is structured so that the banking organization may assess the types and levels of risks posed and determine how to manage those third-party relationships accordingly. The agencies did not incorporate concepts from OCC FAQ 4, opting to provide broad risk management guidance.
+
+The agencies considered other comments in relation to specific types of third-party relationships but decided not to exclude any specific third-party relationships from the scope of the guidance; rather, the guidance is relevant to managing all third-party relationships. Because third-party relationships present varying levels and types of risk, the guidance notes that not all relationships require the same level or type of oversight or risk management.
+
+This principles-based guidance provides a flexible, risk-based approach to third-party risk management that can be adjusted to the unique circumstances of each third-party relationship. The agencies do not believe it would be appropriate to prescribe alternative approaches or to broadly assume lower levels of risk based solely on the type of a third party. For example, while a third-party relationship with an affiliate may have different characteristics and risks as compared to those with non-affiliated third parties, affiliate relationships may not always present lower risks. The same is true for third parties that are subject to some form of regulation.
+
+The agencies also incorporated concepts from OCC FAQs 7 and 9, reiterating that as part of sound risk management, it is the responsibility of each banking organization to analyze the risks associated with each third-party relationship and to calibrate its risk management practices, commensurate with the banking organization's size, complexity, and risk 
+
+profile and with the nature of its third-party relationships.
+
+E. Risk Management Life Cycle
+
+Commenters made a wide range of suggestions in the risk management life cycle section of the proposed guidance. Commenters expressed mixed views on the level of detail provided with respect to the various aspects of the risk management life cycle as well as the meaning of certain concepts. Some commenters raised concerns that the level of detail made the guidance overly burdensome on smaller banks. Other commenters recommended that the agencies expand the discussion to include additional stages within the risk management life cycle; a risk management matrix; or practical, illustrative examples throughout all stages of the life cycle.
+
+In response to these comments, the agencies have clarified and streamlined the guidance and removed details that were duplicative, not useful, or that could be interpreted as prescriptive. The agencies also reiterate that the guidance is principles-based. Examples of considerations are merely illustrative, not requirements, and may not be applicable or material to each banking organization or each third-party relationship. The examples are not intended to be interpreted as exhaustive or to be used as a checklist. The agencies support a risk-based approach for banking organizations to assess the risk posed by a third-party relationship and tailor their third-party risk management processes accordingly.
+
+In addition to these general comments, commenters provided thoughts on specific stages of the risk management life cycle, which are addressed below:
+
+1. Due Diligence and Collaborative Arrangements
+
+The due diligence and third-party selection stage of the risk management life cycle drew particular attention from commenters. Some raised concerns with the feasibility of banking organizations performing the full range of due diligence outlined in the proposal, noting that third parties or their related subcontractors may be unable or unwilling to disclose certain information. These commenters stated that the extent of due diligence described may be beyond certain banking organizations' expertise or not be fully applicable for most relationships. Other commenters suggested that banking organizations could engage in less stringent due diligence for certain types of third parties. Suggestions to address these concerns included revising the guidance to scale due diligence to the risk posed by the third party, limiting the burden of certain due diligence practices, and acknowledging shortcomings in accessing certain information.
+
+Other commenters focused on steps to reduce the burdens of due diligence, by facilitating collaboration among banking organizations and reliance on certifications. For example, many commenters expressed support for proposed language on shared due diligence or collaboration between banking organizations.
+
+In some cases, commenters noted challenges with shared due diligence or collaboration among banking organizations, such as antitrust or privacy considerations and the ability to meet due diligence needs in a shared framework. Some commenters recommended solutions, such as joint data collections and assessments across banking organizations and third parties. Other commenters asked the agencies to incorporate and expand upon the discussions in OCC FAQs 14 and 24 that banking organizations may rely on industry-accepted certifications and/or other reports.
+
+Commenters also suggested that the guidance address due diligence options when banking organizations have difficulty gaining access to information necessary to perform due diligence and audits. Several commenters recommended that the guidance be tailored for or scope out certain third parties that may be resistant to due diligence efforts. Banking organizations may not be able to seek out alternatives to these third parties, especially where the industry is particularly concentrated. Another commenter noted that the use of on-site audits or visits has declined over time and could be inefficient and costly, especially for third parties with operations in several physical locations (such as cloud computing service providers).
+
+With respect to commenters focused on specific third-party relationships, the agencies reiterate that relationships present varying levels of risk and not all relationships require the same level or type of oversight or risk management. However, the agencies do not believe it would be appropriate for banking organizations to conduct reduced due diligence based solely on a third party's entity type.
+
+With respect to commenters focused on steps to limit the burdens of due diligence, including collaboration with other banking organizations and engaging with third parties that specialize in conducting due diligence, the agencies note that such collaborative efforts could be beneficial and reduce burden, especially for community banking organizations, and have made certain clarifying revisions to the guidance in that regard. However, use of any collaborative efforts does not abrogate the responsibility of banking organizations to manage third-party relationships in a safe and sound manner and consistent with applicable laws and regulations (including antitrust laws). It is important for the banking organization to evaluate the conclusions from such collaborative efforts based on the banking organization's own specific circumstances and performance criteria for the activity. A banking organization engaging an external party to supplement risk management, including due diligence, constitutes establishing a business arrangement; such a relationship would typically be covered by the banking organization's third-party risk management processes. The agencies have incorporated into the final guidance concepts from OCC FAQs 12, 13, and 25.
+
+With respect to those commenters focused on circumstances in which banking organizations may have difficulty gaining access to information, the agencies acknowledge challenges in some circumstances. Consistent with the concepts from OCC FAQs 1, 5, and 17, the guidance provides that in such circumstances, banking organizations should consider taking steps to mitigate the risks or, if the risks cannot be mitigated, to determine whether the residual risks are acceptable. The guidance also states that when assessing the risk of a third-party relationship, banking organizations may consider information available from various sources. For example, the agencies incorporated concepts from OCC FAQs 14 and 24, recognizing that banking organizations may consider public regulatory disclosures when considering the risks presented by the specific third party. If the banking organization has concerns that the relationship falls outside of its risk appetite, it should consider making alternative choices.
+
+As the guidance emphasizes, it is the responsibility of the banking organization to identify and evaluate the risks associated with each third-party relationship and to tailor its risk management practices, commensurate with the banking organization's size, complexity, and risk profile, as well as with the nature of its third-party relationships. As such, the agencies have not excluded any specific third-party relationships from the scope of the guidance.
+
+2. Contract Negotiation
+
+Commenters identified a range of suggestions on how the guidance approaches contract negotiations. Several commenters expressed concern that the section was overly detailed, that many contracts may not contain all of the contractual considerations discussed in the proposed guidance, and that such considerations might be treated as a mandatory checklist. Other commenters found the nature and extent of contractual language in the proposed guidance helpful in practice for informing a banking organization's contract negotiations.
+
+Several commenters stated that the guidance should acknowledge the need for greater flexibility in certain contract negotiations. For example, some commenters requested that the guidance recognize that banking organizations may lack sufficient leverage in negotiations with larger third parties and may struggle to get certain “typical” provisions into the contract.
+
+Further, several commenters recommended that the agencies provide additional support to smaller institutions to increase their collective negotiating power with respect to third parties, such as by creating a tool or supporting a collective group to facilitate negotiations. Some commenters proposed that the guidance include language from several of the OCC FAQs to clarify additional considerations regarding limited negotiating power and use of collaborative efforts when negotiating contracts.
+
+In response to these comments, the agencies have incorporated concepts from OCC FAQs 5 and 13, acknowledging that a banking organization may have limited negotiating power in certain instances and should understand any resulting limitations. As the guidance states, many of the same considerations for collaborative arrangements apply throughout the risk management life cycle.
+
+The agencies have streamlined some of the considerations in this section but believe that the overall scope of the discussion would be useful to banking organizations in understanding and preparing for contract negotiations.
+
+3. Ongoing Monitoring
+
+Several commenters recommended that the agencies revise the proposed guidance to encourage banks to adopt active, continuous, real-time monitoring, arguing that this approach is preferable to engaging in periodic assessments. Others requested the guidance provide additional information on alternative monitoring arrangements (such as certifications), collaborative monitoring arrangements, and reliance on external parties to supplement ongoing monitoring.
+
+The agencies are not encouraging any specific approach to ongoing monitoring. Rather, the guidance continues to state that a banking organization's ongoing monitoring, like other third-party risk management processes, should be appropriate for the risks associated with each third-party relationship, commensurate with the banking organization's size, complexity, and risk profile and with the nature of its third-party relationships. Additionally, the guidance states that banking organizations may consider collaborative arrangements or the use of external parties to supplement ongoing monitoring.
+
+F. Subcontractors
+
+Commenters expressed a variety of views on banking organizations' relationships with subcontractors. These comments largely focused on whether the guidance could be clarified to promote additional flexibility in how banking organizations manage the risks associated with subcontractors, which pose challenges not necessarily present in a direct third-party relationship.
+
+Various commenters emphasized the importance of managing risks posed by subcontractors, especially those that are material to a service being provided to a banking organization; those with access to sensitive, nonpublic information; those that perform higher-risk activities, including critical activities; those with access to the banking organization's infrastructure; and those within extended chains of subcontractors. However, many of these commenters expressed concern regarding the potential challenges in overseeing and conducting effective due diligence on subcontractors, such as a banking organization's lack of a relationship with (contractually or otherwise), and leverage over, subcontractors. These commenters suggested either narrowing the guidance's discussion on subcontractors (for example, excluding relationships beyond third parties) or refocusing a banking organization's oversight to a third party's ability to manage its subcontractors. Commenters also suggested that, in line with OCC FAQ 11, a banking organization could require a third party to bind its subcontractors to any obligations and standards of the third party.
+
+With respect to these comments, the agencies acknowledge the risks and added complexity that may be involved with respect to a third party's use of subcontractors. The agencies also recognize concerns by commenters interpreting the guidance to mean banking organizations are expected to assess or oversee all subcontractors of a third party. Accordingly, consistent with the concepts in OCC FAQ 11, the agencies have revised the guidance, focusing on a banking organization's approach to evaluating its third party's own processes for overseeing subcontractors and managing risks. As the guidance clarifies, relationships with a third party, including a third party's use of subcontractors, should be evaluated based on the risk the relationship poses to the banking organization, which may include assessing whether a third party's use of subcontractors may heighten or raise additional risk to the banking organization and applying mitigating factors, as appropriate. The agencies have also made streamlining changes to improve clarity and promote flexibility, including by removing use of the term “critical subcontractor.”
+
+G. Oversight and Accountability
+
+Commenters provided suggestions as to the proper role of a banking organization's board of directors and management with respect to effective third-party risk management. Some commenters, for example, stated that the proposed guidance implied excessive board involvement in day-to-day management activity. Others suggested that the guidance could further clarify the role of the board of directors in risk management activities, specifically those aspects of third-party risk management that could appropriately be executed and overseen by senior management. Some commenters similarly suggested the guidance clarify the authority of management to establish policies governing third-party relationships. A few commenters requested the guidance provide granularity on the types, depth, and frequency of information necessary for board review, including for ongoing monitoring. Additionally, several commenters suggested incorporating into the guidance and elaborating upon OCC FAQs 6 and 26, which discuss the board's responsibility for overseeing the development of an effective third-party risk management process, and its role in contract approval. Some commenters also requested “Oversight and Accountability” and its related subsections in the proposed guidance be better differentiated from the phases of the risk management life cycle, as the concepts and related activities occur 
+
+throughout the risk management life cycle.
+
+The agencies have incorporated concepts from OCC FAQs 6 and 26, reorganizing the guidance to make clear that oversight and accountability happens throughout the risk management life cycle and is not a specific stage. Further, the agencies have made changes to clarify and distinguish the board's responsibilities from management's responsibilities and to avoid the appearance of a prescriptive approach to the board's role in the risk management life cycle, while still emphasizing that the board has ultimate oversight responsibility to ensure that the banking organization operates in a safe and sound manner and in compliance with applicable laws and regulations.
+
+H. Other Matters Raised
+
+Commenters also offered other thoughts and suggestions relating to the guidance. Commenters noted that it would be helpful to have a period prior to the guidance taking effect to permit banking organizations to adapt processes accordingly. Several commenters also recommended that the agencies leverage, refer to, or combine recent, relevant regulations and policy issuances (such as the “Computer-Security Incident Notification rule,” [16] 
+
+“Third-Party Due Diligence Guide for Community Banks,” [17] 
+
+and the “Model Risk Management” booklet of the 
+
+Comptroller's Handbook
+
+ [18] 
+
+) as part of any final third-party risk management guidance. A few commenters made reference to the FDIC's 2016 proposed examination guidance for third-party lending,[19] 
+
+stating that, although not finalized, the 2016 proposed guidance set forth meaningful concepts about third-party lending relationships that could be useful in developing the final guidance.
+
+Several commenters shared considerations regarding, and requested insight into, the agencies' examinations of banking organizations' third-party risk management processes. Some commenters suggested that any final guidance include a separate section outlining specific examination procedures to set clear and consistent expectations regarding the examination process.
+
+Commenters provided thoughts on incorporating any or all of the OCC's FAQs. Several commenters suggested including relevant FAQs as an appendix or separate section rather than incorporating them throughout any final guidance, complementing principle-based guidance with more issue-specific FAQs to provide practical context. Others thought that the existence of a separate set of FAQs would create unnecessary confusion for examiners and the industry. In response, the agencies have not incorporated issue-specific FAQs where it was determined the matters are adequately reflected in other issuances published since the OCC FAQs were last updated.
+
+Several commenters requested greater coordination among federal, state, and foreign regulators with respect to this guidance. Specifically, a few commenters suggested that other federal government agencies, such as the National Credit Union Administration, join the agencies in issuing this guidance. Another commenter urged the agencies to support federal legislative proposals that would clarify the authority of state regulators to examine third-party service providers together with the agencies.
+
+Some commenters suggested that the agencies develop additional guidance and educational resources on a wide array of separate topics that a banking organization's third-party risk management processes could touch upon, such as consumer protection issues, artificial intelligence, alternative data uses, and other novel developments, citing the agencies' crypto-asset “policy sprints” as an example. For example, as to consumer protection issues, some commenters expressed concern with certain third-party relationships, such as so-called “rent-a-charter” arrangements that they believe are improperly used by non-bank third parties to preempt state usury laws. Multiple commenters requested that the agencies update the guidance to warn or discourage banking organizations about certain risks, such as high-interest loans or conflicts with state laws. Several commenters also suggested that the agencies use their existing authorities (such as under the Bank Service Company Act [20] 
+
+) to address the risks of what those commenters perceived as “systemically important” third-party service providers, or to otherwise assist banking organizations' third-party risk management efforts. Other commenters suggested the agencies and the CFPB provide for automatic sharing of service provider reports of examination with service providers' client banking organizations or provide certifications relevant to a banking organization's due diligence.
+
+In response to these comments, given the broad, principles-based approach of this guidance, the agencies have not revised the guidance to address specific topics or types of relationships. Separate guidance on certain topics or relationships already exists; these types of specific guidance issuances, unless expressly rescinded, would remain unaffected by this guidance. While certain topics (including those raised by commenters) are not explicitly discussed in the final guidance, the broad-based scope of the guidance captures the full range of third-party relationships. With respect to requests that would require statutory or regulatory changes, or may be outside the authority of the agencies, such requests cannot be addressed by this guidance.
+
+The agencies actively monitor trends and developments in the financial services industry and will consider issuing additional guidance or educational resources as necessary and appropriate to convey the agencies' views. The agencies plan to develop additional resources to assist smaller, non-complex community banking organizations in managing relevant third-party risks. The agencies will continue to coordinate closely about risk management matters, including third-party risk management, to help promote consistency across banking organizations and across the agencies.
+
+Regarding questions about each agency's approach to examining third-party risk management, each agency has its own processes and procedures for conducting supervisory activities, including examination work. The final guidance includes a brief discussion of the agencies' supervisory reviews, the scope of which is tailored to evaluate the risks inherent in a banking organization's third-party relationships and the effectiveness of a banking organization's third-party risk management processes.
+
+III. Paperwork Reduction Act
+
+The Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3521) (PRA) states that no agency may conduct or sponsor, nor is the respondent required to respond to, an information collection unless it displays a currently valid Office of 
+
+Management and Budget (OMB) control number.
+
+The guidance does not revise any existing, or create any new, information collections pursuant to the PRA. Rather, any reporting, recordkeeping, or disclosure activities mentioned in the guidance are usual and customary and should occur in the normal course of business as defined in the PRA.[21] 
+
+Consequently, no submissions will be made to the OMB for review.
+
+IV. Text of Final Interagency Guidance on Third-Party Relationships
+
+A. Overview
+
+B. Risk Management
+
+C. Third-Party Relationship Life Cycle
+
+1. Planning
+
+2. Due Diligence and Third-Party Selection
+
+3. Contract Negotiation
+
+4. Ongoing Monitoring
+
+5. Termination
+
+D. Governance
+
+1. Oversight and Accountability
+
+2. Independent Reviews
+
+3. Documentation and Reporting
+
+E. Supervisory Reviews of Third-Party Relationships
+
+A. Overview
+
+The Board of Governors of the Federal Reserve System (Board), the Federal Deposit Insurance Corporation (FDIC), and the Office of the Comptroller of the Currency (OCC) (collectively, the agencies) have issued this guidance to provide sound risk management principles supervised banking organizations [1] 
+
+can leverage when developing and implementing risk management practices to assess and manage risks associated with third-party relationships.[2] 
+
+Whether activities are performed internally or via a third party, banking organizations are required to operate in a safe and sound manner [3] 
+
+and in compliance with applicable laws and regulations.[4] 
+
+A banking organization's use of third parties does not diminish its responsibility to meet these requirements to the same extent as if its activities were performed by the banking organization in-house. To operate in a safe and sound manner, a banking organization establishes risk management practices to effectively manage the risks arising from its activities, including from third-party relationships.[5] 
+
+This guidance addresses any business arrangement [6] 
+
+between a banking organization and another entity, by contract or otherwise. A third-party relationship may exist despite a lack of a contract or remuneration. Third-party relationships can include, but are not limited to, outsourced services, use of independent consultants, referral arrangements, merchant payment processing services, services provided by affiliates and subsidiaries, and joint ventures. Some banking organizations may form third-party relationships with new or novel structures and features—such as those observed in relationships with some financial technology (fintech) companies. The respective roles and responsibilities of a banking organization and a third party may differ, based on the specific circumstances of the relationship. Where the third-party relationship involves the provision of products or services to, or other interaction with, customers, the banking organization and the third party may have varying degrees of interaction with those customers.
+
+The use of third parties can offer banking organizations significant benefits, such as access to new technologies, human capital, delivery channels, products, services, and markets. However, the use of third parties can reduce a banking organization's direct control over activities and may introduce new risks or increase existing risks, such as operational, compliance, and strategic risks. Increased risk often arises from greater operational or technological complexity, newer or different types of relationships, or potential inferior performance by the third party. A banking organization can be exposed to adverse impacts, including substantial financial loss and operational disruption, if it fails to appropriately manage the risks associated with third-party relationships. Therefore, it is important for a banking organization to identify, assess, monitor, and control risks related to third-party relationships.
+
+The principles set forth in this guidance can support effective third-party risk management for all types of third-party relationships, regardless of how they may be structured. It is important for a banking organization to understand how the arrangement with a particular third party is structured so that the banking organization may assess the types and levels of risks posed and determine how to manage the third-party relationship accordingly.
+
+B. Risk Management
+
+Not all relationships present the same level of risk, and therefore not all relationships require the same level or type of oversight or risk management. As part of sound risk management, a banking organization analyzes the risks associated with each third-party relationship and tailors risk management practices, commensurate with the banking organization's size, complexity, and risk profile and with the nature of the third-party relationship. Maintaining a complete inventory of its third-party relationships and periodically conducting risk assessments for each third-party relationship supports a banking organization's determination of whether risks have changed over time and to update risk management practices accordingly.
+
+As part of sound risk management, banking organizations engage in more comprehensive and rigorous oversight and management of third-party relationships that support higher-risk activities, including critical activities. Characteristics of critical activities may include those activities that could:
+
+Cause a banking organization to face significant risk if the third party fails to meet expectations;
+
+Have significant customer impacts; or
+
+Have a significant impact on a banking organization's financial condition or operations.
+
+It is up to each banking organization to identify its critical activities and third-party relationships that support these critical activities. Notably, an activity that is critical for one banking organization may not be critical for another. Some banking organizations may assign a criticality or risk level to each third-party relationship, whereas others identify critical activities and those third parties that support such activities. Regardless of a banking organization's approach, a key element 
+
+of effective risk management is applying a sound methodology to designate which activities and third-party relationships receive more comprehensive oversight.
+
+C. Third-Party Relationship Life Cycle
+
+Effective third-party risk management generally follows a continuous life cycle for third-party relationships. The stages of the risk management life cycle of third-party relationships are shown in Figure 1 and detailed below. The degree to which the examples of considerations discussed in this guidance are relevant to each banking organization is based on specific facts and circumstances and these examples may not apply to all of a banking organization's third-party relationships.
+
+It is important to involve staff with the requisite knowledge and skills in each stage of the risk management life cycle. A banking organization may involve experts across disciplines, such as compliance, risk, or technology, as well as legal counsel, and may engage external support when helpful to supplement the qualifications and technical expertise of in-house staff.[7] 
+
+1. Planning
+
+As part of sound risk management, effective planning allows a banking organization to evaluate and consider how to manage risks before entering into a third-party relationship. Certain third parties, such as those that support a banking organization's higher-risk activities, including critical activities, typically warrant a greater degree of planning and consideration. For example, when critical activities are involved, plans may be presented to and approved by a banking organization's board of directors (or a designated board committee).
+
+Depending on the degree of risk and complexity of the third-party relationship, a banking organization typically considers the following factors, among others, in planning:
+
+Understanding the strategic purpose of the business arrangement and how the arrangement aligns with a banking organization's overall strategic goals, objectives, risk appetite, risk profile, and broader corporate policies;
+
+Identifying and assessing the benefits and the risks associated with the business arrangement and determining how to appropriately manage the identified risks;
+
+Considering the nature of the business arrangement, such as volume of activity, use of subcontractor(s), technology needed, interaction with customers, and use of foreign-based third parties; [8] 
+
+Evaluating the estimated costs, including estimated direct contractual costs and indirect costs expended to augment or alter banking organization staffing, systems, processes, and technology;
+
+Evaluating how the third-party relationship could affect banking organization employees, including dual
+
+employees,[9] 
+
+and what transition steps are needed for the banking organization to manage the impacts when activities currently conducted internally are outsourced;
+
+Assessing a potential third party's impact on customers, including access to or use of those customers' information, third-party interaction with customers, potential for consumer harm, and handling of customer complaints and inquiries;
+
+Understanding potential information security implications, including access to the banking organization's systems and to its confidential information;
+
+Understanding potential physical security implications, including access to the banking organization's facilities;
+
+Determining how the banking organization will select, assess, and oversee the third party, including monitoring the third party's compliance with applicable laws, regulations, and contractual provisions, and requiring remediation of compliance issues that may arise;
+
+Determining the banking organization's ability to provide adequate oversight and management of the proposed third-party relationship on an ongoing basis (including whether staffing levels and expertise, risk management and compliance management systems, organizational structure, policies and procedures, or internal control systems need to be adapted over time for the banking organization to effectively address the business arrangement); and
+
+Outlining the banking organization's contingency plans in the event the banking organization needs to transition the activity to another third party or bring it in-house.
+
+2. Due Diligence and Third-Party Selection
+
+Conducting due diligence on third parties before selecting and entering into third-party relationships is an important part of sound risk management. It provides management with the information needed about potential third parties to determine if a relationship would help achieve a banking organization's strategic and financial goals. The due diligence process also provides the banking organization with the information needed to evaluate whether it can appropriately identify, monitor, and control risks associated with the particular third-party relationship. Due diligence includes assessing the third party's ability to: perform the activity as expected, adhere to a banking organization's policies related to the activity, comply with all applicable laws and regulations, and conduct the activity in a safe and sound manner. Relying solely on experience with or prior knowledge of a third party is not an adequate proxy for performing appropriate due diligence, as due diligence should be tailored to the specific activity to be performed by the third party.
+
+The scope and degree of due diligence should be commensurate with the level of risk and complexity of the third-party relationship. More comprehensive due diligence is particularly important when a third party supports higher-risk activities, including critical activities. If a banking organization uncovers information that warrants additional scrutiny, the banking organization should consider broadening the scope or assessment methods of the due diligence.
+
+In some instances, a banking organization may not be able to obtain the desired due diligence information from a third party. For example, the third party may not have a long operational history, may not allow on-site visits, or may not share (or be permitted to share) information that a banking organization requests. While the methods and scope of due diligence may differ, it is important for the banking organization to identify and document any limitations of its due diligence, understand the risks from such limitations, and consider alternatives as to how to mitigate the risks. In such situations, a banking organization may, for example, obtain alternative information to assess the third party, implement additional controls on or monitoring of the third party to address the information limitation, or consider using a different third party.
+
+A banking organization may use the services of industry utilities or consortiums, consult with other organizations,[10] 
+
+or engage in joint efforts to supplement its due diligence. As the activity to be performed by the third party may present a different level of risk to each banking organization, it is important to evaluate the conclusions from such supplemental efforts based on the banking organization's own specific circumstances and performance criteria for the activity. Effective risk management processes include evaluating the capabilities of any external party conducting the supplemental efforts, understanding how such supplemental efforts relate to the banking organization's planned use of the third party, and assessing the risks of relying on the supplemental efforts. Use of such external parties to conduct supplemental due diligence does not abrogate the responsibility of the banking organization to manage third-party relationships in a safe and sound manner and consistent with applicable laws and regulations.
+
+Depending on the degree of risk and complexity of the third-party relationship, a banking organization typically considers the following factors, among others, as part of due diligence:
+
+a. Strategies and Goals
+
+A review of the third party's overall business strategy and goals helps the banking organization to understand: (1) how the third party's current and proposed strategic business arrangements (such as mergers, acquisitions, and partnerships) may affect the activity; and (2) the third party's service philosophies, quality initiatives, and employment policies and practices (including its diversity policies and practices). Such information may assist a banking organization to determine whether the third party can perform the activity in a manner that is consistent with the banking organization's broader corporate policies and practices.
+
+b. Legal and Regulatory Compliance
+
+A review of any legal and regulatory compliance considerations associated with engaging a third party allows a banking organization to evaluate whether it can appropriately mitigate risks associated with the third-party relationship. This may include (1) evaluating the third party's ownership structure (including identifying any beneficial ownership, whether public or private, foreign, or domestic ownership) and whether the third party has the necessary legal authority to perform the activity, such as any necessary licenses or corporate powers; (2) determining whether the third party itself or any owners are subject to sanctions by the Office of Foreign Assets Control; (3) determining whether the third party has the expertise, processes, and controls to enable the banking organization to remain in compliance with applicable domestic and international laws and 
+
+regulations; (4) considering the third party's responsiveness to any compliance issues (including violations of law or regulatory actions) with applicable supervisory agencies and self-regulatory organizations, as appropriate; and (5) considering whether the third party has identified, and articulated a process to mitigate, areas of potential consumer harm.
+
+c. Financial Condition
+
+An assessment of a third party's financial condition through review of available financial information, including audited financial statements, annual reports, and filings with the U.S. Securities and Exchange Commission (SEC), among others, helps a banking organization evaluate whether the third party has the financial capability and stability to perform the activity. Where relevant and available, a banking organization may consider other types of information such as access to funds, expected growth, earnings, pending litigation, unfunded liabilities, reports from debt rating agencies, and other factors that may affect the third party's overall financial condition.
+
+d. Business Experience
+
+An evaluation of a third party's: (1) depth of resources (including staffing); (2) previous experience in performing the activity; and (3) history of addressing customer complaints or litigation and subsequent outcomes, helps to inform a banking organization's assessment of the third party's ability to perform the activity effectively. Another consideration may include whether there have been significant changes in the activities offered or in its business model. Likewise, a review of the third party's websites, marketing materials, and other information related to banking products or services may help determine if statements and assertions accurately represent the activities and capabilities of the third party.
+
+e. Qualifications and Backgrounds of Key Personnel and Other Human Resources Considerations
+
+An evaluation of the qualifications and experience of a third party's principals and other key personnel related to the activity to be performed provides insight into the capabilities of the third party to successfully perform the activities. An important consideration is whether the third party and the banking organization, as appropriate, periodically conduct background checks on the third party's key personnel and contractors who may have access to information technology systems or confidential information. Another important consideration is whether there are procedures in place for identifying and removing the third party's employees who do not meet minimum suitability requirements or are otherwise barred from working in the financial services sector. Another consideration is whether the third party has training to ensure that its employees understand their duties and responsibilities and are knowledgeable about applicable laws and regulations as well as other factors that could affect performance or pose risk to the banking organization. Finally, an evaluation of the third party's succession and redundancy planning for key personnel, and of the third party's processes for holding employees accountable for compliance with policies and procedures, provides valuable information to the banking organization.
+
+f. Risk Management
+
+Appropriate due diligence includes an evaluation of the effectiveness of a third party's overall risk management, including policies, processes, and internal controls, and alignment with applicable policies and expectations of the banking organization surrounding the activity. This would include an assessment of the third party's governance processes, such as the establishment of clear roles, responsibilities, and segregation of duties pertaining to the activity. It is also important to consider whether the third party's controls and operations are subject to effective audit assessments, including independent testing and objective reporting of results and findings. Banking organizations also gain important insight by evaluating processes for escalating, remediating, and holding management accountable for concerns identified during audits, internal compliance reviews, or other independent tests, if available. When relevant and available, a banking organization may consider reviewing System and Organization Control (SOC) reports and any conformity assessment or certification by independent third parties related to relevant domestic or international standards.[11] 
+
+In such cases, the banking organization may also consider whether the scope and the results of the SOC reports, certifications, or assessments are relevant to the activity to be performed or suggest that additional scrutiny of the third party or any of its contractors may be appropriate.
+
+g. Information Security
+
+Understanding potential information security implications, including access to a banking organization's systems and information, can help a banking organization decide whether or not to engage with a third party. Due diligence in this area typically involves assessing the third party's information security program, including its consistency with the banking organization's information security program, such as its approach to protecting the confidentiality, integrity, and availability of the banking organization's data. It may also involve determining whether there are any gaps that present risk to the banking organization or its customers and considering the extent to which the third party applies controls to limit access to the banking organization's data and transactions, such as multifactor authentication, end-to-end encryption, and secure source code management. It also aids a banking organization when determining whether the third party keeps informed of, and has sufficient experience in identifying, assessing, and mitigating, known and emerging threats and vulnerabilities. As applicable, assessing the third party's data, infrastructure, and application security programs, including the software development life cycle and results of vulnerability and penetration tests, can provide valuable information regarding information technology system vulnerabilities. Finally, due diligence can help a banking organization evaluate the third party's implementation of effective and sustainable corrective actions to address any deficiencies discovered during testing.
+
+h. Management of Information Systems
+
+It is important to review and understand the third party's business processes and information systems that will be used to support the activity. When technology is a major component of the third-party relationship, an effective practice is to review both the banking organization's and the third party's information systems to identify gaps in service-level expectations, business process and management, and interoperability issues. It is also important to review the third party's processes for maintaining timely and accurate inventories of its technology and its contractor(s). A banking organization also benefits from understanding the third party's measures for assessing the performance of its information systems.
+
+i. Operational Resilience
+
+An assessment of a third party's operational resilience practices supports a banking organization's evaluation of a third party's ability to effectively operate through and recover from any disruption or incidents, both internal and external.[12] 
+
+Such an assessment is particularly important where the impact of such disruption could have an adverse effect on the banking organization or its customers, including when the third party interacts with customers. It is important to assess options to employ if the third party's ability to perform the activity is impaired and to determine whether the third party maintains appropriate operational resilience and cybersecurity practices, including disaster recovery and business continuity plans that specify the time frame to resume activities and recover data. To gain additional insight into a third party's resilience capabilities, a banking organization may review (1) the results of operational resilience and business continuity testing and performance during actual disruptions; (2) the third party's telecommunications redundancy and resilience plans; and (3) preparations for known and emerging threats and vulnerabilities, such as wide-scale natural disasters, pandemics, distributed denial of service attacks, or other intentional or unintentional events. Other considerations related to operational resilience include (1) dependency on a single provider for multiple activities; and (2) interoperability or potential end of life issues with the software programming language, computer platform, or data storage technologies used by the third party.
+
+j. Incident Reporting and Management Processes
+
+Review and consideration of a third party's incident reporting and management processes is helpful to determine whether there are clearly documented processes, timelines, and accountability for identifying, reporting, investigating, and escalating incidents. Such review assists in confirming that the third party's escalation and notification processes meet the banking organization's expectations and regulatory requirements.[13] 
+
+k. Physical Security
+
+It is important to evaluate whether the third party has sufficient physical and environmental controls to protect the safety and security of people (such as employees and customers), its facilities, technology systems, and data, as applicable. This would typically include a review of the third party's employee on- and off-boarding procedures to ensure that physical access rights are managed appropriately.
+
+l. Reliance on Subcontractors [14] 
+
+An evaluation of the volume and types of subcontracted activities and the degree to which the third party relies on subcontractors helps inform whether such subcontracting arrangements pose additional or heightened risk to a banking organization. This typically includes an assessment of the third party's ability to identify, manage, and mitigate risks associated with subcontracting, including how the third party selects and oversees its subcontractors and ensures that its subcontractors implement effective controls. Other important considerations include whether additional risk is presented by the geographic location of a subcontractor or dependency on a single provider for multiple activities.
+
+m. Insurance Coverage
+
+An evaluation of whether the third party has existing insurance coverage helps a banking organization determine the extent to which potential losses are mitigated, including losses posed by the third party to the banking organization or that might prevent the third party from fulfilling its obligations to the banking organization. Such losses may be attributable to dishonest or negligent acts; fire, floods, or other natural disasters; loss of data; and other matters. Examples of insurance coverage may include fidelity bond; liability; property hazard and casualty; and areas that may not be covered under a general commercial policy, such as cybersecurity or intellectual property.
+
+n. Contractual Arrangements With Other Parties
+
+A third party's commitments to other parties may introduce potential legal, financial, or operational implications to the banking organization. Therefore, it is important to obtain and evaluate information regarding the third party's legally binding arrangements with subcontractors or other parties to determine whether such arrangements may create or transfer risks to the banking organization or its customers.
+
+3. Contract Negotiation
+
+When evaluating whether to enter into a relationship with a third party, a banking organization typically determines whether a written contract is needed, and if the proposed contract can meet the banking organization's business goals and risk management needs. After such determination, a banking organization typically negotiates contract provisions that will facilitate effective risk management and oversight and that specify the expectations and obligations of both the banking organization and the third party. A banking organization may tailor the level of detail and comprehensiveness of such contract provisions based on the risk and complexity posed by the particular third-party relationship.
+
+While third parties may initially offer a standard contract, a banking organization may seek to request modifications, additional contract provisions, or addendums to satisfy its needs. In difficult contract negotiations, including when a banking organization has limited negotiating power, it is important for the banking organization to understand any resulting limitations and consequent risks. Possible actions that a banking organization might take in such circumstances include determining whether the contract can still meet the banking organization's needs, whether the contract would result in increased risk to the banking organization, and whether residual risks are acceptable. If the contract is unacceptable for the banking organization, it may consider other approaches, such as employing other third parties or conducting the activity in-house. In certain circumstances, banking organizations may gain an advantage by negotiating contracts as a group with other organizations.
+
+It is important that a banking organization understand the benefits and risks associated with engaging third parties and particularly before executing contracts involving higher-risk activities, including critical activities. As part of its oversight responsibilities, the board of directors should be aware of and, as appropriate, may approve or delegate approval of contracts involving higher-risk activities. Legal counsel review may also be warranted prior to finalization.
+
+Periodic reviews of executed contracts allow a banking organization to confirm that existing provisions continue to address pertinent risk controls and legal 
+
+protections. If new risks are identified, a banking organization may consider renegotiating a contract.
+
+Depending on the degree of risk and complexity of the third-party relationship, a banking organization typically considers the following factors, among others, during contract negotiations:
+
+a. Nature and Scope of Arrangement
+
+In negotiating a contract, it is helpful for a banking organization to clearly identify the rights and responsibilities of each party. This typically includes specifying the nature and scope of the business arrangement. Additional considerations may also include, as applicable, a description of (1) ancillary services such as software or other technology support, maintenance, and customer service; (2) the activities the third party will perform; and (3) the terms governing the use of the banking organization's information, facilities, personnel, systems, intellectual property, and equipment, as well as access to and use of the banking organization's or customers' information. If dual employees will be used, it may also be helpful to specify their responsibilities and reporting lines. It is also important for a banking organization to understand how changes in business and other circumstances may give rise to the third party's rights to terminate or renegotiate the contract.
+
+b. Performance Measures or Benchmarks
+
+For certain relationships, clearly defined performance measures can assist a banking organization in evaluating the performance of a third party. In particular, a service-level agreement between the banking organization and the third party can help specify the measures surrounding the expectations and responsibilities for both parties, including conformance with policies and procedures and compliance with applicable laws and regulations. Such measures can be used to monitor performance, penalize poor performance, or reward outstanding performance. It is important to negotiate performance measures that do not incentivize imprudent performance or behavior, such as encouraging processing volume or speed without regard for accuracy, compliance requirements, or adverse effects on the banking organization or customers.
+
+c. Responsibilities for Providing, Receiving, and Retaining Information
+
+It is important to consider contract provisions that specify the third party's obligation for retention and provision of timely, accurate, and comprehensive information to allow the banking organization to monitor risks and performance and to comply with applicable laws and regulations. Such provisions typically address:
+
+The banking organization's ability to access its data in an appropriate and timely manner;
+
+The banking organization's access to, or use of, the third-party's data and any supporting documentation, in connection with the business arrangement;
+
+The banking organization's access to, or use of, its own or the third-party's data and how such data and supporting documentation may be shared with regulators in a timely manner as part of the supervisory process;
+
+Whether the third party is permitted to resell, assign, or permit access to customer data, or the banking organization's data, metadata, and systems, to other entities;
+
+Notification to the banking organization whenever compliance lapses, enforcement actions, regulatory proceedings, or other events pose a significant risk to the banking organization or customers;
+
+Notification to the banking organization of significant strategic or operational changes, such as mergers, acquisitions, divestitures, use of subcontractors, key personnel changes, or other business initiatives that could affect the activities involved; and
+
+Specification of the type and frequency of reports to be received from the third party, as appropriate. This may include performance reports, financial reports, security reports, and control assessments.
+
+d. The Right To Audit and Require Remediation
+
+To help ensure that a banking organization has the ability to monitor the performance of a third party, a contract often establishes the banking organization's right to audit and provides for remediation when issues are identified. Generally, a contract includes provisions for periodic, independent audits of the third party and its relevant subcontractors, consistent with the risk and complexity of the third-party relationship. Therefore, it would be appropriate to consider whether contract provisions describe the types and frequency of audit reports the banking organization is entitled to receive from the third party (for example, SOC reports, Payment Card Industry (PCI) compliance reports, or other financial and operational reviews). Such contract provisions may also reserve the banking organization's right to conduct its own audits of the third party's activities or to engage an independent party to perform such audits.
+
+e. Responsibility for Compliance With Applicable Laws and Regulations
+
+A banking organization is responsible for conducting its activities in compliance with applicable laws and regulations, including those activities involving third parties. The use of third parties does not abrogate these responsibilities. Therefore, it is important for a contract to specify the obligations of the third party and the banking organization to comply with applicable laws and regulations. It is also important for the contract to provide the banking organization with the right to monitor and be informed about the third party's compliance with applicable laws and regulations, and to require timely remediation if issues arise. Contracts may also reflect considerations of relevant guidance and self-regulatory standards, where applicable.
+
+f. Costs and Compensation
+
+Contracts that clearly describe all costs and compensation arrangements help reduce misunderstandings and disputes over billing and help ensure that all compensation arrangements are consistent with sound banking practices and applicable laws and regulations. Contracts commonly describe compensation and fees, including cost schedules, calculations for base services, and any fees based on volume of activity and for special requests. Contracts also may specify the conditions under which the cost structure may be changed, including limits on any cost increases. During negotiations, a banking organization should confirm that a contract does not include incentives that promote inappropriate risk taking by the banking organization or the third party. A banking organization should also consider whether the contract includes burdensome upfront or termination fees, or provisions that may require the banking organization to reimburse the third party. Appropriate provisions indicate which party is responsible for payment of legal, audit, and examination fees associated with the activities involved. Another consideration is outlining cost and responsibility for purchasing and maintaining hardware and software, where applicable.
+
+g. Ownership and License
+
+In order to prevent disputes between the parties regarding the ownership and licensing of a banking organization's 
+
+property, it is common for a contract to state the extent to which the third party has the right to use the banking organization's information, technology, and intellectual property, such as the banking organization's name, logo, trademark, and copyrighted material. Provisions that indicate whether any data generated by the third party become the banking organization's property help avert misunderstandings. It is also important to include appropriate warranties on the part of the third party related to its acquisition of licenses or subscriptions for use of any intellectual property developed by other third parties. When the banking organization purchases software, it is important to consider a provision to establish escrow agreements to provide for the banking organization's access to source code and programs under certain conditions (for example, insolvency of the third party).
+
+h. Confidentiality and Integrity
+
+With respect to contracts with third parties, there may be increased risks related to the sensitivity of non-public information or access to infrastructure. Effective contracts typically prohibit the use and disclosure of banking organization and customer information by a third party and its subcontractors, except as necessary to provide the contracted activities or comply with legal requirements. If the third party receives personally identifiable information, contract provisions are important to ensure that the third party implements and maintains appropriate security measures to comply with applicable laws and regulations.
+
+Another important provision is one that specifies when and how the third party will disclose, in a timely manner, information security breaches or unauthorized intrusions. Considerations may include the types of data stored by the third party, legal obligations for the banking organization to disclose the breach to its regulators or customers, the potential for consumer harm, or other factors. Such provisions typically stipulate that the data intrusion notification to the banking organization include estimates of the effects on the banking organization and its customers and specify corrective action to be taken by the third party. They also address the powers of each party to change security and risk management procedures and requirements and resolve any confidentiality and integrity issues arising out of shared use of facilities owned by the third party. Typically, such provisions stipulate whether and how often the banking organization and the third party will jointly practice incident management exercises involving unauthorized intrusions or other breaches of confidentiality and integrity.
+
+i. Operational Resilience and Business Continuity
+
+Both internal and external factors or incidents (for example, natural disasters or cyber incidents) may affect a banking organization or a third party and thereby disrupt the third party's performance of the activity. Consequently, an effective contract provides for continuation of the activity in the event of problems affecting the third party's operations, including degradations or interruptions in delivery. As such, it is important for the contract to address the third party's responsibility for appropriate controls to support operational resilience of the services, such as protecting and storing programs, backing up datasets, addressing cybersecurity issues, and maintaining current and sound business resumption and business continuity plans.
+
+To help ensure maintenance of operations, contracts often require the third party to provide the banking organization with operating procedures to be carried out in the event business continuity plans are implemented, including specific recovery time and recovery point objectives. Contracts may also stipulate whether and how often the banking organization and the third party will jointly test business continuity plans. Another consideration is whether the contract provides for the transfer of the banking organization's accounts, data, or activities to another third party without penalty in the event of the third party's bankruptcy, business failure, or business interruption.
+
+j. Indemnification and Limits on Liability
+
+Incorporating indemnification provisions into a contract may reduce the potential for a banking organization to be held liable for claims and be reimbursed for damages arising from a third party's misconduct, including negligence and violations of laws and regulations. As such, it is important to consider whether indemnification clauses specify the extent to which the banking organization will be held liable for claims or be reimbursed for damages based on the failure of the third party or its subcontractor to perform, including failure of the third party to obtain any necessary intellectual property licenses. Such consideration typically includes an assessment of whether any limits on liability are in proportion to the amount of loss the banking organization might experience as a result of third-party failures, or whether indemnification clauses require the banking organization to hold the third party harmless from liability.
+
+k. Insurance
+
+One way in which a banking organization can protect itself against losses caused by or related to a third party and the products and services provided through third-party relationships is by including insurance requirements in a contract. These provisions typically require the third party to (1) maintain specified types and amounts of insurance (including, if appropriate, naming the banking organization as insured or additional insured); (2) notify the banking organization of material changes to coverage; and (3) provide evidence of coverage, as appropriate. The type and amount of insurance coverage should be commensurate with the risk of possible losses, including those caused by the third party to the banking organization or that might prevent the third party from fulfilling its obligations to the banking organization, and the activities performed.
+
+l. Dispute Resolution
+
+Disputes regarding a contract can delay or otherwise have an adverse impact upon the activities performed by a third party, which may negatively affect the banking organization. Therefore, a banking organization may want to consider whether the contract should establish a dispute resolution process to resolve problems between the banking organization and the third party in an expeditious manner, and whether the third party should continue to provide activities to the banking organization during the dispute resolution period. It is important to also understand whether the contract contains provisions that may impact the banking organization's ability to resolve disputes in a satisfactory manner, such as provisions addressing arbitration or forum selection.
+
+m. Customer Complaints
+
+Where customer interaction is an important aspect of the third-party relationship, a banking organization may find it useful to include a contract provision to ensure that customer complaints and inquiries are handled properly. Effective contracts typically specify whether the banking organization or the third party is responsible for responding to customer complaints or inquiries. If it is the third party's responsibility, it is important to include provisions for the third party to receive and respond to customer 
+
+complaints and inquiries in a timely manner and to provide the banking organization with sufficient, timely, and usable information to analyze customer complaint and inquiry activity and associated trends. If it is the banking organization's responsibility, it is important to include provisions for the banking organization to receive prompt notification from the third party of any complaints or inquiries received by the third party.
+
+n. Subcontracting
+
+Third-party relationships may involve subcontracting arrangements, which can result in risk due to the absence of a direct relationship between the banking organization and the subcontractor, further lessening the banking organization's direct control of activities. The impact on a banking organization's ability to assess and control risks may be especially important if the banking organization uses third parties for higher-risk activities, including critical activities. For this reason, a banking organization may want to address when and how the third party should notify the banking organization of its use or intent to use a subcontractor and whether specific subcontractors are prohibited by the banking organization. Another important consideration is whether the contract should prohibit assignment, transfer, or subcontracting of the third party's obligations to another entity without the banking organization's consent. Where subcontracting is integral to the activity being performed for the banking organization, it is important to consider more detailed contractual obligations, such as reporting on the subcontractor's conformance with performance measures, periodic audit results, and compliance with laws and regulations. Where appropriate, a banking organization may consider including a provision that states the third party's liability for activities or actions by its subcontractors and which party is responsible for the costs and resources required for any additional monitoring and management of the subcontractors. It may also be appropriate to reserve the right to terminate the contract without penalty if the third party's subcontracting arrangements do not comply with contractual obligations.
+
+o. Foreign-Based Third Parties
+
+In contracts with foreign-based third parties, it is important to consider choice-of-law and jurisdictional provisions that provide dispute adjudication under the laws of a single jurisdiction, whether in the United States or elsewhere. When engaging with foreign-based third parties, or where contracts include a choice-of-law provision that includes a jurisdiction other than the United States, it is important to understand that such contracts and covenants may be subject to the interpretation of foreign courts relying on laws in those jurisdictions. It may be warranted to seek legal advice on the enforceability of the proposed contract with a foreign-based third party and other legal ramifications, including privacy laws and cross-border flow of information.
+
+p. Default and Termination
+
+Contracts can protect the ability of the banking organization to change third parties when appropriate without undue restrictions, limitations, or cost. An effective contract stipulates what constitutes default, identifies remedies, allows opportunities to cure defaults, and establishes the circumstances and responsibilities for termination. Therefore, it is important to consider including contractual provisions that:
+
+Provide termination and notification requirements with reasonable time frames to allow for the orderly transition of the activity, when desired or necessary, without prohibitive expense;
+
+Provide for the timely return or destruction of the banking organization's data, information, and other resources;
+
+Assign all costs and obligations associated with transition and termination; and
+
+Enable the banking organization to terminate the relationship with reasonable notice and without penalty, if formally directed by the banking organization's primary federal banking regulator.
+
+q. Regulatory Supervision
+
+For relevant third-party relationships, it is important for contracts to stipulate that the performance of activities by third parties for the banking organization is subject to regulatory examination and oversight, including appropriate retention of, and access to, all relevant documentation and other materials.[15] 
+
+This can help ensure that a third party is aware of its role and potential liability in its relationship with a banking organization.
+
+4. Ongoing Monitoring
+
+Ongoing monitoring enables a banking organization to: (1) confirm the quality and sustainability of a third party's controls and ability to meet contractual obligations; (2) escalate significant issues or concerns, such as material or repeat audit findings, deterioration in financial condition, security breaches, data loss, service interruptions, compliance lapses, or other indicators of increased risk; and (3) respond to such significant issues or concerns when identified.
+
+Effective third-party risk management includes ongoing monitoring throughout the duration of a third-party relationship, commensurate with the level of risk and complexity of the relationship and the activity performed by the third party. Ongoing monitoring may be conducted on a periodic or continuous basis, and more comprehensive or frequent monitoring is appropriate when a third-party relationship supports higher-risk activities, including critical activities. Because both the level and types of risks may change over the lifetime of third-party relationships, banking organizations may adapt their ongoing monitoring practices accordingly, including changes to the frequency or type of information used in monitoring.
+
+Typical monitoring activities include: (1) review of reports regarding the third party's performance and the effectiveness of its controls; (2) periodic visits and meetings with third-party representatives to discuss performance and operational issues; and (3) regular testing of the banking organization's controls that manage risks from its third-party relationships, particularly when supporting higher-risk activities, including critical activities. In certain circumstances, based on risk, a banking organization may also perform direct testing of the third party's own controls. To gain efficiencies or leverage specialized expertise, banking organizations may engage external resources, refer to conformity assessments or certifications, or collaborate when performing ongoing monitoring.[16] 
+
+To support effective monitoring, a banking organization dedicates sufficient staffing with the necessary expertise, authority, and accountability to perform a range of ongoing monitoring activities, such as those described above.
+
+Depending on the degree of risk and complexity of the third-party relationship, a banking organization typically considers the following factors, among others, as part of ongoing monitoring:
+
+The overall effectiveness of the third-party relationship, including its consistency with the banking organization's strategic goals, business objectives, risk appetite, risk profile, and broader corporate policies;
+
+Changes to the third party's business strategy and its agreements with other entities that may pose new or increased risks or impact the third party's ability to meet contractual obligations;
+
+Changes in the third party's financial condition, including its financial obligations to others;
+
+Changes to, or lapses in, the third party's insurance coverage;
+
+Relevant audits, testing results, and other reports that address whether the third party remains capable of managing risks and meeting contractual obligations and regulatory requirements;
+
+The third party's ongoing compliance with applicable laws and regulations and its performance as measured against contractual obligations;
+
+Changes in the third party's key personnel involved in the activity;
+
+The third party's reliance on, exposure to, and use of subcontractors, the location of subcontractors (and any related data), and the third party's own risk management processes for monitoring subcontractors;
+
+Training provided to employees of the banking organization and the third party;
+
+The third party's response to changing threats, new vulnerabilities, and incidents impacting the activity, including any resulting adjustments to the third party's operations or controls;
+
+The third party's ability to maintain the confidentiality, availability, and integrity of the banking organization's systems, information, and data, as well as customer data, where applicable;
+
+The third party's response to incidents, business continuity and resumption plans, and testing results to evaluate the third party's ability to respond to and recover from service disruptions or degradations;
+
+Factors and conditions external to the third party that could affect its performance and financial and operational standing, such as changing laws, regulations, and economic conditions; and
+
+The volume, nature, and trends of customer inquiries and complaints, the adequacy of the third party's responses (if responsible for handling customer inquiries or complaints), and any resulting remediation.
+
+5. Termination
+
+A banking organization may terminate a relationship for various reasons, such as expiration or breach of the contract, the third party's failure to comply with applicable laws or regulations, or a desire to seek an alternate third party, bring the activity in-house, or discontinue the activity. When this occurs, it is important for management to terminate relationships in an efficient manner, whether the activities are transitioned to another third party, brought in-house, or discontinued. Depending on the degree of risk and complexity of the third-party relationship, a banking organization typically considers the following factors, among others, to facilitate termination:
+
+Options for an effective transition of services, such as potential alternate third parties to perform the activity;
+
+Relevant capabilities, resources, and the time frame required to transition the activity to another third party or bring in-house while still managing legal, regulatory, customer, and other impacts that might arise;
+
+Costs and fees associated with termination;
+
+Managing risks associated with data retention and destruction, information system connections and access control, or other control concerns that require additional risk management and monitoring after the end of the third-party relationship;
+
+Handling of joint intellectual property; and
+
+Managing risks to the banking organization, including any impact on customers, if the termination happens as a result of the third party's inability to meet expectations.
+
+D. Governance
+
+There are a variety of ways for banking organizations to structure their third-party risk management processes. Some banking organizations disperse accountability for their third-party risk management processes among their business lines.[17] 
+
+Other banking organizations may centralize the processes under their compliance, information security, procurement, or risk management functions. Regardless of how a banking organization structures its process, the following practices are typically considered throughout the third-party risk management life cycle,[18] 
+
+commensurate with risk and complexity.
+
+1. Oversight and Accountability
+
+Proper oversight and accountability are important aspects of third-party risk management because they help enable a banking organization to minimize adverse financial, operational, or other consequences. A banking organization's board of directors has ultimate responsibility for providing oversight for third-party risk management and holding management accountable. The board also provides clear guidance regarding acceptable risk appetite, approves appropriate policies, and ensures that appropriate procedures and practices have been established. A banking organization's management is responsible for developing and implementing third-party risk management policies, procedures, and practices, commensurate with the banking organization's risk appetite and the level of risk and complexity of its third-party relationships.
+
+In carrying out its responsibilities, the board of directors (or a designated board committee) typically considers the following factors, among others:
+
+Whether third-party relationships are managed in a manner consistent with the banking organization's strategic goals and risk appetite and in compliance with applicable laws and regulations;
+
+Whether there is appropriate periodic reporting on the banking organization's third-party relationships, such as the results of management's planning, due diligence, contract negotiation, and ongoing monitoring activities; and
+
+Whether management has taken appropriate actions to remedy significant deterioration in performance or address changing risks or material issues identified, including through ongoing monitoring and independent reviews.
+
+When carrying out its responsibilities, management typically performs the following activities, among others:
+
+Integrating third-party risk management with the banking organization's overall risk management processes;
+
+Directing planning, due diligence, and ongoing monitoring activities;
+
+Reporting periodically to the board (or designated committee), as appropriate, on third-party risk management activities;
+
+Providing that contracts with third parties are appropriately reviewed, approved, and executed;
+
+Establishing appropriate organizational structures and staffing (level and expertise) to support the banking organization's third-party risk management processes;
+
+Implementing and maintaining an appropriate system of internal controls to manage risks associated with third-party relationships;
+
+Assessing whether the banking organization's compliance management system is appropriate to the nature, size, complexity, and scope of its third-party relationships;
+
+Determining whether the banking organization has appropriate access to data and information from its third parties;
+
+Escalating significant issues to the board and monitoring any resulting remediation, including actions taken by the third party; and
+
+Terminating business arrangements with third parties when they do not meet expectations or no longer align with the banking organization's strategic goals, objectives, or risk appetite.
+
+2. Independent Reviews
+
+It is important for a banking organization to conduct periodic independent reviews to assess the adequacy of its third-party risk management processes. Such reviews typically consider the following factors, among others:
+
+Whether the third-party relationships align with the banking organization's business strategy, and with internal policies, procedures, and standards;
+
+Whether risks of third-party relationships are identified, measured, monitored, and controlled;
+
+Whether the banking organization's processes and controls are designed and operating adequately;
+
+Whether appropriate staffing and expertise are engaged to perform risk management activities throughout the third-party risk management life cycle, including involving multiple disciplines across the banking organization, as appropriate; and
+
+Whether conflicts of interest or appearances of conflicts of interest are avoided or eliminated when selecting or overseeing third parties.
+
+A banking organization may use the results of independent reviews to determine whether and how to adjust its third-party risk management process, including its policies, reporting, resources, expertise, and controls. It is important that management respond promptly and thoroughly to issues or concerns identified and escalate them to the board, as appropriate.
+
+3. Documentation and Reporting
+
+It is important that a banking organization properly document and report on its third-party risk management process and specific third-party relationships throughout their life cycle. Documentation and reporting, key elements that assist those within or outside the banking organization who conduct control activities, will vary among banking organizations depending on the risk and complexity of their third-party relationships. Examples of processes that support effective documentation and internal reporting that the agencies have observed include, but are not limited to:
+
+A current inventory of all third-party relationships (and, as appropriate to the risk presented, related subcontractors) that clearly identifies those relationships associated with higher-risk activities, including critical activities;
+
+Planning and risk assessments related to the use of third parties;
+
+Due diligence results and recommendations;
+
+Executed contracts;
+
+Remediation plans and related reports addressing the quality and sustainability of the third party's controls;
+
+Risk and performance reports required and received from the third party as part of ongoing monitoring;
+
+If applicable, reports related to customer complaint and inquiry monitoring, and any subsequent remediation reports;
+
+Reports from third parties of service disruptions, security breaches, or other events that pose, or may pose, a material risk to the banking organization;
+
+Results of independent reviews; and
+
+Periodic reporting to the board (including, as applicable, dependency on a single provider for multiple activities).
+
+E. Supervisory Reviews of Third-Party Relationships
+
+The concepts discussed in this guidance are relevant for all third-party relationships and are provided to banking organizations to assist in the tailoring and implementation of risk management practices commensurate to each banking organization's size, complexity, risk profile, and the nature of its third-party relationships. Each agency will review its supervised banking organizations' risk management of third-party relationships as part of its standard supervisory processes. Supervisory reviews will evaluate risks and the effectiveness of risk management to determine whether activities are conducted in a safe and sound manner and in compliance with applicable laws and regulations.
+
+In their evaluations of a banking organization's third-party risk management, examiners consider that banking organizations engage in a diverse set of third-party relationships, that not all third-party risk relationships present the same risks, and that banking organizations accordingly tailor their practices to the risks presented. Thus, the scope of the supervisory review depends on the degree of risk and the complexity associated with the banking organization's activities and third-party relationships. When reviewing third-party risk management processes, examiners typically conduct the following activities, among others:
+
+Assess the ability of the banking organization's management to oversee and manage the banking organization's third-party relationships;
+
+Assess the impact of third-party relationships on the banking organization's risk profile and key aspects of financial and operational performance, including compliance with applicable laws and regulations;
+
+Perform transaction testing or review results of testing to evaluate the activities performed by the third party and assess compliance with applicable laws and regulations;
+
+Highlight and discuss any material risks and deficiencies in the banking organization's risk management process with senior management and the board of directors as appropriate;
+
+Review the banking organization's plans for appropriate and sustainable remediation of any deficiencies, particularly those associated with the oversight of third parties that involve critical activities; and
+
+Consider supervisory findings when assigning the components of the applicable rating system and highlight any material risks and deficiencies in the Report of Examination.
+
+When circumstances warrant, an agency may use its legal authority to examine functions or operations that a third party performs on a banking organization's behalf. Such examinations may evaluate the third party's ability to fulfill its obligations in a safe and sound manner and comply with applicable laws and regulations, including those designed to protect customers and to provide fair access to financial services. The agencies may pursue corrective measures, including enforcement actions, when necessary to address violations of laws and regulations or unsafe or unsound 
+
+banking practices by the banking organization or its third party.
+
+Michael J. Hsu,
+
+Acting Comptroller of the Currency.
+
+By order of the Board of Governors of the Federal Reserve System.
+
+Ann E. Misback,
+
+Secretary of the Board.
+
+Federal Deposit Insurance Corporation.
+
+Dated at Washington, DC, on June 1, 2023.
+
+James P. Sheesley,
+
+Assistant Executive Secretary.
+
+Footnotes
+
+1.
+
+ For a description of the banking organizations supervised by each agency, refer to the definition of “appropriate Federal banking agency” in section 3(q) of the Federal Deposit Insurance Act (12 U.S.C. 1813(q)). This guidance is relevant to all banking organizations supervised by the agencies.
+
+2.
+
+ SR Letter 13-19/CA Letter 13-21, “Guidance on Managing Outsourcing Risk” (December 5, 2013, updated February 26, 2021).
+
+3.
+
+ FIL-44-2008, “Guidance for Managing Third-Party Risk” (June 6, 2008).
+
+4.
+
+ OCC Bulletin 2013-29, “Third-Party Relationships: Risk Management Guidance,” and OCC Bulletin 2020-10, “Third-Party Relationships: Frequently Asked Questions to Supplement OCC Bulletin 2013-29.” Additionally, the OCC also issued foreign-based third-party guidance, OCC Bulletin 2002-16, “Bank Use of Foreign-Based Third-Party Service Providers: Risk Management Guidance,” which is not being rescinded but instead supplements the final guidance.
+
+5.
+
+ These include the “Interagency Guidelines Establishing Standards for Safety and Soundness,” and the “Interagency Guidelines Establishing Information Security Standards,” which were adopted pursuant to the procedures of section 39 of the Federal Deposit Insurance Act and section 505 of the Graham Leach Bliley Act, respectively. 
+
+See 12 CFR part 30, appendices A and B (OCC); part 208, appendices D-1 and D-2 (Board); and part 364, appendices A and B (FDIC).
+
+6.
+
+ “Proposed Interagency Guidance on Third-Party Relationships: Risk Management,” 86 FR 38182 (July 19, 2021).
+
+7.
+
+ “Proposed Interagency Guidance on Third-Party Relationships: Risk Management,” 86 FR 50789 (September 10, 2021).
+
+8.
+
+ Comments can be accessed at: 
+
+https://www.regulations.gov/​document/​OCC-2021-0011-0001/​comment
+
+(OCC); 
+
+https://www.federalreserve.gov/​apps/​foia/​ViewComments.aspx?​doc_​id=​OP-1752&​doc_​ver=​1
+
+(Board); and 
+
+https://www.fdic.gov/​resources/​regulations/​federal-register-publications/​2021/​2021-proposed-interagency-guidance-third-party-rel-rm-3064-za26.html
+
+(FDIC).
+
+9.
+
+ The agencies included the OCC's 2020 FAQs as an exhibit when issuing the proposed guidance and sought comment on whether any of the concepts in the OCC FAQs should be incorporated into the interagency guidance. 
+
+See 86 FR 38196.
+
+10.
+
+ 
+
+See 12 CFR part 4, appendix A to subpart F (OCC); 12 CFR part 262, appendix A (Board); and 12 CFR part 302, appendix A (FDIC).
+
+11.
+
+ “Proposed Interagency Guidance on Third-Party Relationships: Risk Management”, 86 FR 38182, at 38187 (July 19, 2021); 
+
+https://www.federalregister.gov/​documents/​2021/​07/​19/​2021-15308/​proposed-interagency-guidance-on-third-party-relationships-risk-management.
+
+12.
+
+ “Interagency Paper on Sound Practices to Strengthen Operational Resilience,” Federal Reserve SR 20-24 (November 2, 2020); OCC Bulletin 2020-94 (October 30, 2020); and FDIC FIL-103-2020 (November 2, 2020).
+
+13.
+
+ 
+
+See 12 CFR part 243 (Regulation QQ); 12 CFR part 30, appendix E.
+
+14.
+
+ The practices are addressed to domestic banks with more than $250 billion in total consolidated assets or banks with more than $100 billion in total assets and other risk characteristics. 
+
+See 
+
+note 12.
+
+15.
+
+ 
+
+See 12 U.S.C. 5533. As required by the Dodd-Frank Wall Street Reform and Consumer Protection Act, the agencies are participating in consultations with the CFPB related to the rulemaking.
+
+16.
+
+ 12 CFR part 53 (OCC); 12 CFR 225, subpart N (Board); 12 CFR 304, subpart C (FDIC).
+
+17.
+
+ “Conducting Due Diligence on Financial Technology Companies A Guide for Community Banks,” Board, FDIC, OCC (August 2021), available at: 
+
+https://www.occ.gov/​news-issuances/​news-releases/​2021/​nr-ia-2021-85a.pdf.
+
+18.
+
+ “Comptroller's Handbook: Model Risk Management,” OCC (August 2021), available at: 
+
+https://www.occ.gov/​publications-and-resources/​publications/​comptrollers-handbook/​files/​model-risk-management/​pub-ch-model-risk.pdf.
+
+19.
+
+ FDIC FIL-50-2016, “Examination Guidance for Third-Party Lending” (July 29, 2016). This proposed examination guidance was not finalized.
+
+20.
+
+ 12 U.S.C. 1861 
+
+et seq.
+
+21.
+
+ 5 CFR 1320.3(b)(2).
+
+1.
+
+ For a description of the banking organizations supervised by each agency, refer to the definition of “appropriate Federal banking agency” in section 3(q) of the Federal Deposit Insurance Act (12 U.S.C. 1813(q)). This guidance is relevant to all banking organizations supervised by the agencies.
+
+2.
+
+ Supervisory guidance does not have the force and effect of law and does not impose any new requirements on banking organizations. See 12 CFR 4, subpart F, appendix A (OCC); 12 CFR 262, appendix A (FRB) 12 CFR 302, appendix A (FDIC).
+
+3.
+
+ 
+
+See 12 U.S.C. 1831p-1. The agencies implemented section 1831p-1 by regulation through the “Interagency Guidelines Establishing Standards for Safety and Soundness
+
+.” See12 CFR part 30, appendix A (OCC), 12 CFR part 208, appendix D-1 (Board); and 12 CFR part 364, appendix A (FDIC).
+
+4.
+
+ References to applicable laws and regulations throughout this guidance include but are not limited to those designed to protect consumers (such as fair lending laws and prohibitions against unfair, deceptive or abusive acts or practices) and those addressing financial crimes.
+
+5.
+
+ This guidance is relevant for all third-party relationships, including situations in which a supervised banking organization provides services to another supervised banking organization.
+
+6.
+
+ The term “business arrangement” is meant to be interpreted broadly and is synonymous with the term “third-party relationship.”
+
+7.
+
+ When a banking organization uses a third-party assessment service or utility, it has a business arrangement with that entity. Therefore, the arrangement should be incorporated into the banking organization's third-party risk management processes.
+
+8.
+
+ The term “foreign-based third-party” refers to third parties whose servicing operations are located in a foreign country and subject to the law and jurisdiction of that country. Accordingly, this term does not include a U.S.-based subsidiary of a foreign firm because its servicing operations are subject to U.S. laws. This term does include U.S. third parties to the extent that their actual servicing operations are located in or subcontracted to entities domiciled in a foreign country and subject to the law and jurisdiction of that country.
+
+9.
+
+ Dual employees are employed by both the banking organization and the third party.
+
+10.
+
+ Any collaborative activities among banks must comply with antitrust laws. Refer to the Federal Trade Commission and U.S. Department of Justice's “Antitrust Guidelines for Collaborations Among Competitors” (April 2000), available at 
+
+https://www.ftc.gov/​sites/​default/​files/​documents/​public_​events/​joint-venture-hearings-antitrust-guidelines-collaboration-among-competitors/​ftcdojguidelines-2.pdf.
+
+11.
+
+ For example, those of the National Institute of Standards and Technology, Accredited Standards Committee X9, and the International Standards Organization.
+
+12.
+
+ Disruptive events could include technology-based failures, human error, cyber incidents, pandemic outbreaks, and natural disasters.
+
+13.
+
+ For example, regulatory requirements regarding incident notification include the FBAs' “Computer Security Incident Notification Rule.” 
+
+See 12 CFR 53 (OCC); 12 CFR 225, subpart N (Board); 12 CFR 304, subpart C (FDIC).
+
+14.
+
+ Third parties may enlist the help of suppliers, service providers, or other organizations, which this guidance collectively refers to as subcontractors.
+
+15.
+
+ 
+
+See 12 U.S.C. 1464(d)(7)(D) and 1867(c)(1).
+
+16.
+
+ Refer to important considerations discussed in “Due Diligence and Third-Party Selection” of this guidance when a banking organization chooses to engage external resources to supplement its third-party risk management.
+
+17.
+
+ Each applicable business line can provide valuable input into the third-party risk management process, for example, by completing risk assessments, reviewing due diligence information, and evaluating the controls over the third-party relationship.

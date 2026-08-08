@@ -1,0 +1,31 @@
+query,category,rank,score,source,chunk_id
+What must a creditor disclose when using AI to deny credit?,on_topic,1,0.269919,cfpb_circular_2023_03.txt,8
+What must a creditor disclose when using AI to deny credit?,on_topic,2,0.226353,cfpb_circular_2023_03.txt,7
+What must a creditor disclose when using AI to deny credit?,on_topic,3,0.157118,cfpb_circular_2023_03.txt,9
+What must a creditor disclose when using AI to deny credit?,on_topic,4,0.116469,occ_2026_13.txt,26
+What must a creditor disclose when using AI to deny credit?,on_topic,5,0.112083,cfpb_circular_2023_03.txt,10
+How should banks manage risk from third-party service providers?,on_topic,1,0.152763,third_party_risk_2023.txt,218
+How should banks manage risk from third-party service providers?,on_topic,2,0.082726,third_party_risk_2023.txt,217
+How should banks manage risk from third-party service providers?,on_topic,3,0.082712,third_party_risk_2023.txt,225
+How should banks manage risk from third-party service providers?,on_topic,4,0.078768,third_party_risk_2023.txt,281
+How should banks manage risk from third-party service providers?,on_topic,5,0.078471,third_party_risk_2023.txt,205
+What are the requirements for model validation?,on_topic,1,0.334929,sr_11_7_superseded.txt,52
+What are the requirements for model validation?,on_topic,2,0.281652,sr_26_2.txt,169
+What are the requirements for model validation?,on_topic,3,0.239433,sr_11_7_superseded.txt,58
+What are the requirements for model validation?,on_topic,4,0.234616,sr_26_2.txt,170
+What are the requirements for model validation?,on_topic,5,0.233616,sr_11_7_superseded.txt,53
+What are the capital requirements for community banks?,hard_negative,1,0.145316,occ_2026_13.txt,22
+What are the capital requirements for community banks?,hard_negative,2,0.138062,occ_2026_13.txt,27
+What are the capital requirements for community banks?,hard_negative,3,0.121141,occ_2026_13.txt,21
+What are the capital requirements for community banks?,hard_negative,4,0.094420,sr_11_7_superseded.txt,32
+What are the capital requirements for community banks?,hard_negative,5,0.082582,sr_11_7_superseded.txt,28
+What does the guidance say about cryptocurrency custody?,hard_negative,1,0.177853,third_party_risk_2023.txt,183
+What does the guidance say about cryptocurrency custody?,hard_negative,2,0.167304,sr_23_4.txt,95
+What does the guidance say about cryptocurrency custody?,hard_negative,3,0.147127,occ_2026_13.txt,23
+What does the guidance say about cryptocurrency custody?,hard_negative,4,0.142662,third_party_risk_2023.txt,186
+What does the guidance say about cryptocurrency custody?,hard_negative,5,0.142316,third_party_risk_2023.txt,188
+How often must banks retrain machine learning models?,hard_negative,1,0.224489,sr_11_7_superseded.txt,29
+How often must banks retrain machine learning models?,hard_negative,2,0.169440,sr_11_7_superseded.txt,75
+How often must banks retrain machine learning models?,hard_negative,3,0.139738,sr_11_7_superseded.txt,76
+How often must banks retrain machine learning models?,hard_negative,4,0.138347,sr_11_7_superseded.txt,45
+How often must banks retrain machine learning models?,hard_negative,5,0.137310,sr_11_7_superseded.txt,39

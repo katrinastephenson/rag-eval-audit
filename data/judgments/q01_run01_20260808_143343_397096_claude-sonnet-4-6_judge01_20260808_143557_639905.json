@@ -1,0 +1,26 @@
+{
+  "eval_run_file": "q01_run01_20260808_143343_397096.json",
+  "question_id": 1,
+  "question": "When using AI or complex credit models, may creditors rely on the checklist of reasons in the CFPB's sample adverse action forms?",
+  "category": "answerable",
+  "judge_run_number": 1,
+  "judge_model": "claude-sonnet-4-6",
+  "groundedness_score": 5,
+  "groundedness_rationale": "Every factual claim in the answer is directly and explicitly supported by the retrieved context, including the CFPB's 'no' answer, the prohibition on vague reasons, the illustrative nature of sample forms, the Regulation B quote about not satisfying notice requirements by checking the closest factor, the requirement to modify the form or check 'other,' and that selecting inaccurate factors is a legal violation even with algorithmic complexity.",
+  "correctness_score": 5,
+  "correctness_rationale": "The AI answer correctly states that creditors may not rely on the checklist of reasons in the CFPB's sample adverse action forms when using AI or complex credit models, fully matching the expected 'No' answer, and cites the acceptable source cfpb_circular_2023_03.txt.",
+  "cites_expected_source": true,
+  "abstained": null,
+  "abstain_rationale": null,
+  "citation_check_programmatic": true,
+  "usage": {
+    "groundedness": {
+      "input_tokens": 3081,
+      "output_tokens": 104
+    },
+    "correctness": {
+      "input_tokens": 863,
+      "output_tokens": 86
+    }
+  }
+}
