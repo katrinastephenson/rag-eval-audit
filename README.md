@@ -40,6 +40,45 @@ score at every step.
 
 ---
 
+## The second finding — a fabrication that contradicts its own citation
+
+Found in ordinary interactive use, not in the test set.
+
+Asked *"What's the difference between the 2011 and 2026 model risk guidance?"*, the system wrote:
+
+> *"It treated model risk management requirements in relatively uniform terms regardless of
+> institution size or complexity (sr_11_7_superseded.txt, index=52)."*
+
+The cited chunk says the opposite:
+
+> *"Model risk management policies should be consistent with this guidance and also be
+> **commensurate with the bank's relative complexity, business activities, corporate culture, and
+> overall organizational structure**."*
+
+The 2011 guidance was proportionality-aware. The system asserted it wasn't — **and cited a chunk
+saying so** — because the 2026 guidance's risk-based approach reads as a bigger development if
+it's new. It manufactured a contrast to make the comparison cleaner.
+
+**This is a different failure class from the one above:**
+
+| | Staleness failure | Fabricated contrast |
+|---|---|---|
+| Retrieval | **failed** — decisive document never surfaced | **worked** — correct chunk was in context |
+| Locus | index composition | generation |
+| Remedy | status-aware retrieval | no retrieval change addresses it |
+
+The first is a plumbing problem. The second had the right evidence in hand and contradicted it.
+
+**And the negative control predicted it.** This is the `contradicts_context` corruption class — the
+one deliberately constructed and tested — and the judge is measurably *least* reliable on exactly
+that variant: scores scattered 2–5, disagreement on all five questions, twice awarding full marks
+to an answer built to contradict its own evidence.
+
+The instrument identified where it was blind, and that blind spot then produced a real error in
+normal use. That is what a negative control is for.
+
+---
+
 ## What's here
 
 | Component | File | What it does |
